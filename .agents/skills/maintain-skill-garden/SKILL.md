@@ -7,7 +7,7 @@ description: matsu-skill-gardenで上流knowledgeの思想を取り込み、生�
 
 作業場所はこのリポジトリ。生成対象 `skills/` と、この制御Skillを区別する。本人の現在のprincipleを利用場面ごとの判断基準にし、思想を網羅するためだけにSkillを増やさない。
 
-[保守手順](../../../docs/maintenance.md) を読み、CLIが返す一つの次動作を処理する。意味判断には [レビュー観点](../../../docs/review-perspectives.md) を使う。変更を公開するときは [公開手順](../../../docs/publishing.md) を読む。
+[保守手順](../../../docs/maintenance.md) を読み、CLIが返す次動作を処理する。取り込みでは前回成功時から固定snapshotまでの全差分を一つのバッチとして扱う。一件ずつの制限はreport対応だけに適用する。意味判断には [レビュー観点](../../../docs/review-perspectives.md) を使う。変更を公開するときは [公開手順](../../../docs/publishing.md) を読む。
 
 判断と生成には、その日に利用可能な高性能モデルとhigh程度の推論を選ぶ。公開前には生成と別の実行主体による相当の独立レビューを行う。具体的モデル名をWorkflowに固定しない。
 

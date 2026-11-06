@@ -58,6 +58,49 @@ test('upstream change outranks open report and can use a newer fixed commit', t 
   assert.equal(nextAction(loadGarden(root).state, changed).kind, 'report');
 });
 
+test('one ingest handles the entire changed, added, demoted and deleted knowledge batch', t => {
+  const root = fixture(t);
+  const entry = (id, type = 'principle', blob = '1') => {
+    const p = `knowledge/${type === 'principle' ? 'principles' : 'ideas'}/${id}.md`;
+    return { id, type, title: id, path: p, blob: hex(blob), digest: hex(blob, 64), url: `https://github.com/${config.repository}/blob/${hex('c')}/${p}` };
+  };
+  const reference = ({ id, path: p, blob, digest }) => ({ id, path: p, blob, digest });
+  const before = snapshot('a', [entry('k-alpha'), entry('k-beta'), entry('k-retired')]);
+  const skillPath = id => `skills/${id}/SKILL.md`;
+  const initial = {
+    ...plan(before),
+    operations: before.entries.map(e => ({ path: skillPath(e.id), expectedDigest: null, content: `# ${e.id}\n` })),
+    provenance: before.entries.map(e => ({ path: skillPath(e.id), sources: [reference(e)] }))
+  };
+  applyPlan(root, initial);
+  const after = snapshot('b', [entry('k-alpha', 'principle', '2'), entry('k-beta', 'idea', '3'), entry('k-gamma', 'principle', '4')]);
+  const next = nextAction(loadGarden(root).state, after);
+  assert.equal(next.kind, 'ingest');
+  assert.deepEqual(Object.fromEntries(next.changes.map(c => [c.id, c.kind])), {
+    'k-alpha': 'changed', 'k-beta': 'demoted', 'k-gamma': 'added', 'k-retired': 'deleted'
+  });
+  assert.deepEqual(new Set(next.affectedSkills), new Set(before.entries.map(e => skillPath(e.id))));
+  applyPlan(root, {
+    ...plan(after),
+    operations: [
+      { path: skillPath('k-alpha'), expectedDigest: sha256('# k-alpha\n'), content: '# Updated alpha\n' },
+      { path: skillPath('k-beta'), expectedDigest: sha256('# k-beta\n'), content: null },
+      { path: skillPath('k-retired'), expectedDigest: sha256('# k-retired\n'), content: null },
+      { path: skillPath('k-gamma'), expectedDigest: null, content: '# New gamma\n' }
+    ],
+    provenance: after.entries.filter(e => e.type === 'principle').map(e => ({ path: skillPath(e.id), sources: [reference(e)] }))
+  });
+  const state = loadGarden(root).state;
+  assert.deepEqual(state.snapshot, after);
+  assert.deepEqual(Object.keys(state.managed).sort(), [skillPath('k-alpha'), skillPath('k-gamma')]);
+  assert.equal(fs.readFileSync(path.join(root, skillPath('k-alpha')), 'utf8'), '# Updated alpha\n');
+  assert.equal(fs.readFileSync(path.join(root, skillPath('k-gamma')), 'utf8'), '# New gamma\n');
+  assert.equal(fs.existsSync(path.join(root, skillPath('k-beta'))), false);
+  assert.equal(fs.existsSync(path.join(root, skillPath('k-retired'))), false);
+  assert.equal(nextAction(state, after).kind, 'review');
+  assert.equal(validateGarden(root).valid, true);
+});
+
 test('a full review that finds work must run again after the reports are resolved', t => {
   const root = fixture(t), s = snapshot(); applyPlan(root, plan(s));
   applyPlan(root, { ...plan(s, 'review', []), reports: [report], reviewComplete: true });
