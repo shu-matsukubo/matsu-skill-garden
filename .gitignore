@@ -1,0 +1,5 @@
+node_modules/
+.garden-cache/
+state/run.lock
+state/journal.json
+*.tmp

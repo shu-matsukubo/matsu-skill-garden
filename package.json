@@ -1,0 +1,13 @@
+{
+  "name": "matsu-skill-garden",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check-skills.mjs",
+    "validate": "node scripts/garden.mjs validate",
+    "verify-review": "node scripts/garden.mjs verify-receipt"
+  }
+}

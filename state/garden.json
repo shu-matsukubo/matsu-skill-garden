@@ -1,0 +1,930 @@
+{
+  "schemaVersion": 1,
+  "snapshot": {
+    "schemaVersion": 1,
+    "repository": "shu-matsukubo/matsu-second-brain",
+    "commit": "6442627beba656db0c30953263150099ea8d161b",
+    "tree": "53052ff40024788f0111b5921d52798b5c422f6d",
+    "entries": [
+      {
+        "id": "k-09eeb3ef9aafd09d",
+        "type": "fact",
+        "title": "Hono で Google ログインを実装する",
+        "path": "knowledge/facts/app-development/k-09eeb3ef9aafd09d.md",
+        "blob": "b0ceace1cae5b2d939386a16640c1e7060d83dd9",
+        "digest": "dae32d7ce134d4fa808dead7a8507fdcbde66593f0c28562940fd88332b0ef1b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/app-development/k-09eeb3ef9aafd09d.md"
+      },
+      {
+        "id": "k-63ec6b4ce9ba5b6b",
+        "type": "fact",
+        "title": "OAuth ログイン後のアプリセッションを設計する",
+        "path": "knowledge/facts/app-development/k-63ec6b4ce9ba5b6b.md",
+        "blob": "46d654bad756d288d91ccd37d2e614ad376e37c7",
+        "digest": "e5585f6c5b6d8a920b811a33ce011f42c24a9983a7c25efb022a778d8039648f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/app-development/k-63ec6b4ce9ba5b6b.md"
+      },
+      {
+        "id": "k-a399c0657f69c609",
+        "type": "fact",
+        "title": "LINE Messaging API の送信方式を選ぶ",
+        "path": "knowledge/facts/app-development/k-a399c0657f69c609.md",
+        "blob": "f3cb84e874d0ce230ecc3f4975e2e94d46d81209",
+        "digest": "9c2996c8466361a3811455b0a225de7e8232810bb8dcee68b76921d31ed959e6",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/app-development/k-a399c0657f69c609.md"
+      },
+      {
+        "id": "k-db267f70c5bcb7b4",
+        "type": "fact",
+        "title": "OpenID Connectのユーザー識別にはissとsubを使う",
+        "path": "knowledge/facts/app-development/k-db267f70c5bcb7b4.md",
+        "blob": "27f5ebd86a5bfb340c0799ecdcd806a7d46657c9",
+        "digest": "1fb753078530dc61bc91c0db7f25b4952a490a3ec6c20896385417de6a22c561",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/app-development/k-db267f70c5bcb7b4.md"
+      },
+      {
+        "id": "k-80d43c7d7d3971e7",
+        "type": "fact",
+        "title": "API Gateway HTTP API の JWT オーソライザー設定",
+        "path": "knowledge/facts/aws/k-80d43c7d7d3971e7.md",
+        "blob": "24c6b671f70c6c3a5d43ccce14f3ba42f9e5e7fe",
+        "digest": "9be9a8e777cb90a2c0774537ff43d84cbc4941baddbce1de4a5ba8510d14864e",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/aws/k-80d43c7d7d3971e7.md"
+      },
+      {
+        "id": "k-8d3f67394f671d3c",
+        "type": "fact",
+        "title": "API Gateway の REST API と HTTP API における JWT 認証",
+        "path": "knowledge/facts/aws/k-8d3f67394f671d3c.md",
+        "blob": "0e428a4abc3ab0a3b3fc7671ab59ff8d397e4ebf",
+        "digest": "f502acecb258afe7c4f903334c86d7db232a9ed725b472cf1f4034ac7c81d7c7",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/aws/k-8d3f67394f671d3c.md"
+      },
+      {
+        "id": "k-97d6709958a83deb",
+        "type": "fact",
+        "title": "Cloudflare Workers の初回デプロイ手順",
+        "path": "knowledge/facts/cloudflare/k-97d6709958a83deb.md",
+        "blob": "4388fcf0a79e417dd62b16ac9dcab85f9d525fff",
+        "digest": "72cff9de851f79593610b965fa647351e43605800298a9864ea89ab432895c65",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/cloudflare/k-97d6709958a83deb.md"
+      },
+      {
+        "id": "k-aa6d85a855837646",
+        "type": "fact",
+        "title": "Cloudflare Workers 無料枠の概要",
+        "path": "knowledge/facts/cloudflare/k-aa6d85a855837646.md",
+        "blob": "00c5cbd8871943c6e2987deb0305204446961ad1",
+        "digest": "ad1bf564734b63b647922749abba9a46b717b0a5c9c7355f302f1527bf062829",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/cloudflare/k-aa6d85a855837646.md"
+      },
+      {
+        "id": "k-f7e33e41fd6f8b95",
+        "type": "fact",
+        "title": "Cloudflare Workers のシークレット管理",
+        "path": "knowledge/facts/cloudflare/k-f7e33e41fd6f8b95.md",
+        "blob": "d9e0436fcd2dec5fd039a28a114fc7c778c42cd8",
+        "digest": "4d40aeb5a4270e0c2da52e543aca0355383e0ac07f8363fa0d8b3c7346575664",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/cloudflare/k-f7e33e41fd6f8b95.md"
+      },
+      {
+        "id": "k-15f9bd7c222b1115",
+        "type": "fact",
+        "title": "GitHub から Codex cloud にタスクを委譲する",
+        "path": "knowledge/facts/codex/k-15f9bd7c222b1115.md",
+        "blob": "0172d6865556989f6bddbdc1d88f5605a7fde91c",
+        "digest": "2ea0603dc208296b40faa55bb1171fe9c5e8878aed2c3a02587e8b1d1983eda8",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/codex/k-15f9bd7c222b1115.md"
+      },
+      {
+        "id": "k-33a5d4987fc0872f",
+        "type": "fact",
+        "title": "ChatGPT Sitesの公開共有と利用条件",
+        "path": "knowledge/facts/codex/k-33a5d4987fc0872f.md",
+        "blob": "57ddec6ae70beabb0c68312f3df3d749235cb002",
+        "digest": "e38af5b183359306729e52434a669ca4a3a8877030f4fbc18b2eef73561992c3",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/codex/k-33a5d4987fc0872f.md"
+      },
+      {
+        "id": "k-9295e908c1b088c6",
+        "type": "fact",
+        "title": "Codex cloud の実行環境設定",
+        "path": "knowledge/facts/codex/k-9295e908c1b088c6.md",
+        "blob": "dcb7b8c6e447ad6a6c6a6fde4b666575cdb3f3b7",
+        "digest": "42819cf0466a9a83518445b9b6cf7e34e676033e29b0bcc585a4bd3413b6e895",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/codex/k-9295e908c1b088c6.md"
+      },
+      {
+        "id": "k-5c212626fd61d868",
+        "type": "fact",
+        "title": "Windows コンテナの実行条件",
+        "path": "knowledge/facts/docker/k-5c212626fd61d868.md",
+        "blob": "e0216212596089206622c5226cb309dbeb3e6566",
+        "digest": "1aa039a01d09aeb0dba50b9f5c9e8ba478367611e35489b15d8ec88e4bc5c469",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/docker/k-5c212626fd61d868.md"
+      },
+      {
+        "id": "k-72df4a0acb401aee",
+        "type": "fact",
+        "title": "Docker コンテナの基本",
+        "path": "knowledge/facts/docker/k-72df4a0acb401aee.md",
+        "blob": "0d1eda5c8c366a62277ebef3b14152da973f7017",
+        "digest": "33c54a3f3252ccee65da3adac579a2164f14bb15fe662c9513b5f2789b631b83",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/docker/k-72df4a0acb401aee.md"
+      },
+      {
+        "id": "k-db6a704b4c1b4cca",
+        "type": "fact",
+        "title": "Dockerfile と Compose で開発環境を共有する",
+        "path": "knowledge/facts/docker/k-db6a704b4c1b4cca.md",
+        "blob": "074ef954cf8d2bbb79f820e067db12e4bc0db1eb",
+        "digest": "3a54d70ff91ff88f2d8fe3df4ea3ced915b84b570d72c2720d2fcb2a4b0cb7a6",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/docker/k-db6a704b4c1b4cca.md"
+      },
+      {
+        "id": "k-0ad4026c9667ce8a",
+        "type": "fact",
+        "title": "Git の作業領域とリモートの全体像",
+        "path": "knowledge/facts/git/k-0ad4026c9667ce8a.md",
+        "blob": "aed4ed5eb26672084d7d02a8d60ef0841fac930e",
+        "digest": "102dfcd0a647ce7011a0906c6c4e7ace97f7d6c45d6a95029d6b956cfe8c1a52",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/git/k-0ad4026c9667ce8a.md"
+      },
+      {
+        "id": "k-5baba0e54a9f1187",
+        "type": "fact",
+        "title": "Git の commit・merge・rebase の使い分け",
+        "path": "knowledge/facts/git/k-5baba0e54a9f1187.md",
+        "blob": "df551612523687562c486daf13492607f667b36a",
+        "digest": "b82e218e901cd38e41f1e26f6950192a6a95a870b8da0e321f40a85b7bce181b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/git/k-5baba0e54a9f1187.md"
+      },
+      {
+        "id": "k-ef264754e56ae439",
+        "type": "fact",
+        "title": "Git でコミットに含める差分を選ぶ",
+        "path": "knowledge/facts/git/k-ef264754e56ae439.md",
+        "blob": "72f3243a6f7e75981d274490ba509e5381e225d5",
+        "digest": "fa95d4ef6671f02bcfaf0a808ef9d76949cbccfdc1bdbd85ed1d7cab63434d86",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/facts/git/k-ef264754e56ae439.md"
+      },
+      {
+        "id": "k-3a1a3f3653452faf",
+        "type": "idea",
+        "title": "AWS LambdaでHonoを使う案",
+        "path": "knowledge/ideas/app-development/k-3a1a3f3653452faf.md",
+        "blob": "ea8e69021f0d8a37a571e0a8d0b9e67e5c8279d6",
+        "digest": "2930d346f71cf33ec989d03e98608a990504966c8db1b074cf4be66581e33c0a",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/app-development/k-3a1a3f3653452faf.md"
+      },
+      {
+        "id": "k-6cfc44888ba6b730",
+        "type": "idea",
+        "title": "S3とCloudFrontで非公開コンテンツを配信する案",
+        "path": "knowledge/ideas/aws/k-6cfc44888ba6b730.md",
+        "blob": "8baa50dde35af8e69c7249cf7adaed5c4dbf8a50",
+        "digest": "8c37e9f04a2f142c7f804e7d4227c5cc57d5e4fb9d7f4efe3e5827b28353c8fd",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/aws/k-6cfc44888ba6b730.md"
+      },
+      {
+        "id": "k-b60be5784b16a225",
+        "type": "idea",
+        "title": "Codex Schedulerで作業を継続する案",
+        "path": "knowledge/ideas/codex/k-b60be5784b16a225.md",
+        "blob": "38c713eda7ec7e21a821cc495d6c3af9b11dfeac",
+        "digest": "8636afae8508ce48f81b00b732be887e3610d501871aa85b81ab733ff32ddd3f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/codex/k-b60be5784b16a225.md"
+      },
+      {
+        "id": "k-f3633df9248e801a",
+        "type": "idea",
+        "title": "ChatGPT Sitesをチーム向け小アプリに使う案",
+        "path": "knowledge/ideas/codex/k-f3633df9248e801a.md",
+        "blob": "4ac85fc6d7ed8347d6951bd75eb0fef743c7ca27",
+        "digest": "8e2f43c24b2e911f847d310a5453c911f75791628c1c186019a8cd33a6c1b0dc",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/codex/k-f3633df9248e801a.md"
+      },
+      {
+        "id": "k-68d79effd0909df6",
+        "type": "idea",
+        "title": "AI判断とWorkflow分岐を分けてテストする案",
+        "path": "knowledge/ideas/development-process/k-68d79effd0909df6.md",
+        "blob": "bbb03062f1ce5bc8b535fe9b413e38cd54ed089b",
+        "digest": "174eb44adbdbb56925040e9d30f7776508540de59bfb3c34c6cd59fac518cd68",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/development-process/k-68d79effd0909df6.md"
+      },
+      {
+        "id": "k-9b3a81a9daaf7d5a",
+        "type": "idea",
+        "title": "ドキュメントを読者と参照頻度で分ける案",
+        "path": "knowledge/ideas/development-process/k-9b3a81a9daaf7d5a.md",
+        "blob": "18e0a10849be7bf1793230d3c9aaf7f46d59324c",
+        "digest": "6f5ef8fffb1c19cdb678f523acc0d6c02af51c5adf527d1775cb901d92e94d21",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/development-process/k-9b3a81a9daaf7d5a.md"
+      },
+      {
+        "id": "k-d8c1f72c69667e83",
+        "type": "idea",
+        "title": "AI処理はキャッシュ効率を運用データで検証する",
+        "path": "knowledge/ideas/development-process/k-d8c1f72c69667e83.md",
+        "blob": "3c18bef29d8073a9859cbfb6754cdc993cdc853e",
+        "digest": "3624170546cef24398e10ae01fa49568b6821339a3c1b147b3f5525c72928a57",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/development-process/k-d8c1f72c69667e83.md"
+      },
+      {
+        "id": "k-f36bc045f746da9e",
+        "type": "idea",
+        "title": "独立した手続きにSkillを絞る案",
+        "path": "knowledge/ideas/development-process/k-f36bc045f746da9e.md",
+        "blob": "027cd01f7fbe226b255d2a445f94ca92d2a283e9",
+        "digest": "ee073ec7d2a55c45018550777a1cb7c352568002a6221fbf1de2ef4b67b926bd",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/ideas/development-process/k-f36bc045f746da9e.md"
+      },
+      {
+        "id": "k-483e48a6197921ea",
+        "type": "principle",
+        "title": "アプリの通知先に Discord と LINE を使う際の選び方",
+        "path": "knowledge/principles/app-development/k-483e48a6197921ea.md",
+        "blob": "55b0a51a90a1461c90a03e364568e4afd95ed177",
+        "digest": "5bd41451e80c7518fb57386c1c41503ba4aae642a380425d5ec25a183c61062b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/app-development/k-483e48a6197921ea.md"
+      },
+      {
+        "id": "k-81352241ac9ca39f",
+        "type": "principle",
+        "title": "型の不確実性は外部境界に局所化する",
+        "path": "knowledge/principles/app-development/k-81352241ac9ca39f.md",
+        "blob": "f2e9a11d780a5a233aedce4436c219305ae5efdc",
+        "digest": "361642003fb5aafeb0f5411fda6b4501cc43c88207945ec7f2ac5ee0b7b76e46",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/app-development/k-81352241ac9ca39f.md"
+      },
+      {
+        "id": "k-a25b1a83b8aa3cea",
+        "type": "principle",
+        "title": "型の評価では安全性と仕様表現力を区別する",
+        "path": "knowledge/principles/app-development/k-a25b1a83b8aa3cea.md",
+        "blob": "319986e1ffbe11f5bab189b38d7ded337432ade0",
+        "digest": "4b78d679d8c093b632a00fbbe659c8a6a08925749d163f45e389fc4157a74532",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/app-development/k-a25b1a83b8aa3cea.md"
+      },
+      {
+        "id": "k-b984fc96e28cd8c7",
+        "type": "principle",
+        "title": "AI開発の技術選定では標準機能への誘導も評価する",
+        "path": "knowledge/principles/app-development/k-b984fc96e28cd8c7.md",
+        "blob": "d3f39419c9f3c446d18480de9216190bdbefe643",
+        "digest": "dc08030bf25cf40692ca9c439efa6b60177ed872f0148f5fc9db9a9526f7e2ac",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/app-development/k-b984fc96e28cd8c7.md"
+      },
+      {
+        "id": "k-cffd059337441ed6",
+        "type": "principle",
+        "title": "実行環境の互換性は実際の利用経路で確認する",
+        "path": "knowledge/principles/app-development/k-cffd059337441ed6.md",
+        "blob": "135906c5286d143c5a5802f2ac57a0d6fef033f9",
+        "digest": "445a3e5d819e1265b059f82d035130168e9fc73bb1a41aafc2ab46857b9b7888",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/app-development/k-cffd059337441ed6.md"
+      },
+      {
+        "id": "k-0070fb65c2253dd0",
+        "type": "principle",
+        "title": "Skillの起動は名前の指定と定義の読込を分けて確認する",
+        "path": "knowledge/principles/development-process/k-0070fb65c2253dd0.md",
+        "blob": "f8edd76c74e080ffcea9b84cae45e520ceff1532",
+        "digest": "1db1a7ed1363e1703b4e40bfe261595f7b981d26714a2e2db75ff1d507bdcffd",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-0070fb65c2253dd0.md"
+      },
+      {
+        "id": "k-082f394197334891",
+        "type": "principle",
+        "title": "観測と改善を分離する",
+        "path": "knowledge/principles/development-process/k-082f394197334891.md",
+        "blob": "a3a771570c22269cbd4293e2f8e71d3b4c827974",
+        "digest": "342bf4de5ac5e97d08f714043467c9638e79e6f92b6d6d6d4b6a35a4f5f45a29",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-082f394197334891.md"
+      },
+      {
+        "id": "k-094d1e9c150747ec",
+        "type": "principle",
+        "title": "簡素化では複雑さの移動でなくルールと判断負荷を減らす",
+        "path": "knowledge/principles/development-process/k-094d1e9c150747ec.md",
+        "blob": "ca5afedb052fd0f4b976931946c1802087193ae7",
+        "digest": "05ebd29fffdf1da42943652af8461939da07efa4c2a48115319ceb3a639f8030",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-094d1e9c150747ec.md"
+      },
+      {
+        "id": "k-0befd2ddf54d4781",
+        "type": "principle",
+        "title": "Workflowの状態は既存成果物から導出する",
+        "path": "knowledge/principles/development-process/k-0befd2ddf54d4781.md",
+        "blob": "fb855f6587567bb1cd529ae5c73ab349cd821be8",
+        "digest": "7dc12cd801465fea68f25125fc81690957af5256dc8cf48ebbe3cef2293c9630",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-0befd2ddf54d4781.md"
+      },
+      {
+        "id": "k-0c0c7182767c137a",
+        "type": "principle",
+        "title": "安全策は脅威モデルから選ぶ",
+        "path": "knowledge/principles/development-process/k-0c0c7182767c137a.md",
+        "blob": "fc7bda6f118d91d795f3cb11497e6fae43770e51",
+        "digest": "c26f9a0d714127fe6ccaf3db766022437c2d11bad8783af1417e8935c9e70bd5",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-0c0c7182767c137a.md"
+      },
+      {
+        "id": "k-12584bf597c40b01",
+        "type": "principle",
+        "title": "自己レビューと独立レビューで異なる失敗を検出する",
+        "path": "knowledge/principles/development-process/k-12584bf597c40b01.md",
+        "blob": "d218155b73c1de41de909072c17895b098ce6720",
+        "digest": "cde1c5e7b77d5e69ae3357edcc51fec9bd3c21cdd947fca464f286af4f6aec61",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-12584bf597c40b01.md"
+      },
+      {
+        "id": "k-12ebb55403b0808f",
+        "type": "principle",
+        "title": "仕様を詰める対話と実装エージェントは分ける",
+        "path": "knowledge/principles/development-process/k-12ebb55403b0808f.md",
+        "blob": "69429c12accdb479b51b3a69591f360b9af6378a",
+        "digest": "56409b7986b32dd0496fb44e00b275c4d4caacff386a75a8113dccab08f1bc42",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-12ebb55403b0808f.md"
+      },
+      {
+        "id": "k-1473d6f6b0390549",
+        "type": "principle",
+        "title": "技術の広さと深さは機会費用を踏まえて選ぶ",
+        "path": "knowledge/principles/development-process/k-1473d6f6b0390549.md",
+        "blob": "d74035a6e27e32c41f87881d45be1debad3d3f1f",
+        "digest": "1c9715036902d5f96e98244f693e01ecb310983efb2923dce99aa33c0cb10eda",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-1473d6f6b0390549.md"
+      },
+      {
+        "id": "k-18612ffa4bd0558c",
+        "type": "principle",
+        "title": "設計では技術以外の制約条件も明示する",
+        "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
+        "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
+        "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-18612ffa4bd0558c.md"
+      },
+      {
+        "id": "k-18cd4b4f19159d05",
+        "type": "principle",
+        "title": "品質ゲートは追加価値で増やす",
+        "path": "knowledge/principles/development-process/k-18cd4b4f19159d05.md",
+        "blob": "0b2bf71224ca3e3ab2b6eee4d2ae5d7440d528d4",
+        "digest": "a10d75edef14758f3d8292b9a80ec413f0569b4d5a74a565d43b3122d48ee121",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-18cd4b4f19159d05.md"
+      },
+      {
+        "id": "k-1c336721577e40fb",
+        "type": "principle",
+        "title": "AIフローでは能力・制御・判断知識を分離する",
+        "path": "knowledge/principles/development-process/k-1c336721577e40fb.md",
+        "blob": "b06281f4fe842c0d3d4c9e4ab02b6daf1f05efa6",
+        "digest": "13ff1407b2b6655bd9e060958e541fef473d3da5dc1b93fb502daf34d4b8784d",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-1c336721577e40fb.md"
+      },
+      {
+        "id": "k-1c9d5e44b0d5304d",
+        "type": "principle",
+        "title": "ツールは継続的な価値で採用を判断する",
+        "path": "knowledge/principles/development-process/k-1c9d5e44b0d5304d.md",
+        "blob": "9fe4b61db778bf30059ececf1c5578a2d0bdd4ce",
+        "digest": "d8488b83646512ad615841d13db8033dad1bfa56e61d2a5cceb3c93082a2d7be",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-1c9d5e44b0d5304d.md"
+      },
+      {
+        "id": "k-1fd2110eaa47e4f6",
+        "type": "principle",
+        "title": "品質保証レベルは入口で選ぶ",
+        "path": "knowledge/principles/development-process/k-1fd2110eaa47e4f6.md",
+        "blob": "57543a5a90457ad7435b83f59134450070879fda",
+        "digest": "84817077068f8bb3ed5a80d7501d3f45b05494d1136f34522c73caf24a04f77c",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-1fd2110eaa47e4f6.md"
+      },
+      {
+        "id": "k-25dd9353a7f5df2c",
+        "type": "principle",
+        "title": "実装依頼では要件を明確にして方式を担当者へ委ねる",
+        "path": "knowledge/principles/development-process/k-25dd9353a7f5df2c.md",
+        "blob": "658fdacc3a28a511cb5517a979995ea422b48757",
+        "digest": "de24128cb96ef8652c99672213d1d670ce0e4cf56eee58d8325ae334d808323c",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-25dd9353a7f5df2c.md"
+      },
+      {
+        "id": "k-284229ca7cd4221b",
+        "type": "principle",
+        "title": "上位Agentへの相談は必要時の共通能力にする",
+        "path": "knowledge/principles/development-process/k-284229ca7cd4221b.md",
+        "blob": "f1220f677b0defb35452f5a41a3e350d684891f3",
+        "digest": "99776a7c8977d7970c25e562d6b235bb278608303b855ef2961bb04c58ed6f47",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-284229ca7cd4221b.md"
+      },
+      {
+        "id": "k-37ea96230a1cf568",
+        "type": "principle",
+        "title": "標準規格は相互運用性の最低境界として使う",
+        "path": "knowledge/principles/development-process/k-37ea96230a1cf568.md",
+        "blob": "9cdfa5b7e3b0a8910a4ac2fec1cae822f201b69a",
+        "digest": "9675a1dedb17de3f739c2cee29a697655ee10483deb4a74939fbc50b8689fd93",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-37ea96230a1cf568.md"
+      },
+      {
+        "id": "k-3953b9c0e4266be4",
+        "type": "principle",
+        "title": "Agentは必要最小限にし専門性は知識で拡張する",
+        "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
+        "blob": "91c682def97f5666589a249d3cda04b4693b4c2f",
+        "digest": "29dc30b09c80dade88ca7fc48c3beef3a2c5e499db75a86071b8b3efa91464a2",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-3953b9c0e4266be4.md"
+      },
+      {
+        "id": "k-3ddb79c59977a9f0",
+        "type": "principle",
+        "title": "長寿命なCoreを短寿命なClientへ依存させない",
+        "path": "knowledge/principles/development-process/k-3ddb79c59977a9f0.md",
+        "blob": "d6466c748206e7369e484a3a878116681e9899ff",
+        "digest": "2c7827d77455746cb197622e1368e1773481d8e4ea50a412bfc25f9ab5250cdd",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-3ddb79c59977a9f0.md"
+      },
+      {
+        "id": "k-3e976cb288ac805d",
+        "type": "principle",
+        "title": "Review単位とIntegration単位を分ける",
+        "path": "knowledge/principles/development-process/k-3e976cb288ac805d.md",
+        "blob": "f25a030afb162e84c3c558847d3d462cc9a3d33b",
+        "digest": "45fcca564df07a850e2d472f708251a26a62494a08156ddca0e470f98e3b76ed",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-3e976cb288ac805d.md"
+      },
+      {
+        "id": "k-3f83490d1cf6bf02",
+        "type": "principle",
+        "title": "暫定対応は恒久対応までの総コストで判断する",
+        "path": "knowledge/principles/development-process/k-3f83490d1cf6bf02.md",
+        "blob": "9ff591f5361df496ce23ba0e655c45ed32f9d9de",
+        "digest": "e55da010780f6bece5419f5ef0969e26ed0b908b0de3a1e458256aab13ed88f8",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-3f83490d1cf6bf02.md"
+      },
+      {
+        "id": "k-53b874d26fbc1ddd",
+        "type": "principle",
+        "title": "AIツールは認知コストの削減で投資判断する",
+        "path": "knowledge/principles/development-process/k-53b874d26fbc1ddd.md",
+        "blob": "405d6973244ce9db33b649bc05e47023761610c6",
+        "digest": "a2a0a771048e20f3ee7e1772062df4f592f9c5b5a19fce4e36bd5e4b02a81f4b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-53b874d26fbc1ddd.md"
+      },
+      {
+        "id": "k-55e0d5d013745fda",
+        "type": "principle",
+        "title": "定期処理は停止時間を抑える頻度で実行する",
+        "path": "knowledge/principles/development-process/k-55e0d5d013745fda.md",
+        "blob": "8102b0ccd7725fe4507b3a5f5de096675c28c74d",
+        "digest": "7da8e76dd6284dc114d3baeda843ee3df7b2d4c3e19f4a62fff4b7c82ba5c85b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-55e0d5d013745fda.md"
+      },
+      {
+        "id": "k-59ebcac46c07180e",
+        "type": "principle",
+        "title": "文書の正確性と読みやすさは別々に保守する",
+        "path": "knowledge/principles/development-process/k-59ebcac46c07180e.md",
+        "blob": "39232a07cf8bdc0455fb2bde4eed67f67657d0c0",
+        "digest": "b578812833e83f48f5858a58bc3ff4110b3b19a73b9a93de98f7a84923216bc4",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-59ebcac46c07180e.md"
+      },
+      {
+        "id": "k-5c5789a9053c209a",
+        "type": "principle",
+        "title": "改善バックログは現在状態から再評価する",
+        "path": "knowledge/principles/development-process/k-5c5789a9053c209a.md",
+        "blob": "5f534a944da934d0b28f5a140dc52fe6f5dab13b",
+        "digest": "ccd8d3527fe21b857008795cf4c0b63aa73346eeafdae96410007522f4db7b3a",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-5c5789a9053c209a.md"
+      },
+      {
+        "id": "k-5caa30903bcc5de2",
+        "type": "principle",
+        "title": "品質保証は人間のレビュー対象から設計する",
+        "path": "knowledge/principles/development-process/k-5caa30903bcc5de2.md",
+        "blob": "c9c4e81ad7592c3ea730d8b8d73e5a104f8d90e9",
+        "digest": "85b74dddb4b3fc44b75b37a50545dcf2a26a91d55647cbc0c50c95a662d26c04",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-5caa30903bcc5de2.md"
+      },
+      {
+        "id": "k-7c01507f86f46660",
+        "type": "principle",
+        "title": "外部依存のリスクはUpstream Issueも確認する",
+        "path": "knowledge/principles/development-process/k-7c01507f86f46660.md",
+        "blob": "ecc7461b5f10027b5723b79ecfa1c2ccdadea573",
+        "digest": "cf06a4b43e5568a173e44e1e3c23dbcfe693c8e214d05496c0b10cb9e64d2a3b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-7c01507f86f46660.md"
+      },
+      {
+        "id": "k-7edd2b79c450ab07",
+        "type": "principle",
+        "title": "局所品質が十分なら検証対象を上位へ移す",
+        "path": "knowledge/principles/development-process/k-7edd2b79c450ab07.md",
+        "blob": "d4e1b8788990d535057e236514e0463ce695d104",
+        "digest": "322fb13e15adae1b02219cf95d7fce478f4188784772ee41c34e9e6241eea1a5",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-7edd2b79c450ab07.md"
+      },
+      {
+        "id": "k-8f683f6261a605b6",
+        "type": "principle",
+        "title": "汎用Workflowは解決する問題を一般化する",
+        "path": "knowledge/principles/development-process/k-8f683f6261a605b6.md",
+        "blob": "065c390ae192c1919c6540f7f9fa9acc45dadb76",
+        "digest": "46eec5b4715c1cb398fa0124a4c1ebf84f3580efac744526de25abb4152b8704",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-8f683f6261a605b6.md"
+      },
+      {
+        "id": "k-94a9e4979e28732a",
+        "type": "principle",
+        "title": "AI Agentの振る舞いは条件を再現した実モデル試験で検証する",
+        "path": "knowledge/principles/development-process/k-94a9e4979e28732a.md",
+        "blob": "286f8f44663043aa3c749761ae6937f9073d446c",
+        "digest": "0d29c9e8c279862370d2d07949b52e9e401b15ea7fe8f53928d176bb1c301a1e",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-94a9e4979e28732a.md"
+      },
+      {
+        "id": "k-95ab8cac0e648a55",
+        "type": "principle",
+        "title": "複雑な計算の不具合は計算経路から調べる",
+        "path": "knowledge/principles/development-process/k-95ab8cac0e648a55.md",
+        "blob": "22c22f67efc3111ab939e87a4a541f5e6e338e82",
+        "digest": "dd3803622cfb275ff24a6a2055dc906f14fa3cc82fb73977831a00a6a495b8ca",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-95ab8cac0e648a55.md"
+      },
+      {
+        "id": "k-a9b0faffeeed8800",
+        "type": "principle",
+        "title": "Issueは現在の実装に照合してから設計する",
+        "path": "knowledge/principles/development-process/k-a9b0faffeeed8800.md",
+        "blob": "0852b9ff9b2a34cfdf7e15ba744f91cf03806718",
+        "digest": "695cbc496b79d31bc48afb6f1c5a09a37ab9972538a8d00b760259c3f692016c",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-a9b0faffeeed8800.md"
+      },
+      {
+        "id": "k-b3e6e58729bb7709",
+        "type": "principle",
+        "title": "開発環境に製品本体の機能を再実装しない",
+        "path": "knowledge/principles/development-process/k-b3e6e58729bb7709.md",
+        "blob": "0ac99e312807767c5817a205b5d5a51782b81bd9",
+        "digest": "d1d2b1f1dd4ed1468e3adb33d9ea0c5a1187663920cfb4a65a98498f05ae9fba",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-b3e6e58729bb7709.md"
+      },
+      {
+        "id": "k-b6bac51054c079bf",
+        "type": "principle",
+        "title": "AIに設計を依頼するときは現在の構成を共有する",
+        "path": "knowledge/principles/development-process/k-b6bac51054c079bf.md",
+        "blob": "a2750df949caf020c3da2e97b72ec766e98b0e2a",
+        "digest": "756dfabdebc4e4dc6f6f6185ea8ea941d544303161422b31257fe0b7761b850e",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-b6bac51054c079bf.md"
+      },
+      {
+        "id": "k-bd28870e8387958e",
+        "type": "principle",
+        "title": "承認ゲートは責任境界として設計する",
+        "path": "knowledge/principles/development-process/k-bd28870e8387958e.md",
+        "blob": "1dc1a546493eb7711a8e591321064c7fbe50464f",
+        "digest": "0595983d96752fb247e7a3579f1265cfbc1522a57f24b91da9dfbf9f16f6cf58",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-bd28870e8387958e.md"
+      },
+      {
+        "id": "k-c2677cc313efd69a",
+        "type": "principle",
+        "title": "AIセキュリティは入力経路と実行権限をセットで考える",
+        "path": "knowledge/principles/development-process/k-c2677cc313efd69a.md",
+        "blob": "48b2ce4d23b8c6cf8fd410995f43e2b6b19ef1bb",
+        "digest": "66ab5936db51b29427dd4b95d0d545a04e8371e9160561e16c69c8dad7d80aec",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-c2677cc313efd69a.md"
+      },
+      {
+        "id": "k-c7312886320ad33f",
+        "type": "principle",
+        "title": "AIの操作制約はPolicyで結果を制限する",
+        "path": "knowledge/principles/development-process/k-c7312886320ad33f.md",
+        "blob": "98d58fccd9a78c46185219f792ddf6ca402e80cb",
+        "digest": "2fda63face10701a1626f61cf99ac55ee2518b9c2141fd79347d16cd523bf93f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-c7312886320ad33f.md"
+      },
+      {
+        "id": "k-c8c18cc4a6746b87",
+        "type": "principle",
+        "title": "抽象化は複数の具体例から行う",
+        "path": "knowledge/principles/development-process/k-c8c18cc4a6746b87.md",
+        "blob": "71662f39279e8939c09644c95ab478169d169325",
+        "digest": "1ee0de90ce23b9ad5dbff2cd88dc38458441738c9f74b343dd6927ed7aa7d3cf",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-c8c18cc4a6746b87.md"
+      },
+      {
+        "id": "k-cace147d56d039c9",
+        "type": "principle",
+        "title": "マルチエージェントの並列度はタスク構造で決める",
+        "path": "knowledge/principles/development-process/k-cace147d56d039c9.md",
+        "blob": "068de6d5c891eb72d366482fbf9a7b91c18cc494",
+        "digest": "487bc636ea04b13a43ca1481ed3b4132d1dd10d189ed88eda7a52a8b4a6f6061",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-cace147d56d039c9.md"
+      },
+      {
+        "id": "k-cb4b907775bc93a7",
+        "type": "principle",
+        "title": "AI Workflowは探索量と完了時間で評価する",
+        "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
+        "blob": "0fce0672bad214f518a07d423d1402371d207a61",
+        "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-cb4b907775bc93a7.md"
+      },
+      {
+        "id": "k-cfb0bb408a84ca5f",
+        "type": "principle",
+        "title": "Workflowは実行契機から独立させる",
+        "path": "knowledge/principles/development-process/k-cfb0bb408a84ca5f.md",
+        "blob": "ab0f881bbbfd41878e5e762d724af3d9eee1351f",
+        "digest": "97d17ae36efb79b4f2dd2c9465ecc7c69cf327b8f88c3e7bf32c8725abb90160",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-cfb0bb408a84ca5f.md"
+      },
+      {
+        "id": "k-cff4d20a9bc43e30",
+        "type": "principle",
+        "title": "AIの実行場所は責務から決める",
+        "path": "knowledge/principles/development-process/k-cff4d20a9bc43e30.md",
+        "blob": "a5580b0e080a7ba84b7b8c256222e048284bcccf",
+        "digest": "bf2a1704e1331290b9dd9e0dd26c12c76376091da8d55744b8b7846233070ef5",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-cff4d20a9bc43e30.md"
+      },
+      {
+        "id": "k-d00d5434cb5bb73e",
+        "type": "principle",
+        "title": "AIへの依頼は実装結果とともに保存する",
+        "path": "knowledge/principles/development-process/k-d00d5434cb5bb73e.md",
+        "blob": "c9393a0063df112d432ba29f9158ab5166a3d00f",
+        "digest": "a77b0ebffbc036a29d9790d84bcd1d27e98fc3f82053ab2175ba7ca74c58661e",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-d00d5434cb5bb73e.md"
+      },
+      {
+        "id": "k-d24184b6e646329f",
+        "type": "principle",
+        "title": "設計原則は将来の変更で検証可能にする",
+        "path": "knowledge/principles/development-process/k-d24184b6e646329f.md",
+        "blob": "ab6047df44dc97b9f36473bfe4e795b18f1fa342",
+        "digest": "c54a835bdb2f26a7422955bfd65679a757e0327ca70fcc2d4b1b81022db8607d",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-d24184b6e646329f.md"
+      },
+      {
+        "id": "k-dd48dc1f30a5dbac",
+        "type": "principle",
+        "title": "状態管理方式は現在の不変条件で選ぶ",
+        "path": "knowledge/principles/development-process/k-dd48dc1f30a5dbac.md",
+        "blob": "c773f98d12e8c8cd39361f40eab475cbd56012f4",
+        "digest": "eb283df8d70c3e14592c9ee40081d219533240a96fdb7baee1b38b73659a4c4f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-dd48dc1f30a5dbac.md"
+      },
+      {
+        "id": "k-e4905c42b314c4c4",
+        "type": "principle",
+        "title": "パフォーマンス改善は発生頻度と影響度で優先順位を決める",
+        "path": "knowledge/principles/development-process/k-e4905c42b314c4c4.md",
+        "blob": "9235f1f245a77ee05809d8ab015bc9dd39e6714c",
+        "digest": "1e76596fa81ee9348c056faf7242d5c02bcb84a7c0438ed91092a20bb6171626",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-e4905c42b314c4c4.md"
+      },
+      {
+        "id": "k-ed9431132a1300be",
+        "type": "principle",
+        "title": "AIチャットは永続状態の更新境界で切り替える",
+        "path": "knowledge/principles/development-process/k-ed9431132a1300be.md",
+        "blob": "89fa5f2fae54f4339ef9d59c2513cf67a9c6c307",
+        "digest": "1166025c5aaebca225c7ee82ec8c6b6780d7d48a9ef14fbbb59393f2ea5b1e13",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-ed9431132a1300be.md"
+      },
+      {
+        "id": "k-f1b6da308d1daaf7",
+        "type": "principle",
+        "title": "エージェントのモデルは責務に応じて選ぶ",
+        "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
+        "blob": "e41fb2243fa6cf4ac8071757c7358a558665977e",
+        "digest": "ff0660c148f1e4ba386bc4e0d589062f861712619edefa83bdbf7383075b2bc8",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-f1b6da308d1daaf7.md"
+      },
+      {
+        "id": "k-f51a362201719cec",
+        "type": "principle",
+        "title": "AIエージェントには覚えておく仕事を任せる",
+        "path": "knowledge/principles/development-process/k-f51a362201719cec.md",
+        "blob": "c503432cf0190e49c04324ce776ca6af84ea4941",
+        "digest": "b9c9afd511d1fd90bc610c82d95dc6a735c19c7cee03f80080803c3eee9498b8",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-f51a362201719cec.md"
+      },
+      {
+        "id": "k-faeac1f2745de751",
+        "type": "principle",
+        "title": "不採用アーキテクチャは前提が変わったら再評価する",
+        "path": "knowledge/principles/development-process/k-faeac1f2745de751.md",
+        "blob": "2efa95e5c15236a39b837a87531f41f000b1bd9c",
+        "digest": "7c7c7d881660133eacd5dcde3abbb2ea888264faea829504f4114b22473d64f5",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-faeac1f2745de751.md"
+      },
+      {
+        "id": "k-a3cbbc2c7f124a3d",
+        "type": "principle",
+        "title": "grepツールは検索性能と運用性で選ぶ",
+        "path": "knowledge/principles/development-tools/k-a3cbbc2c7f124a3d.md",
+        "blob": "5e5ff88805a2b7d66cd9903a79e1655b40b49444",
+        "digest": "dd55671244ac8a20e536b6fb303b4cdda1065d9e57d797a026ba77878f134c4a",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-tools/k-a3cbbc2c7f124a3d.md"
+      },
+      {
+        "id": "k-20bf6db73d8aa7b6",
+        "type": "principle",
+        "title": "Git worktreeは独立案の比較に使う",
+        "path": "knowledge/principles/git/k-20bf6db73d8aa7b6.md",
+        "blob": "dbb5e938b8020cfa2ce75e9a057605f06d0f58f0",
+        "digest": "a7238688b0aed0eebbfb6b178eee66ae1433d300c0f23809ce8453f269e49d13",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/git/k-20bf6db73d8aa7b6.md"
+      },
+      {
+        "id": "k-ea486b2c30bdf5ec",
+        "type": "principle",
+        "title": "学習は全体像から実践課題を通じて深める",
+        "path": "knowledge/principles/learning/k-ea486b2c30bdf5ec.md",
+        "blob": "e7082a89eda49c8fa90b5634f63fefb029102c3d",
+        "digest": "dd75087e37ff9feeb0553d054b461e03f23206856eaffdd99f6f9ecc3ce179fc",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/learning/k-ea486b2c30bdf5ec.md"
+      },
+      {
+        "id": "k-521ed05503772955",
+        "type": "principle",
+        "title": "Quickfixは一連の移動操作で覚える",
+        "path": "knowledge/principles/neovim/k-521ed05503772955.md",
+        "blob": "5a405cc209c6f6b88b7586635214fe9e84d9ef07",
+        "digest": "d7cf2992612ba252eefed36298b6a2519a96ea8b44811cdc71e3fc9d337d0662",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/neovim/k-521ed05503772955.md"
+      },
+      {
+        "id": "k-d6c113cecb02d6e2",
+        "type": "principle",
+        "title": "キーマップを機能カテゴリ別のプレフィックスで整理する",
+        "path": "knowledge/principles/neovim/k-d6c113cecb02d6e2.md",
+        "blob": "4fa8d7cafd4854118f0e906f00a2089079f7549a",
+        "digest": "f9c7386295ed33cdc4497984848ef838603f6879bbe756b67ca55e9748d93dea",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/neovim/k-d6c113cecb02d6e2.md"
+      }
+    ]
+  },
+  "managed": {
+    "skills/simplify-design/SKILL.md": {
+      "digest": "647d8cc42c0885ac5af98b59978f9197199875b0418baa577d6e4aff1b575236",
+      "sources": [
+        {
+          "id": "k-094d1e9c150747ec",
+          "path": "knowledge/principles/development-process/k-094d1e9c150747ec.md",
+          "blob": "ca5afedb052fd0f4b976931946c1802087193ae7",
+          "digest": "05ebd29fffdf1da42943652af8461939da07efa4c2a48115319ceb3a639f8030"
+        },
+        {
+          "id": "k-c8c18cc4a6746b87",
+          "path": "knowledge/principles/development-process/k-c8c18cc4a6746b87.md",
+          "blob": "71662f39279e8939c09644c95ab478169d169325",
+          "digest": "1ee0de90ce23b9ad5dbff2cd88dc38458441738c9f74b343dd6927ed7aa7d3cf"
+        },
+        {
+          "id": "k-dd48dc1f30a5dbac",
+          "path": "knowledge/principles/development-process/k-dd48dc1f30a5dbac.md",
+          "blob": "c773f98d12e8c8cd39361f40eab475cbd56012f4",
+          "digest": "eb283df8d70c3e14592c9ee40081d219533240a96fdb7baee1b38b73659a4c4f"
+        },
+        {
+          "id": "k-18612ffa4bd0558c",
+          "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
+          "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
+          "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953"
+        }
+      ]
+    },
+    "skills/review-by-risk/SKILL.md": {
+      "digest": "742e41b4b1120efac8e33fe07cc2b0debafb9a866bcde0e9ba34f3d6cc68e30f",
+      "sources": [
+        {
+          "id": "k-18cd4b4f19159d05",
+          "path": "knowledge/principles/development-process/k-18cd4b4f19159d05.md",
+          "blob": "0b2bf71224ca3e3ab2b6eee4d2ae5d7440d528d4",
+          "digest": "a10d75edef14758f3d8292b9a80ec413f0569b4d5a74a565d43b3122d48ee121"
+        },
+        {
+          "id": "k-1fd2110eaa47e4f6",
+          "path": "knowledge/principles/development-process/k-1fd2110eaa47e4f6.md",
+          "blob": "57543a5a90457ad7435b83f59134450070879fda",
+          "digest": "84817077068f8bb3ed5a80d7501d3f45b05494d1136f34522c73caf24a04f77c"
+        },
+        {
+          "id": "k-12584bf597c40b01",
+          "path": "knowledge/principles/development-process/k-12584bf597c40b01.md",
+          "blob": "d218155b73c1de41de909072c17895b098ce6720",
+          "digest": "cde1c5e7b77d5e69ae3357edcc51fec9bd3c21cdd947fca464f286af4f6aec61"
+        },
+        {
+          "id": "k-5caa30903bcc5de2",
+          "path": "knowledge/principles/development-process/k-5caa30903bcc5de2.md",
+          "blob": "c9c4e81ad7592c3ea730d8b8d73e5a104f8d90e9",
+          "digest": "85b74dddb4b3fc44b75b37a50545dcf2a26a91d55647cbc0c50c95a662d26c04"
+        }
+      ]
+    },
+    "skills/maintain-document-meaning/SKILL.md": {
+      "digest": "f2007defdc349af0cb285d15d3a265071e205f6e8366fbe34484924ff178607b",
+      "sources": [
+        {
+          "id": "k-59ebcac46c07180e",
+          "path": "knowledge/principles/development-process/k-59ebcac46c07180e.md",
+          "blob": "39232a07cf8bdc0455fb2bde4eed67f67657d0c0",
+          "digest": "b578812833e83f48f5858a58bc3ff4110b3b19a73b9a93de98f7a84923216bc4"
+        }
+      ]
+    },
+    "skills/design-agent-workflows/SKILL.md": {
+      "digest": "08568abffbe1eb60b83d38e9b246acecfcd1c2f4ce8814638f1dd097c8c05e07",
+      "sources": [
+        {
+          "id": "k-1c336721577e40fb",
+          "path": "knowledge/principles/development-process/k-1c336721577e40fb.md",
+          "blob": "b06281f4fe842c0d3d4c9e4ab02b6daf1f05efa6",
+          "digest": "13ff1407b2b6655bd9e060958e541fef473d3da5dc1b93fb502daf34d4b8784d"
+        },
+        {
+          "id": "k-0befd2ddf54d4781",
+          "path": "knowledge/principles/development-process/k-0befd2ddf54d4781.md",
+          "blob": "fb855f6587567bb1cd529ae5c73ab349cd821be8",
+          "digest": "7dc12cd801465fea68f25125fc81690957af5256dc8cf48ebbe3cef2293c9630"
+        },
+        {
+          "id": "k-3953b9c0e4266be4",
+          "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
+          "blob": "91c682def97f5666589a249d3cda04b4693b4c2f",
+          "digest": "29dc30b09c80dade88ca7fc48c3beef3a2c5e499db75a86071b8b3efa91464a2"
+        },
+        {
+          "id": "k-cfb0bb408a84ca5f",
+          "path": "knowledge/principles/development-process/k-cfb0bb408a84ca5f.md",
+          "blob": "ab0f881bbbfd41878e5e762d724af3d9eee1351f",
+          "digest": "97d17ae36efb79b4f2dd2c9465ecc7c69cf327b8f88c3e7bf32c8725abb90160"
+        },
+        {
+          "id": "k-f1b6da308d1daaf7",
+          "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
+          "blob": "e41fb2243fa6cf4ac8071757c7358a558665977e",
+          "digest": "ff0660c148f1e4ba386bc4e0d589062f861712619edefa83bdbf7383075b2bc8"
+        },
+        {
+          "id": "k-ed9431132a1300be",
+          "path": "knowledge/principles/development-process/k-ed9431132a1300be.md",
+          "blob": "89fa5f2fae54f4339ef9d59c2513cf67a9c6c307",
+          "digest": "1166025c5aaebca225c7ee82ec8c6b6780d7d48a9ef14fbbb59393f2ea5b1e13"
+        },
+        {
+          "id": "k-cb4b907775bc93a7",
+          "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
+          "blob": "0fce0672bad214f518a07d423d1402371d207a61",
+          "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b"
+        }
+      ]
+    }
+  },
+  "reports": [
+    {
+      "title": "学習の思想を利用場面へ反映する候補を評価する",
+      "detail": "k-ea486b2c30bdf5ec（全体像から実践課題を通じて学ぶ）は初期4 Skillsに未反映。現在の本文と既存Skillsを読み、学習依頼で判断を変える小さなSkillとして独立させるか、見送るかを評価する。まだSkill化も実モデル試験も行っていない。",
+      "scope": "skills/",
+      "prevention": {
+        "kind": "review",
+        "reference": "docs/review-perspectives.md#growth-candidates",
+        "reason": "利用場面に必要な独立性と思想の意味は機械判定できないため。"
+      },
+      "fingerprint": "43c0ba0d559a8bee89718039a1530f2ce035611524b85314c714c30bd38affc9",
+      "status": "open",
+      "outcome": null,
+      "observedTree": "53052ff40024788f0111b5921d52798b5c422f6d",
+      "history": []
+    },
+    {
+      "title": "外部境界と型の思想の反映方法を評価する",
+      "detail": "k-81352241ac9ca39f（型の不確実性は外部境界に局所化）とk-a25b1a83b8aa3cea（安全性と仕様表現力の区別）は初期Skillsに未反映。現在の本文を読んで共通する実装判断を確認し、過度な汎用規則を作らずに利用場面を設計する。まだSkill化していない。",
+      "scope": "skills/",
+      "prevention": {
+        "kind": "review",
+        "reference": "docs/review-perspectives.md#growth-candidates",
+        "reason": "言語別の条件と抽象化の妥当性を意味で評価する必要があるため。"
+      },
+      "fingerprint": "02e595558b5ddb5a2f5a11f0035a465ac7a1711a857a98dca0f136b771290b1a",
+      "status": "open",
+      "outcome": null,
+      "observedTree": "53052ff40024788f0111b5921d52798b5c422f6d",
+      "history": []
+    }
+  ],
+  "reviewedTree": null,
+  "applied": [
+    "96ed3c364e8a3c37cc141c7601311ab4be7ccd3783c896e3f1a33c71587b0956"
+  ]
+}
