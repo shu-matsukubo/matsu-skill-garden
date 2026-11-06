@@ -11,8 +11,11 @@ description: 開発文書の更新や推敲で、仕様・手順の正確性と�
 
 すべての品質を一度に改善する必要はない。読みやすさの改善が大きい場合は正確性の更新と保守サイクルを分け、今回の依頼に必要な範囲を進める。
 
+AI向けの指示書では、責務・情報の所在・階層・参照関係から、変更すべき場所を辿れるようにする。Plugin・Skill・Referenceの責務を分け、SKILL.mdの入口は概要・制約・フローを基本にする。詳細は担当するReferenceへ、テンプレートは使う役割へ置く。同じルールの正本は一箇所にし、工程は短い説明とリンクで示す。分割は、情報を探して変更する際の判断が減るかで選ぶ。
+
 ## 出典
 
 現在のprincipleを利用場面へまとめた派生Skill。固定commitの出典：
 
 - [文書の正確性と読みやすさは別々に保守する](https://github.com/shu-matsukubo/matsu-second-brain/blob/6442627beba656db0c30953263150099ea8d161b/knowledge/principles/development-process/k-59ebcac46c07180e.md)
+- [AI向けドキュメントは責務と参照構造で説明する](https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-838e51960661c08f.md)

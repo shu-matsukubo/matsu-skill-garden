@@ -1,46 +1,39 @@
 {
-  "limitations": [
-    "Content review only of the supplied changed files, diff and unchanged library; the complete 23-file inventory was not supplied.",
-    "No tools were used, checks executed or filesystem hashes recomputed. Verification results and prior independent review are parent-reported."
-  ],
   "result": "pass",
-  "schemaVersion": 1,
-  "sandbox": "read-only",
-  "reviewedAt": "2026-11-06T18:24:23.6692819Z",
-  "reviewer": "isolated-codex:01a1b219-9fca-7c20-9f1c-a26120037e3c",
-  "resolvedFindings": [
-    {
-      "resolution": "Empty withdrawn Skill directories are ignored; nonempty incomplete Skills still fail.",
-      "test": "tests/skills.test.mjs",
-      "id": "R2-M1"
-    },
-    {
-      "resolution": "Atomic temporary writes stay in excluded runtime cache; interruption/retry matches clean digest.",
-      "test": "tests/garden.test.mjs",
-      "id": "R2-M2"
-    }
+  "reviewedAt": "2026-11-06T22:51:53.9027404Z",
+  "limitations": [
+    "No tools used. Remote-tree comparisons, state equality, collector safeguards and digest identity rely on supplied parent-computed evidence and were not independently recomputed.",
+    "Receipt creation, latest-head/base CI and expected-head merge/readback remain outstanding. This review grants no mutation or publication permission."
   ],
   "reasoning": "high",
-  "independent": true,
-  "reviewIds": [
-    "R2",
-    "R3",
-    "batch-ingestion"
+  "reviewSummary": [
+    "Reviewed all 25 supplied files and all six generated Skills against 20 current principle bodies.",
+    "All five change decisions are accounted for; no unsupported universal rules or authorization expansion found.",
+    "Collection conditions, document structure scope, learning distinctions, report priority and publication boundaries are preserved.",
+    "R1 resolved: the numbered manifest contains 18 facts, 9 ideas and 62 principles, totaling 89 entries. All 18 separately listed fact IDs and paths match the manifest.",
+    "Parent-reported comparison against fixed commit 0488df05cd17624f946312f04d7ab3bcd1091b9a used an untruncated recursive tree and found matching Markdown path/blob sets and identical current and captured state. No missing or inconsistent entry is identified.",
+    "Reused the supplied prior review's unaffected checks of all 25 files, six generated Skills, 20 current source principles and all five change decisions for the unchanged digest."
   ],
   "approvalPolicy": "never",
-  "model": "gpt-6.1-sol",
-  "evidence": "Independent batch-ingestion clarification review 01a1b219-9fca-7c20-9f1c-a26120037e3c passed. Unchanged artifacts retain prior R2/R3 review coverage.",
-  "reviewSummary": [
-    "Control Skill, README and maintenance docs consistently require all differences through the fixed snapshot in one ingestion batch.",
-    "Journal, ingestion, single-report and full-review priority remains unchanged; later upstream changes wait for the next snapshot.",
-    "The new test meaningfully exercises batch capability: four change categories, multiple writes and deletions, persisted snapshot and managed state, provenance validation, and the resulting next action.",
-    "The test uses production functions and filesystem outcomes rather than mirroring documentation wording.",
-    "Existing recovery and conflict guidance remains intact; this follow-up adds no production execution path."
+  "schemaVersion": 1,
+  "manifestVerification": {
+    "pathBlobSetsMatch": true,
+    "principles": 62,
+    "entries": 89,
+    "ideas": 9,
+    "capturedStateMatches": true,
+    "facts": 18
+  },
+  "evidence": "Daily full content/source review 01a1b30c-b99b-7410-a6ab-0c0c81912323 and reconciliation review 01a1b30e-ccb9-7153-b4c6-1761517f89f4 passed. R1 count concern was resolved by the fixed GitHub manifest: 18 facts + 9 ideas + 62 principles = 89, exact path/blob match, no artifact change.",
+  "digest": "32a614d700d081946b766e68864f7997eb0e97b6c368e0ed4ac4be9733e0cf66",
+  "reviewIds": [
+    "daily-20261107-R1",
+    "daily-20261107-R2"
   ],
-  "digest": "ee7f9026382104b90b37538334e17d29e82091d397e95f6213786617a2e5a60f",
-  "baselineReview": {
-    "evidence": "Independent content reviews R2 (01a1b1a2-f47e-7a71-b540-b57df04d7ffc) and R3 (01a1b1af-773d-7cb0-a90d-3e4de910f67f); R2-M1/R2-M2 fixed with regression tests; R3 pass with no findings.",
-    "reviewer": "isolated-codex:01a1b1af-773d-7cb0-a90d-3e4de910f67f",
-    "digest": "fda0b06cbfb9da9fae0872d78b954140cafc652d1b42b52c0324ac90168b19d5"
-  }
+  "evaluatedKnowledgeChanges": 5,
+  "independent": true,
+  "sandbox": "read-only",
+  "reviewer": "isolated-codex:01a1b30e-ccb9-7153-b4c6-1761517f89f4",
+  "model": "gpt-6.1-sol",
+  "sourceCommit": "0488df05cd17624f946312f04d7ab3bcd1091b9a"
 }
