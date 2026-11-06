@@ -1,0 +1,42 @@
+{
+  "limitations": [
+    "Reviewed supplied snapshot data only; performed no tools, execution, edits or delegation. Filesystem contents and hashes were not independently recomputed.",
+    "Test results, real source-fetch verification and repository freezing are parent-provided evidence. Arbitrary concurrent filesystem changes are not prevented by the helper; publication relies on the documented digest comparisons.",
+    "Windows junction coverage was skipped in the reported run. Receipt verification, remote CI, merge and scheduling remain subsequent work; this pass does not establish their completion."
+  ],
+  "result": "pass",
+  "schemaVersion": 1,
+  "sandbox": "read-only",
+  "reviewedAt": "2026-11-06T16:28:42.2374256Z",
+  "reviewer": "isolated-codex:01a1b1af-773d-7cb0-a90d-3e4de910f67f",
+  "resolvedFindings": [
+    {
+      "resolution": "Empty withdrawn Skill directories are ignored; nonempty incomplete Skills still fail.",
+      "test": "tests/skills.test.mjs",
+      "id": "R2-M1"
+    },
+    {
+      "resolution": "Atomic temporary writes stay in excluded runtime cache; interruption/retry matches clean digest.",
+      "test": "tests/garden.test.mjs",
+      "id": "R2-M2"
+    }
+  ],
+  "reasoning": "high",
+  "independent": true,
+  "reviewIds": [
+    "R2",
+    "R3"
+  ],
+  "approvalPolicy": "never",
+  "model": "gpt-6.1-sol",
+  "evidence": "Independent content reviews R2 (01a1b1a2-f47e-7a71-b540-b57df04d7ffc) and R3 (01a1b1af-773d-7cb0-a90d-3e4de910f67f); R2-M1/R2-M2 fixed with regression tests; R3 pass with no findings.",
+  "reviewSummary": [
+    "Read all six changed files; reused R2's unaffected artifact and 16-source content checks using the supplied unchanged-hash inventory.",
+    "Applied requirements fit, consistency, structure and simplicity, usability and failure handling, supporting evidence, and the security perspective.",
+    "R2-M1 resolved: whole-Skill withdrawal permits empty directories while nonempty directories without SKILL.md still fail; integration regression covers principle demotion.",
+    "R2-M2 resolved: atomic temporaries reside in excluded runtime cache. Traced interruptions before journal, Skill and state renames, retry/resume behavior, and regression assertions for structural validity and digest equality.",
+    "Reviewed bundle inventory and exact byte encoding, cited-source deduplication, Git blob and SHA-256 verification, metadata validation, current-body extraction, output boundaries, failure handling and concurrent-edit detection.",
+    "Checked consistency with capture-before/after digest verification, independent re-review, receipt creation after pass, latest head/base CI checks and expected-head merge/readback requirements."
+  ],
+  "digest": "fda0b06cbfb9da9fae0872d78b954140cafc652d1b42b52c0324ac90168b19d5"
+}
