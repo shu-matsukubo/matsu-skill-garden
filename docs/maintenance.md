@@ -20,12 +20,12 @@ snapshotは上流mainを一つのcommitへ固定し、knowledge treeと全knowle
 | kind | 処理 |
 | --- | --- |
 | resume | 保存済みjournalを再開。競合があれば停止し、上書きしない。 |
-| ingest | 変更・追加・削除・principleからの降格を最優先で取り込む。影響Skillsの根拠を見直す。 |
+| ingest | 前回成功時から固定snapshotまでの変更・追加・削除・principleからの降格を全件まとめて取り込む。影響Skillsの根拠を見直す。 |
 | report | 指定されたopen report一件を現在の実物に照合し、改善または不要と判断した理由を記録する。 |
 | review | 全体を評価し、実行可能な課題をreportにする。未確認を課題なしとしない。 |
 | skip | 本文探索と改善を休み、次のknowledge tree変更を待つ。未公開変更があれば公開手順は続ける。 |
 
-一回の起動で原則一つの返された仕事を進める。ingestの後にすべてのreportを一度に消化しない。全体評価はopen reportがなくなってから行う。課題を登録した評価は待機認定せず、reportを消化した後もう一度全体評価する。課題なしを確認したときだけ `reviewedTree` で同じtreeの探索を休む。自動ではrepo外へSkillsをインストールしない。
+一回の起動で原則一つの返された仕事を進める。ingestの一単位は全差分のバッチであり、knowledge一件ではない。更新が20件あれば20件すべてをその実行で評価し、必要なSkill変更をまとめて適用する。実行中に上流へ追加された変更は、次回の固定snapshotで扱う。ingestの後にすべてのreportを一度に消化しない。全体評価はopen reportがなくなってから行う。課題を登録した評価は待機認定せず、reportを消化した後もう一度全体評価する。課題なしを確認したときだけ `reviewedTree` で同じtreeの探索を休む。自動ではrepo外へSkillsをインストールしない。
 
 ## 思想をSkillへ変える
 

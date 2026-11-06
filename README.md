@@ -17,7 +17,7 @@ node scripts/garden.mjs snapshot --output .garden-cache/snapshot.json
 node scripts/garden.mjs next --snapshot .garden-cache/snapshot.json
 ```
 
-保守は `$maintain-skill-garden` を呼ぶ。優先順は未完了journalの再開、上流取り込み、open report一件、全体評価。課題がなくなればknowledge treeが変わるまで探索を休む。軽量確認では固定commitとtree/blobを比較し、変化した本文だけを取得する。
+保守は `$maintain-skill-garden` を呼ぶ。優先順は未完了journalの再開、上流の全差分を一括取り込み、open report一件、全体評価。日次の取り込みは前回成功時から固定snapshotまでの全件を扱い、knowledge一件ずつには制限しない。課題がなくなればknowledge treeが変わるまで探索を休む。軽量確認では固定commitとtree/blobを比較し、変化した本文だけを取得する。
 
 日次は07:40 Asia/Tokyoを想定する。[スケジューラ用prompt](prompts/maintain-skill-garden.md) は作業場所とSkill呼出しのみを持つ。ローカルPCとCodexアプリが実行可能な状態である必要があり、実行時刻の指定は常駐サーバーの保証ではない。上流の毎時整理とは一回ごとの固定snapshotで整合させる。
 
