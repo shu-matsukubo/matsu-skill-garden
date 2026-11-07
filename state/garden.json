@@ -3,8 +3,8 @@
   "snapshot": {
     "schemaVersion": 1,
     "repository": "shu-matsukubo/matsu-second-brain",
-    "commit": "0488df05cd17624f946312f04d7ab3bcd1091b9a",
-    "tree": "3f4ddd73220585d669092006ab6d23b1c972b9db",
+    "commit": "94370a51c5e856ceffb68afdc8a3b48fdfb813d9",
+    "tree": "feb2c5cf9a1a4ee0940fec9b5d4749057c703f19",
     "entries": [
       {
         "id": "k-09eeb3ef9aafd09d",
@@ -13,7 +13,16 @@
         "path": "knowledge/facts/app-development/k-09eeb3ef9aafd09d.md",
         "blob": "b0ceace1cae5b2d939386a16640c1e7060d83dd9",
         "digest": "dae32d7ce134d4fa808dead7a8507fdcbde66593f0c28562940fd88332b0ef1b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/app-development/k-09eeb3ef9aafd09d.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/app-development/k-09eeb3ef9aafd09d.md"
+      },
+      {
+        "id": "k-5c7f82b36d860b77",
+        "type": "fact",
+        "title": "Nyxisの認可モデルと形式証明の範囲",
+        "path": "knowledge/facts/app-development/k-5c7f82b36d860b77.md",
+        "blob": "8d8d667166836fa3b3a4db91e13747271f3944bc",
+        "digest": "d356e683f0aa23f6e28960234332d27009fdf998dd0d82995345e2c8811a8d40",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/app-development/k-5c7f82b36d860b77.md"
       },
       {
         "id": "k-63ec6b4ce9ba5b6b",
@@ -22,7 +31,7 @@
         "path": "knowledge/facts/app-development/k-63ec6b4ce9ba5b6b.md",
         "blob": "46d654bad756d288d91ccd37d2e614ad376e37c7",
         "digest": "e5585f6c5b6d8a920b811a33ce011f42c24a9983a7c25efb022a778d8039648f",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/app-development/k-63ec6b4ce9ba5b6b.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/app-development/k-63ec6b4ce9ba5b6b.md"
       },
       {
         "id": "k-a399c0657f69c609",
@@ -31,7 +40,7 @@
         "path": "knowledge/facts/app-development/k-a399c0657f69c609.md",
         "blob": "f3cb84e874d0ce230ecc3f4975e2e94d46d81209",
         "digest": "9c2996c8466361a3811455b0a225de7e8232810bb8dcee68b76921d31ed959e6",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/app-development/k-a399c0657f69c609.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/app-development/k-a399c0657f69c609.md"
       },
       {
         "id": "k-db267f70c5bcb7b4",
@@ -40,7 +49,7 @@
         "path": "knowledge/facts/app-development/k-db267f70c5bcb7b4.md",
         "blob": "27f5ebd86a5bfb340c0799ecdcd806a7d46657c9",
         "digest": "1fb753078530dc61bc91c0db7f25b4952a490a3ec6c20896385417de6a22c561",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/app-development/k-db267f70c5bcb7b4.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/app-development/k-db267f70c5bcb7b4.md"
       },
       {
         "id": "k-80d43c7d7d3971e7",
@@ -49,7 +58,7 @@
         "path": "knowledge/facts/aws/k-80d43c7d7d3971e7.md",
         "blob": "24c6b671f70c6c3a5d43ccce14f3ba42f9e5e7fe",
         "digest": "9be9a8e777cb90a2c0774537ff43d84cbc4941baddbce1de4a5ba8510d14864e",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/aws/k-80d43c7d7d3971e7.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/aws/k-80d43c7d7d3971e7.md"
       },
       {
         "id": "k-8d3f67394f671d3c",
@@ -58,7 +67,7 @@
         "path": "knowledge/facts/aws/k-8d3f67394f671d3c.md",
         "blob": "0e428a4abc3ab0a3b3fc7671ab59ff8d397e4ebf",
         "digest": "f502acecb258afe7c4f903334c86d7db232a9ed725b472cf1f4034ac7c81d7c7",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/aws/k-8d3f67394f671d3c.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/aws/k-8d3f67394f671d3c.md"
       },
       {
         "id": "k-97d6709958a83deb",
@@ -67,7 +76,7 @@
         "path": "knowledge/facts/cloudflare/k-97d6709958a83deb.md",
         "blob": "4388fcf0a79e417dd62b16ac9dcab85f9d525fff",
         "digest": "72cff9de851f79593610b965fa647351e43605800298a9864ea89ab432895c65",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/cloudflare/k-97d6709958a83deb.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/cloudflare/k-97d6709958a83deb.md"
       },
       {
         "id": "k-aa6d85a855837646",
@@ -76,7 +85,7 @@
         "path": "knowledge/facts/cloudflare/k-aa6d85a855837646.md",
         "blob": "00c5cbd8871943c6e2987deb0305204446961ad1",
         "digest": "ad1bf564734b63b647922749abba9a46b717b0a5c9c7355f302f1527bf062829",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/cloudflare/k-aa6d85a855837646.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/cloudflare/k-aa6d85a855837646.md"
       },
       {
         "id": "k-f7e33e41fd6f8b95",
@@ -85,7 +94,7 @@
         "path": "knowledge/facts/cloudflare/k-f7e33e41fd6f8b95.md",
         "blob": "d9e0436fcd2dec5fd039a28a114fc7c778c42cd8",
         "digest": "4d40aeb5a4270e0c2da52e543aca0355383e0ac07f8363fa0d8b3c7346575664",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/cloudflare/k-f7e33e41fd6f8b95.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/cloudflare/k-f7e33e41fd6f8b95.md"
       },
       {
         "id": "k-15f9bd7c222b1115",
@@ -94,7 +103,7 @@
         "path": "knowledge/facts/codex/k-15f9bd7c222b1115.md",
         "blob": "0172d6865556989f6bddbdc1d88f5605a7fde91c",
         "digest": "2ea0603dc208296b40faa55bb1171fe9c5e8878aed2c3a02587e8b1d1983eda8",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/codex/k-15f9bd7c222b1115.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/codex/k-15f9bd7c222b1115.md"
       },
       {
         "id": "k-33a5d4987fc0872f",
@@ -103,7 +112,7 @@
         "path": "knowledge/facts/codex/k-33a5d4987fc0872f.md",
         "blob": "57ddec6ae70beabb0c68312f3df3d749235cb002",
         "digest": "e38af5b183359306729e52434a669ca4a3a8877030f4fbc18b2eef73561992c3",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/codex/k-33a5d4987fc0872f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/codex/k-33a5d4987fc0872f.md"
       },
       {
         "id": "k-9295e908c1b088c6",
@@ -112,7 +121,16 @@
         "path": "knowledge/facts/codex/k-9295e908c1b088c6.md",
         "blob": "dcb7b8c6e447ad6a6c6a6fde4b666575cdb3f3b7",
         "digest": "42819cf0466a9a83518445b9b6cf7e34e676033e29b0bcc585a4bd3413b6e895",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/codex/k-9295e908c1b088c6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/codex/k-9295e908c1b088c6.md"
+      },
+      {
+        "id": "k-5cb97b9c00c4990c",
+        "type": "fact",
+        "title": "SemVer 2.0.0の初期開発段階と公開API互換性",
+        "path": "knowledge/facts/development-process/k-5cb97b9c00c4990c.md",
+        "blob": "818cdaf76b45e06648a4a028cff5c853cafb6a77",
+        "digest": "59434b847cb8bfd86fc8d0e149787e7e50229e7e84115413d9d14a2a9dd2f43c",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/development-process/k-5cb97b9c00c4990c.md"
       },
       {
         "id": "k-5c212626fd61d868",
@@ -121,7 +139,7 @@
         "path": "knowledge/facts/docker/k-5c212626fd61d868.md",
         "blob": "e0216212596089206622c5226cb309dbeb3e6566",
         "digest": "1aa039a01d09aeb0dba50b9f5c9e8ba478367611e35489b15d8ec88e4bc5c469",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/docker/k-5c212626fd61d868.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/docker/k-5c212626fd61d868.md"
       },
       {
         "id": "k-72df4a0acb401aee",
@@ -130,7 +148,7 @@
         "path": "knowledge/facts/docker/k-72df4a0acb401aee.md",
         "blob": "0d1eda5c8c366a62277ebef3b14152da973f7017",
         "digest": "33c54a3f3252ccee65da3adac579a2164f14bb15fe662c9513b5f2789b631b83",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/docker/k-72df4a0acb401aee.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/docker/k-72df4a0acb401aee.md"
       },
       {
         "id": "k-db6a704b4c1b4cca",
@@ -139,7 +157,7 @@
         "path": "knowledge/facts/docker/k-db6a704b4c1b4cca.md",
         "blob": "074ef954cf8d2bbb79f820e067db12e4bc0db1eb",
         "digest": "3a54d70ff91ff88f2d8fe3df4ea3ced915b84b570d72c2720d2fcb2a4b0cb7a6",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/docker/k-db6a704b4c1b4cca.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/docker/k-db6a704b4c1b4cca.md"
       },
       {
         "id": "k-0ad4026c9667ce8a",
@@ -148,7 +166,7 @@
         "path": "knowledge/facts/git/k-0ad4026c9667ce8a.md",
         "blob": "aed4ed5eb26672084d7d02a8d60ef0841fac930e",
         "digest": "102dfcd0a647ce7011a0906c6c4e7ace97f7d6c45d6a95029d6b956cfe8c1a52",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/git/k-0ad4026c9667ce8a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/git/k-0ad4026c9667ce8a.md"
       },
       {
         "id": "k-5baba0e54a9f1187",
@@ -157,7 +175,7 @@
         "path": "knowledge/facts/git/k-5baba0e54a9f1187.md",
         "blob": "df551612523687562c486daf13492607f667b36a",
         "digest": "b82e218e901cd38e41f1e26f6950192a6a95a870b8da0e321f40a85b7bce181b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/git/k-5baba0e54a9f1187.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/git/k-5baba0e54a9f1187.md"
       },
       {
         "id": "k-ef264754e56ae439",
@@ -166,7 +184,16 @@
         "path": "knowledge/facts/git/k-ef264754e56ae439.md",
         "blob": "72f3243a6f7e75981d274490ba509e5381e225d5",
         "digest": "fa95d4ef6671f02bcfaf0a808ef9d76949cbccfdc1bdbd85ed1d7cab63434d86",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/facts/git/k-ef264754e56ae439.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/facts/git/k-ef264754e56ae439.md"
+      },
+      {
+        "id": "k-1dd91e1b799f3dbe",
+        "type": "idea",
+        "title": "Nyxisの認可設計をAI生成Webアプリに応用する調査案",
+        "path": "knowledge/ideas/app-development/k-1dd91e1b799f3dbe.md",
+        "blob": "9bb5f355c0be7ebc427d1dbe44fc458b209c5107",
+        "digest": "2260553ae4b08b9932ca5f771129a3406f9acd6ba23bc00b1401082bbbdf4dc8",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/app-development/k-1dd91e1b799f3dbe.md"
       },
       {
         "id": "k-3a1a3f3653452faf",
@@ -175,7 +202,7 @@
         "path": "knowledge/ideas/app-development/k-3a1a3f3653452faf.md",
         "blob": "ea8e69021f0d8a37a571e0a8d0b9e67e5c8279d6",
         "digest": "2930d346f71cf33ec989d03e98608a990504966c8db1b074cf4be66581e33c0a",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/app-development/k-3a1a3f3653452faf.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/app-development/k-3a1a3f3653452faf.md"
       },
       {
         "id": "k-6cfc44888ba6b730",
@@ -184,7 +211,7 @@
         "path": "knowledge/ideas/aws/k-6cfc44888ba6b730.md",
         "blob": "8baa50dde35af8e69c7249cf7adaed5c4dbf8a50",
         "digest": "8c37e9f04a2f142c7f804e7d4227c5cc57d5e4fb9d7f4efe3e5827b28353c8fd",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/aws/k-6cfc44888ba6b730.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/aws/k-6cfc44888ba6b730.md"
       },
       {
         "id": "k-b60be5784b16a225",
@@ -193,7 +220,7 @@
         "path": "knowledge/ideas/codex/k-b60be5784b16a225.md",
         "blob": "38c713eda7ec7e21a821cc495d6c3af9b11dfeac",
         "digest": "8636afae8508ce48f81b00b732be887e3610d501871aa85b81ab733ff32ddd3f",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/codex/k-b60be5784b16a225.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/codex/k-b60be5784b16a225.md"
       },
       {
         "id": "k-f3633df9248e801a",
@@ -202,7 +229,43 @@
         "path": "knowledge/ideas/codex/k-f3633df9248e801a.md",
         "blob": "4ac85fc6d7ed8347d6951bd75eb0fef743c7ca27",
         "digest": "8e2f43c24b2e911f847d310a5453c911f75791628c1c186019a8cd33a6c1b0dc",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/codex/k-f3633df9248e801a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/codex/k-f3633df9248e801a.md"
+      },
+      {
+        "id": "k-4fead23b62fc49b6",
+        "type": "idea",
+        "title": "利用者が指示書を登録してAI Workflowを拡張する案",
+        "path": "knowledge/ideas/development-process/k-4fead23b62fc49b6.md",
+        "blob": "fc43c4f6f4172a23bb4bb9e6868b2e2cd8724d58",
+        "digest": "3a7e313e637f4a38869f524ee9a15b4411e69effab2611a1efe580764f3e7a09",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-4fead23b62fc49b6.md"
+      },
+      {
+        "id": "k-5639132bee83c074",
+        "type": "idea",
+        "title": "yomiyasuで技術文書の読みやすさを検証する案",
+        "path": "knowledge/ideas/development-process/k-5639132bee83c074.md",
+        "blob": "80b8b3f1bb4c9084c8fb2e552817ed376bf1dbc5",
+        "digest": "b86ed59088964e9e64aad0023429ee8c743dd6405207e623381ab384aced94d2",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-5639132bee83c074.md"
+      },
+      {
+        "id": "k-586b73286999429c",
+        "type": "idea",
+        "title": "タスク分解エージェントの責務とモデル選定案",
+        "path": "knowledge/ideas/development-process/k-586b73286999429c.md",
+        "blob": "26bda39f9f7fccbdcb3e972abcabb93664f2a8c4",
+        "digest": "9943d0147c2e87ca184038bbfaf82d4b1a98a07892b0c6e0c841693ebc825600",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-586b73286999429c.md"
+      },
+      {
+        "id": "k-5c2fe3559365432f",
+        "type": "idea",
+        "title": "個人作成の汎用Skillsを会社で再利用する案",
+        "path": "knowledge/ideas/development-process/k-5c2fe3559365432f.md",
+        "blob": "06062c7869b4a908cf9f773d30cbf7b78bf22e37",
+        "digest": "6bb29da5f187f876d88052ac2d5185ce2cf2427d18c85ecfa5624c86a616e8b4",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-5c2fe3559365432f.md"
       },
       {
         "id": "k-68d79effd0909df6",
@@ -211,7 +274,16 @@
         "path": "knowledge/ideas/development-process/k-68d79effd0909df6.md",
         "blob": "bbb03062f1ce5bc8b535fe9b413e38cd54ed089b",
         "digest": "174eb44adbdbb56925040e9d30f7776508540de59bfb3c34c6cd59fac518cd68",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/development-process/k-68d79effd0909df6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-68d79effd0909df6.md"
+      },
+      {
+        "id": "k-6e3583d735238d84",
+        "type": "idea",
+        "title": "GitHub Releasesを個人OSSの変更履歴の正本にする案",
+        "path": "knowledge/ideas/development-process/k-6e3583d735238d84.md",
+        "blob": "d08d9c95f3638ea1c54cda167bd7ffa905159cb9",
+        "digest": "a6f1240c6d2699f5cbf6328e8547c78a1757fcb5c86a7f8f7612db1e8d801be3",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-6e3583d735238d84.md"
       },
       {
         "id": "k-87f5dfa1f68d156f",
@@ -220,7 +292,16 @@
         "path": "knowledge/ideas/development-process/k-87f5dfa1f68d156f.md",
         "blob": "2af86703921352a0d6794d6eef222914e306ea04",
         "digest": "667bb29ed8ab0ae16feef0af8ba3ce2eb22bfd1fad4bbef23a208003f93d0bfa",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/development-process/k-87f5dfa1f68d156f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-87f5dfa1f68d156f.md"
+      },
+      {
+        "id": "k-890ccb2db2e88874",
+        "type": "idea",
+        "title": "AIで実装負担が下がる場合に自作も比較する仮説",
+        "path": "knowledge/ideas/development-process/k-890ccb2db2e88874.md",
+        "blob": "5200ec50774674224602537436bd494ca51836f0",
+        "digest": "6f8b5fede06794319f3e3aad0e20348f74487b7464be1c6ff7933b11b54568b5",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-890ccb2db2e88874.md"
       },
       {
         "id": "k-9b3a81a9daaf7d5a",
@@ -229,7 +310,16 @@
         "path": "knowledge/ideas/development-process/k-9b3a81a9daaf7d5a.md",
         "blob": "18e0a10849be7bf1793230d3c9aaf7f46d59324c",
         "digest": "6f5ef8fffb1c19cdb678f523acc0d6c02af51c5adf527d1775cb901d92e94d21",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/development-process/k-9b3a81a9daaf7d5a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-9b3a81a9daaf7d5a.md"
+      },
+      {
+        "id": "k-ac596996ac201a38",
+        "type": "idea",
+        "title": "第2の脳をWebで参照・検索する構成の初期案",
+        "path": "knowledge/ideas/development-process/k-ac596996ac201a38.md",
+        "blob": "d6a078fedd3075e75cbfc70a8b09f41a7e8017f0",
+        "digest": "0ae28d89074106b8476c0a34ebeda3624bf258ad6fe422ad6f0bb4bb4fe92204",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-ac596996ac201a38.md"
       },
       {
         "id": "k-d8c1f72c69667e83",
@@ -238,7 +328,7 @@
         "path": "knowledge/ideas/development-process/k-d8c1f72c69667e83.md",
         "blob": "3c18bef29d8073a9859cbfb6754cdc993cdc853e",
         "digest": "3624170546cef24398e10ae01fa49568b6821339a3c1b147b3f5525c72928a57",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/development-process/k-d8c1f72c69667e83.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-d8c1f72c69667e83.md"
       },
       {
         "id": "k-f36bc045f746da9e",
@@ -247,7 +337,7 @@
         "path": "knowledge/ideas/development-process/k-f36bc045f746da9e.md",
         "blob": "027cd01f7fbe226b255d2a445f94ca92d2a283e9",
         "digest": "ee073ec7d2a55c45018550777a1cb7c352568002a6221fbf1de2ef4b67b926bd",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/ideas/development-process/k-f36bc045f746da9e.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/ideas/development-process/k-f36bc045f746da9e.md"
       },
       {
         "id": "k-483e48a6197921ea",
@@ -256,7 +346,7 @@
         "path": "knowledge/principles/app-development/k-483e48a6197921ea.md",
         "blob": "55b0a51a90a1461c90a03e364568e4afd95ed177",
         "digest": "5bd41451e80c7518fb57386c1c41503ba4aae642a380425d5ec25a183c61062b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/app-development/k-483e48a6197921ea.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/app-development/k-483e48a6197921ea.md"
       },
       {
         "id": "k-81352241ac9ca39f",
@@ -265,7 +355,7 @@
         "path": "knowledge/principles/app-development/k-81352241ac9ca39f.md",
         "blob": "f2e9a11d780a5a233aedce4436c219305ae5efdc",
         "digest": "361642003fb5aafeb0f5411fda6b4501cc43c88207945ec7f2ac5ee0b7b76e46",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/app-development/k-81352241ac9ca39f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/app-development/k-81352241ac9ca39f.md"
       },
       {
         "id": "k-a25b1a83b8aa3cea",
@@ -274,7 +364,7 @@
         "path": "knowledge/principles/app-development/k-a25b1a83b8aa3cea.md",
         "blob": "319986e1ffbe11f5bab189b38d7ded337432ade0",
         "digest": "4b78d679d8c093b632a00fbbe659c8a6a08925749d163f45e389fc4157a74532",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/app-development/k-a25b1a83b8aa3cea.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/app-development/k-a25b1a83b8aa3cea.md"
       },
       {
         "id": "k-b984fc96e28cd8c7",
@@ -283,7 +373,7 @@
         "path": "knowledge/principles/app-development/k-b984fc96e28cd8c7.md",
         "blob": "d3f39419c9f3c446d18480de9216190bdbefe643",
         "digest": "dc08030bf25cf40692ca9c439efa6b60177ed872f0148f5fc9db9a9526f7e2ac",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/app-development/k-b984fc96e28cd8c7.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/app-development/k-b984fc96e28cd8c7.md"
       },
       {
         "id": "k-cffd059337441ed6",
@@ -292,7 +382,7 @@
         "path": "knowledge/principles/app-development/k-cffd059337441ed6.md",
         "blob": "135906c5286d143c5a5802f2ac57a0d6fef033f9",
         "digest": "445a3e5d819e1265b059f82d035130168e9fc73bb1a41aafc2ab46857b9b7888",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/app-development/k-cffd059337441ed6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/app-development/k-cffd059337441ed6.md"
       },
       {
         "id": "k-0070fb65c2253dd0",
@@ -301,7 +391,7 @@
         "path": "knowledge/principles/development-process/k-0070fb65c2253dd0.md",
         "blob": "f8edd76c74e080ffcea9b84cae45e520ceff1532",
         "digest": "1db1a7ed1363e1703b4e40bfe261595f7b981d26714a2e2db75ff1d507bdcffd",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-0070fb65c2253dd0.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-0070fb65c2253dd0.md"
       },
       {
         "id": "k-082f394197334891",
@@ -310,7 +400,7 @@
         "path": "knowledge/principles/development-process/k-082f394197334891.md",
         "blob": "a3a771570c22269cbd4293e2f8e71d3b4c827974",
         "digest": "342bf4de5ac5e97d08f714043467c9638e79e6f92b6d6d6d4b6a35a4f5f45a29",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-082f394197334891.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-082f394197334891.md"
       },
       {
         "id": "k-094d1e9c150747ec",
@@ -319,7 +409,7 @@
         "path": "knowledge/principles/development-process/k-094d1e9c150747ec.md",
         "blob": "ca5afedb052fd0f4b976931946c1802087193ae7",
         "digest": "05ebd29fffdf1da42943652af8461939da07efa4c2a48115319ceb3a639f8030",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-094d1e9c150747ec.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-094d1e9c150747ec.md"
       },
       {
         "id": "k-0befd2ddf54d4781",
@@ -328,7 +418,7 @@
         "path": "knowledge/principles/development-process/k-0befd2ddf54d4781.md",
         "blob": "fb855f6587567bb1cd529ae5c73ab349cd821be8",
         "digest": "7dc12cd801465fea68f25125fc81690957af5256dc8cf48ebbe3cef2293c9630",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-0befd2ddf54d4781.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-0befd2ddf54d4781.md"
       },
       {
         "id": "k-0c0c7182767c137a",
@@ -337,7 +427,7 @@
         "path": "knowledge/principles/development-process/k-0c0c7182767c137a.md",
         "blob": "fc7bda6f118d91d795f3cb11497e6fae43770e51",
         "digest": "c26f9a0d714127fe6ccaf3db766022437c2d11bad8783af1417e8935c9e70bd5",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-0c0c7182767c137a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-0c0c7182767c137a.md"
       },
       {
         "id": "k-12584bf597c40b01",
@@ -346,7 +436,7 @@
         "path": "knowledge/principles/development-process/k-12584bf597c40b01.md",
         "blob": "d218155b73c1de41de909072c17895b098ce6720",
         "digest": "cde1c5e7b77d5e69ae3357edcc51fec9bd3c21cdd947fca464f286af4f6aec61",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-12584bf597c40b01.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-12584bf597c40b01.md"
       },
       {
         "id": "k-12ebb55403b0808f",
@@ -355,7 +445,7 @@
         "path": "knowledge/principles/development-process/k-12ebb55403b0808f.md",
         "blob": "69429c12accdb479b51b3a69591f360b9af6378a",
         "digest": "56409b7986b32dd0496fb44e00b275c4d4caacff386a75a8113dccab08f1bc42",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-12ebb55403b0808f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-12ebb55403b0808f.md"
       },
       {
         "id": "k-1473d6f6b0390549",
@@ -364,7 +454,7 @@
         "path": "knowledge/principles/development-process/k-1473d6f6b0390549.md",
         "blob": "d74035a6e27e32c41f87881d45be1debad3d3f1f",
         "digest": "1c9715036902d5f96e98244f693e01ecb310983efb2923dce99aa33c0cb10eda",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-1473d6f6b0390549.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-1473d6f6b0390549.md"
       },
       {
         "id": "k-18612ffa4bd0558c",
@@ -373,7 +463,7 @@
         "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
         "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
         "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-18612ffa4bd0558c.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-18612ffa4bd0558c.md"
       },
       {
         "id": "k-18cd4b4f19159d05",
@@ -382,7 +472,7 @@
         "path": "knowledge/principles/development-process/k-18cd4b4f19159d05.md",
         "blob": "0b2bf71224ca3e3ab2b6eee4d2ae5d7440d528d4",
         "digest": "a10d75edef14758f3d8292b9a80ec413f0569b4d5a74a565d43b3122d48ee121",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-18cd4b4f19159d05.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-18cd4b4f19159d05.md"
       },
       {
         "id": "k-1c336721577e40fb",
@@ -391,7 +481,7 @@
         "path": "knowledge/principles/development-process/k-1c336721577e40fb.md",
         "blob": "b06281f4fe842c0d3d4c9e4ab02b6daf1f05efa6",
         "digest": "13ff1407b2b6655bd9e060958e541fef473d3da5dc1b93fb502daf34d4b8784d",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-1c336721577e40fb.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-1c336721577e40fb.md"
       },
       {
         "id": "k-1c9d5e44b0d5304d",
@@ -400,7 +490,7 @@
         "path": "knowledge/principles/development-process/k-1c9d5e44b0d5304d.md",
         "blob": "9fe4b61db778bf30059ececf1c5578a2d0bdd4ce",
         "digest": "d8488b83646512ad615841d13db8033dad1bfa56e61d2a5cceb3c93082a2d7be",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-1c9d5e44b0d5304d.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-1c9d5e44b0d5304d.md"
       },
       {
         "id": "k-1fd2110eaa47e4f6",
@@ -409,7 +499,16 @@
         "path": "knowledge/principles/development-process/k-1fd2110eaa47e4f6.md",
         "blob": "57543a5a90457ad7435b83f59134450070879fda",
         "digest": "84817077068f8bb3ed5a80d7501d3f45b05494d1136f34522c73caf24a04f77c",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-1fd2110eaa47e4f6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-1fd2110eaa47e4f6.md"
+      },
+      {
+        "id": "k-259092392aa4081c",
+        "type": "principle",
+        "title": "仕様理解とタスク分解は親Agentが担当し計画を独立レビューする",
+        "path": "knowledge/principles/development-process/k-259092392aa4081c.md",
+        "blob": "700be1f07d321532231f26fc0ae2dbf9094cd40d",
+        "digest": "81a21618b691c9dc5d8c2c9b3fa161e380e8703042fd3c3bd2d337b9f0147e7f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-259092392aa4081c.md"
       },
       {
         "id": "k-25dd9353a7f5df2c",
@@ -418,7 +517,7 @@
         "path": "knowledge/principles/development-process/k-25dd9353a7f5df2c.md",
         "blob": "658fdacc3a28a511cb5517a979995ea422b48757",
         "digest": "de24128cb96ef8652c99672213d1d670ce0e4cf56eee58d8325ae334d808323c",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-25dd9353a7f5df2c.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-25dd9353a7f5df2c.md"
       },
       {
         "id": "k-284229ca7cd4221b",
@@ -427,7 +526,7 @@
         "path": "knowledge/principles/development-process/k-284229ca7cd4221b.md",
         "blob": "f1220f677b0defb35452f5a41a3e350d684891f3",
         "digest": "99776a7c8977d7970c25e562d6b235bb278608303b855ef2961bb04c58ed6f47",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-284229ca7cd4221b.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-284229ca7cd4221b.md"
       },
       {
         "id": "k-2aa29c1ef3b94c4d",
@@ -436,7 +535,7 @@
         "path": "knowledge/principles/development-process/k-2aa29c1ef3b94c4d.md",
         "blob": "4766cd9e7c06405b27bda5b17bd45f946fa1a8fa",
         "digest": "5d83e665cd4ed4db4e07454118a40d7309d75c8f8fe78c0a69f85db71f9792d5",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-2aa29c1ef3b94c4d.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-2aa29c1ef3b94c4d.md"
       },
       {
         "id": "k-37ea96230a1cf568",
@@ -445,25 +544,34 @@
         "path": "knowledge/principles/development-process/k-37ea96230a1cf568.md",
         "blob": "9cdfa5b7e3b0a8910a4ac2fec1cae822f201b69a",
         "digest": "9675a1dedb17de3f739c2cee29a697655ee10483deb4a74939fbc50b8689fd93",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-37ea96230a1cf568.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-37ea96230a1cf568.md"
+      },
+      {
+        "id": "k-392e524a7ce400e8",
+        "type": "principle",
+        "title": "自動化は実際の運用負担で継続を判断する",
+        "path": "knowledge/principles/development-process/k-392e524a7ce400e8.md",
+        "blob": "53608a68b0e850fef2ec225c42bb05f8583fc61b",
+        "digest": "87fb81a06e88aeaa412eded4063e12f3b0cda483c3e1e85276f2ca51e52c68e9",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-392e524a7ce400e8.md"
       },
       {
         "id": "k-3953b9c0e4266be4",
         "type": "principle",
         "title": "Agentは必要最小限にし専門性は知識で拡張する",
         "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
-        "blob": "91c682def97f5666589a249d3cda04b4693b4c2f",
-        "digest": "29dc30b09c80dade88ca7fc48c3beef3a2c5e499db75a86071b8b3efa91464a2",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-3953b9c0e4266be4.md"
+        "blob": "3a274b98e8cddc7ce3058685f2785ee5c081a03a",
+        "digest": "9e8e1a8524ff3f20bf2440e755cde61ea8870536ae1843a82479b04aa271a8cc",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-3953b9c0e4266be4.md"
       },
       {
         "id": "k-3ddb79c59977a9f0",
         "type": "principle",
         "title": "長寿命なCoreを短寿命なClientへ依存させない",
         "path": "knowledge/principles/development-process/k-3ddb79c59977a9f0.md",
-        "blob": "d6466c748206e7369e484a3a878116681e9899ff",
-        "digest": "2c7827d77455746cb197622e1368e1773481d8e4ea50a412bfc25f9ab5250cdd",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-3ddb79c59977a9f0.md"
+        "blob": "0d68d9f4657588e19b52b5d9b114a4bfc1aec335",
+        "digest": "49f907389f29b99fcac20e8d1575ea77b63c2b75e17edd9b118ddce46d0204c6",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-3ddb79c59977a9f0.md"
       },
       {
         "id": "k-3e976cb288ac805d",
@@ -472,7 +580,7 @@
         "path": "knowledge/principles/development-process/k-3e976cb288ac805d.md",
         "blob": "f25a030afb162e84c3c558847d3d462cc9a3d33b",
         "digest": "45fcca564df07a850e2d472f708251a26a62494a08156ddca0e470f98e3b76ed",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-3e976cb288ac805d.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-3e976cb288ac805d.md"
       },
       {
         "id": "k-3f83490d1cf6bf02",
@@ -481,7 +589,7 @@
         "path": "knowledge/principles/development-process/k-3f83490d1cf6bf02.md",
         "blob": "9ff591f5361df496ce23ba0e655c45ed32f9d9de",
         "digest": "e55da010780f6bece5419f5ef0969e26ed0b908b0de3a1e458256aab13ed88f8",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-3f83490d1cf6bf02.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-3f83490d1cf6bf02.md"
       },
       {
         "id": "k-49427121c3d37c04",
@@ -490,16 +598,16 @@
         "path": "knowledge/principles/development-process/k-49427121c3d37c04.md",
         "blob": "5c689a24b2918d21d7322c8d77579a7b37cfb539",
         "digest": "692d76982309702cd7ac53f628f7155d6dcfab6579d489f301bcc978e6448c0f",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-49427121c3d37c04.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-49427121c3d37c04.md"
       },
       {
         "id": "k-53b874d26fbc1ddd",
         "type": "principle",
         "title": "AIツールは認知コストの削減で投資判断する",
         "path": "knowledge/principles/development-process/k-53b874d26fbc1ddd.md",
-        "blob": "405d6973244ce9db33b649bc05e47023761610c6",
-        "digest": "a2a0a771048e20f3ee7e1772062df4f592f9c5b5a19fce4e36bd5e4b02a81f4b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-53b874d26fbc1ddd.md"
+        "blob": "0a2c668c7876901b4c932281a2623493f7e77857",
+        "digest": "d26906200b5fde5aa0a70d0ff8423107b6190bd08a1d5b2f6e9b039f376c7a43",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-53b874d26fbc1ddd.md"
       },
       {
         "id": "k-55e0d5d013745fda",
@@ -508,7 +616,7 @@
         "path": "knowledge/principles/development-process/k-55e0d5d013745fda.md",
         "blob": "8102b0ccd7725fe4507b3a5f5de096675c28c74d",
         "digest": "7da8e76dd6284dc114d3baeda843ee3df7b2d4c3e19f4a62fff4b7c82ba5c85b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-55e0d5d013745fda.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-55e0d5d013745fda.md"
       },
       {
         "id": "k-59ebcac46c07180e",
@@ -517,7 +625,7 @@
         "path": "knowledge/principles/development-process/k-59ebcac46c07180e.md",
         "blob": "39232a07cf8bdc0455fb2bde4eed67f67657d0c0",
         "digest": "b578812833e83f48f5858a58bc3ff4110b3b19a73b9a93de98f7a84923216bc4",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-59ebcac46c07180e.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-59ebcac46c07180e.md"
       },
       {
         "id": "k-5c5789a9053c209a",
@@ -526,7 +634,7 @@
         "path": "knowledge/principles/development-process/k-5c5789a9053c209a.md",
         "blob": "5f534a944da934d0b28f5a140dc52fe6f5dab13b",
         "digest": "ccd8d3527fe21b857008795cf4c0b63aa73346eeafdae96410007522f4db7b3a",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-5c5789a9053c209a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-5c5789a9053c209a.md"
       },
       {
         "id": "k-5caa30903bcc5de2",
@@ -535,7 +643,16 @@
         "path": "knowledge/principles/development-process/k-5caa30903bcc5de2.md",
         "blob": "c9c4e81ad7592c3ea730d8b8d73e5a104f8d90e9",
         "digest": "85b74dddb4b3fc44b75b37a50545dcf2a26a91d55647cbc0c50c95a662d26c04",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-5caa30903bcc5de2.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-5caa30903bcc5de2.md"
+      },
+      {
+        "id": "k-5cab5edadf27210f",
+        "type": "principle",
+        "title": "生成とレビューで作業対象ごとの登録方針を共有する",
+        "path": "knowledge/principles/development-process/k-5cab5edadf27210f.md",
+        "blob": "75869e84c3b3cd6a8c2510c786f93759b20d1dfe",
+        "digest": "945f34226a64af422ed58252eb626dc72b2b99dd5c969261ad5ca4cba56b64ff",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-5cab5edadf27210f.md"
       },
       {
         "id": "k-7c01507f86f46660",
@@ -544,7 +661,7 @@
         "path": "knowledge/principles/development-process/k-7c01507f86f46660.md",
         "blob": "ecc7461b5f10027b5723b79ecfa1c2ccdadea573",
         "digest": "cf06a4b43e5568a173e44e1e3c23dbcfe693c8e214d05496c0b10cb9e64d2a3b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-7c01507f86f46660.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-7c01507f86f46660.md"
       },
       {
         "id": "k-7edd2b79c450ab07",
@@ -553,16 +670,25 @@
         "path": "knowledge/principles/development-process/k-7edd2b79c450ab07.md",
         "blob": "d4e1b8788990d535057e236514e0463ce695d104",
         "digest": "322fb13e15adae1b02219cf95d7fce478f4188784772ee41c34e9e6241eea1a5",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-7edd2b79c450ab07.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-7edd2b79c450ab07.md"
       },
       {
         "id": "k-838e51960661c08f",
         "type": "principle",
         "title": "AI向けドキュメントは責務と参照構造で説明する",
         "path": "knowledge/principles/development-process/k-838e51960661c08f.md",
-        "blob": "748f96af1b76a0e9d2c2fca2e286ea311633e911",
-        "digest": "aef7da37668a8654a6e28ba036e075817d76b97300ed7e92a1f691feb6c840f2",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-838e51960661c08f.md"
+        "blob": "0bffd473c993b8ce7d97797cd6db41578d2cac58",
+        "digest": "1558943f8f9ec912c1dd77299e4d98f6764f831b5542922197640a7a28fe6f5c",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-838e51960661c08f.md"
+      },
+      {
+        "id": "k-8d290466ad5dbafa",
+        "type": "principle",
+        "title": "Skillの共通化は用途と変更理由で判断する",
+        "path": "knowledge/principles/development-process/k-8d290466ad5dbafa.md",
+        "blob": "80c7cbc4bcbfbc982961595b4ade82537532efe5",
+        "digest": "95394962cedebe48d7ab66811ab3171e40141492ab2c090fef4c46b8fc172f3f",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-8d290466ad5dbafa.md"
       },
       {
         "id": "k-8f683f6261a605b6",
@@ -571,7 +697,7 @@
         "path": "knowledge/principles/development-process/k-8f683f6261a605b6.md",
         "blob": "065c390ae192c1919c6540f7f9fa9acc45dadb76",
         "digest": "46eec5b4715c1cb398fa0124a4c1ebf84f3580efac744526de25abb4152b8704",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-8f683f6261a605b6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-8f683f6261a605b6.md"
       },
       {
         "id": "k-94a9e4979e28732a",
@@ -580,7 +706,7 @@
         "path": "knowledge/principles/development-process/k-94a9e4979e28732a.md",
         "blob": "286f8f44663043aa3c749761ae6937f9073d446c",
         "digest": "0d29c9e8c279862370d2d07949b52e9e401b15ea7fe8f53928d176bb1c301a1e",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-94a9e4979e28732a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-94a9e4979e28732a.md"
       },
       {
         "id": "k-95ab8cac0e648a55",
@@ -589,7 +715,16 @@
         "path": "knowledge/principles/development-process/k-95ab8cac0e648a55.md",
         "blob": "22c22f67efc3111ab939e87a4a541f5e6e338e82",
         "digest": "dd3803622cfb275ff24a6a2055dc906f14fa3cc82fb73977831a00a6a495b8ca",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-95ab8cac0e648a55.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-95ab8cac0e648a55.md"
+      },
+      {
+        "id": "k-962298dad74b6ccd",
+        "type": "principle",
+        "title": "個人OSSはリリースごとに更新の影響を伝える",
+        "path": "knowledge/principles/development-process/k-962298dad74b6ccd.md",
+        "blob": "5cea966dfb0d597381c4a5d277581811cfb8d3cd",
+        "digest": "ffcbefd5125b1e90489ca988cec975fbe8ad09955396273ca45676c4b4b82a5a",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-962298dad74b6ccd.md"
       },
       {
         "id": "k-a9b0faffeeed8800",
@@ -598,7 +733,7 @@
         "path": "knowledge/principles/development-process/k-a9b0faffeeed8800.md",
         "blob": "0852b9ff9b2a34cfdf7e15ba744f91cf03806718",
         "digest": "695cbc496b79d31bc48afb6f1c5a09a37ab9972538a8d00b760259c3f692016c",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-a9b0faffeeed8800.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-a9b0faffeeed8800.md"
       },
       {
         "id": "k-b3e6e58729bb7709",
@@ -607,7 +742,7 @@
         "path": "knowledge/principles/development-process/k-b3e6e58729bb7709.md",
         "blob": "0ac99e312807767c5817a205b5d5a51782b81bd9",
         "digest": "d1d2b1f1dd4ed1468e3adb33d9ea0c5a1187663920cfb4a65a98498f05ae9fba",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-b3e6e58729bb7709.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-b3e6e58729bb7709.md"
       },
       {
         "id": "k-b6bac51054c079bf",
@@ -616,7 +751,7 @@
         "path": "knowledge/principles/development-process/k-b6bac51054c079bf.md",
         "blob": "a2750df949caf020c3da2e97b72ec766e98b0e2a",
         "digest": "756dfabdebc4e4dc6f6f6185ea8ea941d544303161422b31257fe0b7761b850e",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-b6bac51054c079bf.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-b6bac51054c079bf.md"
       },
       {
         "id": "k-bd28870e8387958e",
@@ -625,7 +760,7 @@
         "path": "knowledge/principles/development-process/k-bd28870e8387958e.md",
         "blob": "1dc1a546493eb7711a8e591321064c7fbe50464f",
         "digest": "0595983d96752fb247e7a3579f1265cfbc1522a57f24b91da9dfbf9f16f6cf58",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-bd28870e8387958e.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-bd28870e8387958e.md"
       },
       {
         "id": "k-c2677cc313efd69a",
@@ -634,16 +769,16 @@
         "path": "knowledge/principles/development-process/k-c2677cc313efd69a.md",
         "blob": "48b2ce4d23b8c6cf8fd410995f43e2b6b19ef1bb",
         "digest": "66ab5936db51b29427dd4b95d0d545a04e8371e9160561e16c69c8dad7d80aec",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-c2677cc313efd69a.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-c2677cc313efd69a.md"
       },
       {
         "id": "k-c7312886320ad33f",
         "type": "principle",
         "title": "AIの操作制約はPolicyで結果を制限する",
         "path": "knowledge/principles/development-process/k-c7312886320ad33f.md",
-        "blob": "98d58fccd9a78c46185219f792ddf6ca402e80cb",
-        "digest": "2fda63face10701a1626f61cf99ac55ee2518b9c2141fd79347d16cd523bf93f",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-c7312886320ad33f.md"
+        "blob": "38183d8578ca166ef839a671d0b0d90e7e70731f",
+        "digest": "033d03e51c564122f861848e467a35d3c609f416b06a4de21579fba931f5691b",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-c7312886320ad33f.md"
       },
       {
         "id": "k-c8c18cc4a6746b87",
@@ -652,7 +787,7 @@
         "path": "knowledge/principles/development-process/k-c8c18cc4a6746b87.md",
         "blob": "71662f39279e8939c09644c95ab478169d169325",
         "digest": "1ee0de90ce23b9ad5dbff2cd88dc38458441738c9f74b343dd6927ed7aa7d3cf",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-c8c18cc4a6746b87.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-c8c18cc4a6746b87.md"
       },
       {
         "id": "k-cace147d56d039c9",
@@ -661,7 +796,7 @@
         "path": "knowledge/principles/development-process/k-cace147d56d039c9.md",
         "blob": "068de6d5c891eb72d366482fbf9a7b91c18cc494",
         "digest": "487bc636ea04b13a43ca1481ed3b4132d1dd10d189ed88eda7a52a8b4a6f6061",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-cace147d56d039c9.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cace147d56d039c9.md"
       },
       {
         "id": "k-cb4b907775bc93a7",
@@ -670,7 +805,7 @@
         "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
         "blob": "0fce0672bad214f518a07d423d1402371d207a61",
         "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-cb4b907775bc93a7.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cb4b907775bc93a7.md"
       },
       {
         "id": "k-cfb0bb408a84ca5f",
@@ -679,7 +814,7 @@
         "path": "knowledge/principles/development-process/k-cfb0bb408a84ca5f.md",
         "blob": "ab0f881bbbfd41878e5e762d724af3d9eee1351f",
         "digest": "97d17ae36efb79b4f2dd2c9465ecc7c69cf327b8f88c3e7bf32c8725abb90160",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-cfb0bb408a84ca5f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cfb0bb408a84ca5f.md"
       },
       {
         "id": "k-cff4d20a9bc43e30",
@@ -688,7 +823,7 @@
         "path": "knowledge/principles/development-process/k-cff4d20a9bc43e30.md",
         "blob": "a5580b0e080a7ba84b7b8c256222e048284bcccf",
         "digest": "bf2a1704e1331290b9dd9e0dd26c12c76376091da8d55744b8b7846233070ef5",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-cff4d20a9bc43e30.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cff4d20a9bc43e30.md"
       },
       {
         "id": "k-d00d5434cb5bb73e",
@@ -697,7 +832,7 @@
         "path": "knowledge/principles/development-process/k-d00d5434cb5bb73e.md",
         "blob": "c9393a0063df112d432ba29f9158ab5166a3d00f",
         "digest": "a77b0ebffbc036a29d9790d84bcd1d27e98fc3f82053ab2175ba7ca74c58661e",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-d00d5434cb5bb73e.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-d00d5434cb5bb73e.md"
       },
       {
         "id": "k-d24184b6e646329f",
@@ -706,7 +841,7 @@
         "path": "knowledge/principles/development-process/k-d24184b6e646329f.md",
         "blob": "ab6047df44dc97b9f36473bfe4e795b18f1fa342",
         "digest": "c54a835bdb2f26a7422955bfd65679a757e0327ca70fcc2d4b1b81022db8607d",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-d24184b6e646329f.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-d24184b6e646329f.md"
       },
       {
         "id": "k-dd48dc1f30a5dbac",
@@ -715,7 +850,7 @@
         "path": "knowledge/principles/development-process/k-dd48dc1f30a5dbac.md",
         "blob": "c773f98d12e8c8cd39361f40eab475cbd56012f4",
         "digest": "eb283df8d70c3e14592c9ee40081d219533240a96fdb7baee1b38b73659a4c4f",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-dd48dc1f30a5dbac.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-dd48dc1f30a5dbac.md"
       },
       {
         "id": "k-e4905c42b314c4c4",
@@ -724,7 +859,7 @@
         "path": "knowledge/principles/development-process/k-e4905c42b314c4c4.md",
         "blob": "9235f1f245a77ee05809d8ab015bc9dd39e6714c",
         "digest": "1e76596fa81ee9348c056faf7242d5c02bcb84a7c0438ed91092a20bb6171626",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-e4905c42b314c4c4.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-e4905c42b314c4c4.md"
       },
       {
         "id": "k-ed9431132a1300be",
@@ -733,16 +868,16 @@
         "path": "knowledge/principles/development-process/k-ed9431132a1300be.md",
         "blob": "89fa5f2fae54f4339ef9d59c2513cf67a9c6c307",
         "digest": "1166025c5aaebca225c7ee82ec8c6b6780d7d48a9ef14fbbb59393f2ea5b1e13",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-ed9431132a1300be.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-ed9431132a1300be.md"
       },
       {
         "id": "k-f1b6da308d1daaf7",
         "type": "principle",
         "title": "エージェントのモデルは責務に応じて選ぶ",
         "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
-        "blob": "e41fb2243fa6cf4ac8071757c7358a558665977e",
-        "digest": "ff0660c148f1e4ba386bc4e0d589062f861712619edefa83bdbf7383075b2bc8",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-f1b6da308d1daaf7.md"
+        "blob": "6cb991cdfab6cd0151820dae51ea35f02df6fffa",
+        "digest": "287b83b7ef21ac23e106d69b18c273b8d5e089a5b1f7802d1afd65bbb5c0b6b2",
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-f1b6da308d1daaf7.md"
       },
       {
         "id": "k-f51a362201719cec",
@@ -751,7 +886,7 @@
         "path": "knowledge/principles/development-process/k-f51a362201719cec.md",
         "blob": "c503432cf0190e49c04324ce776ca6af84ea4941",
         "digest": "b9c9afd511d1fd90bc610c82d95dc6a735c19c7cee03f80080803c3eee9498b8",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-f51a362201719cec.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-f51a362201719cec.md"
       },
       {
         "id": "k-faeac1f2745de751",
@@ -760,7 +895,7 @@
         "path": "knowledge/principles/development-process/k-faeac1f2745de751.md",
         "blob": "2efa95e5c15236a39b837a87531f41f000b1bd9c",
         "digest": "7c7c7d881660133eacd5dcde3abbb2ea888264faea829504f4114b22473d64f5",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-faeac1f2745de751.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-faeac1f2745de751.md"
       },
       {
         "id": "k-a3cbbc2c7f124a3d",
@@ -769,7 +904,7 @@
         "path": "knowledge/principles/development-tools/k-a3cbbc2c7f124a3d.md",
         "blob": "5e5ff88805a2b7d66cd9903a79e1655b40b49444",
         "digest": "dd55671244ac8a20e536b6fb303b4cdda1065d9e57d797a026ba77878f134c4a",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-tools/k-a3cbbc2c7f124a3d.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-tools/k-a3cbbc2c7f124a3d.md"
       },
       {
         "id": "k-20bf6db73d8aa7b6",
@@ -778,7 +913,7 @@
         "path": "knowledge/principles/git/k-20bf6db73d8aa7b6.md",
         "blob": "dbb5e938b8020cfa2ce75e9a057605f06d0f58f0",
         "digest": "a7238688b0aed0eebbfb6b178eee66ae1433d300c0f23809ce8453f269e49d13",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/git/k-20bf6db73d8aa7b6.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/git/k-20bf6db73d8aa7b6.md"
       },
       {
         "id": "k-ea486b2c30bdf5ec",
@@ -787,7 +922,7 @@
         "path": "knowledge/principles/learning/k-ea486b2c30bdf5ec.md",
         "blob": "fd1866bde537978742f185f009e2d0758e45c8b2",
         "digest": "d4c4d257c853d4ab5f8cee1d2ce20653fc721af5c7b8017f89d92745c6d5fc53",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/learning/k-ea486b2c30bdf5ec.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/learning/k-ea486b2c30bdf5ec.md"
       },
       {
         "id": "k-521ed05503772955",
@@ -796,7 +931,7 @@
         "path": "knowledge/principles/neovim/k-521ed05503772955.md",
         "blob": "5a405cc209c6f6b88b7586635214fe9e84d9ef07",
         "digest": "d7cf2992612ba252eefed36298b6a2519a96ea8b44811cdc71e3fc9d337d0662",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/neovim/k-521ed05503772955.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/neovim/k-521ed05503772955.md"
       },
       {
         "id": "k-d6c113cecb02d6e2",
@@ -805,13 +940,13 @@
         "path": "knowledge/principles/neovim/k-d6c113cecb02d6e2.md",
         "blob": "4fa8d7cafd4854118f0e906f00a2089079f7549a",
         "digest": "f9c7386295ed33cdc4497984848ef838603f6879bbe756b67ca55e9748d93dea",
-        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/neovim/k-d6c113cecb02d6e2.md"
+        "url": "https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/neovim/k-d6c113cecb02d6e2.md"
       }
     ]
   },
   "managed": {
     "skills/simplify-design/SKILL.md": {
-      "digest": "647d8cc42c0885ac5af98b59978f9197199875b0418baa577d6e4aff1b575236",
+      "digest": "a2b4d59928b92dd22e05592751e7a5287eaadb99a8102959edd6b569e74881ca",
       "sources": [
         {
           "id": "k-094d1e9c150747ec",
@@ -836,6 +971,18 @@
           "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
           "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
           "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953"
+        },
+        {
+          "id": "k-3ddb79c59977a9f0",
+          "path": "knowledge/principles/development-process/k-3ddb79c59977a9f0.md",
+          "blob": "0d68d9f4657588e19b52b5d9b114a4bfc1aec335",
+          "digest": "49f907389f29b99fcac20e8d1575ea77b63c2b75e17edd9b118ddce46d0204c6"
+        },
+        {
+          "id": "k-8d290466ad5dbafa",
+          "path": "knowledge/principles/development-process/k-8d290466ad5dbafa.md",
+          "blob": "80c7cbc4bcbfbc982961595b4ade82537532efe5",
+          "digest": "95394962cedebe48d7ab66811ab3171e40141492ab2c090fef4c46b8fc172f3f"
         }
       ]
     },
@@ -875,7 +1022,7 @@
       ]
     },
     "skills/maintain-document-meaning/SKILL.md": {
-      "digest": "96773493813d4b61c9ddf37a651a5fccf32c1e66bd86fecf3bb932d3db13159d",
+      "digest": "2c5a1d38a89616afd5499dcef6dd1e8f311b03e66c1c1f712f840075e2e6cf7a",
       "sources": [
         {
           "id": "k-59ebcac46c07180e",
@@ -886,13 +1033,13 @@
         {
           "id": "k-838e51960661c08f",
           "path": "knowledge/principles/development-process/k-838e51960661c08f.md",
-          "blob": "748f96af1b76a0e9d2c2fca2e286ea311633e911",
-          "digest": "aef7da37668a8654a6e28ba036e075817d76b97300ed7e92a1f691feb6c840f2"
+          "blob": "0bffd473c993b8ce7d97797cd6db41578d2cac58",
+          "digest": "1558943f8f9ec912c1dd77299e4d98f6764f831b5542922197640a7a28fe6f5c"
         }
       ]
     },
     "skills/design-agent-workflows/SKILL.md": {
-      "digest": "08568abffbe1eb60b83d38e9b246acecfcd1c2f4ce8814638f1dd097c8c05e07",
+      "digest": "d61ccfb5e2829f7314bfeef5a95230840123e7450dc4d96d93202c4e3fc37c91",
       "sources": [
         {
           "id": "k-1c336721577e40fb",
@@ -909,8 +1056,8 @@
         {
           "id": "k-3953b9c0e4266be4",
           "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
-          "blob": "91c682def97f5666589a249d3cda04b4693b4c2f",
-          "digest": "29dc30b09c80dade88ca7fc48c3beef3a2c5e499db75a86071b8b3efa91464a2"
+          "blob": "3a274b98e8cddc7ce3058685f2785ee5c081a03a",
+          "digest": "9e8e1a8524ff3f20bf2440e755cde61ea8870536ae1843a82479b04aa271a8cc"
         },
         {
           "id": "k-cfb0bb408a84ca5f",
@@ -921,8 +1068,8 @@
         {
           "id": "k-f1b6da308d1daaf7",
           "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
-          "blob": "e41fb2243fa6cf4ac8071757c7358a558665977e",
-          "digest": "ff0660c148f1e4ba386bc4e0d589062f861712619edefa83bdbf7383075b2bc8"
+          "blob": "6cb991cdfab6cd0151820dae51ea35f02df6fffa",
+          "digest": "287b83b7ef21ac23e106d69b18c273b8d5e089a5b1f7802d1afd65bbb5c0b6b2"
         },
         {
           "id": "k-ed9431132a1300be",
@@ -935,6 +1082,18 @@
           "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
           "blob": "0fce0672bad214f518a07d423d1402371d207a61",
           "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b"
+        },
+        {
+          "id": "k-259092392aa4081c",
+          "path": "knowledge/principles/development-process/k-259092392aa4081c.md",
+          "blob": "700be1f07d321532231f26fc0ae2dbf9094cd40d",
+          "digest": "81a21618b691c9dc5d8c2c9b3fa161e380e8703042fd3c3bd2d337b9f0147e7f"
+        },
+        {
+          "id": "k-c7312886320ad33f",
+          "path": "knowledge/principles/development-process/k-c7312886320ad33f.md",
+          "blob": "38183d8578ca166ef839a671d0b0d90e7e70731f",
+          "digest": "033d03e51c564122f861848e467a35d3c609f416b06a4de21579fba931f5691b"
         }
       ]
     },
@@ -957,6 +1116,45 @@
           "path": "knowledge/principles/learning/k-ea486b2c30bdf5ec.md",
           "blob": "fd1866bde537978742f185f009e2d0758e45c8b2",
           "digest": "d4c4d257c853d4ab5f8cee1d2ce20653fc721af5c7b8017f89d92745c6d5fc53"
+        }
+      ]
+    },
+    "skills/share-task-policies/SKILL.md": {
+      "digest": "b0f2fc2d93db759437b3d17ff0c9ee2ce31f1acfbe34511063f1d118dc8dd5fa",
+      "sources": [
+        {
+          "id": "k-5cab5edadf27210f",
+          "path": "knowledge/principles/development-process/k-5cab5edadf27210f.md",
+          "blob": "75869e84c3b3cd6a8c2510c786f93759b20d1dfe",
+          "digest": "945f34226a64af422ed58252eb626dc72b2b99dd5c969261ad5ca4cba56b64ff"
+        }
+      ]
+    },
+    "skills/evaluate-development-tooling/SKILL.md": {
+      "digest": "2cd3e6d8a3f2a73bf5176919d6d412812fd2694463da59a00a5951c06c95bc84",
+      "sources": [
+        {
+          "id": "k-392e524a7ce400e8",
+          "path": "knowledge/principles/development-process/k-392e524a7ce400e8.md",
+          "blob": "53608a68b0e850fef2ec225c42bb05f8583fc61b",
+          "digest": "87fb81a06e88aeaa412eded4063e12f3b0cda483c3e1e85276f2ca51e52c68e9"
+        },
+        {
+          "id": "k-53b874d26fbc1ddd",
+          "path": "knowledge/principles/development-process/k-53b874d26fbc1ddd.md",
+          "blob": "0a2c668c7876901b4c932281a2623493f7e77857",
+          "digest": "d26906200b5fde5aa0a70d0ff8423107b6190bd08a1d5b2f6e9b039f376c7a43"
+        }
+      ]
+    },
+    "skills/communicate-oss-releases/SKILL.md": {
+      "digest": "8b70c03c75091a884b07d262c17c31a3a314d77959712aa0539627d0361e40a2",
+      "sources": [
+        {
+          "id": "k-962298dad74b6ccd",
+          "path": "knowledge/principles/development-process/k-962298dad74b6ccd.md",
+          "blob": "5cea966dfb0d597381c4a5d277581811cfb8d3cd",
+          "digest": "ffcbefd5125b1e90489ca988cec975fbe8ad09955396273ca45676c4b4b82a5a"
         }
       ]
     }
@@ -996,6 +1194,7 @@
   "reviewedTree": null,
   "applied": [
     "96ed3c364e8a3c37cc141c7601311ab4be7ccd3783c896e3f1a33c71587b0956",
-    "9ba056f3912002a14486af51b975d05cc5b6befe2281ccf9eecabe22e4819234"
+    "9ba056f3912002a14486af51b975d05cc5b6befe2281ccf9eecabe22e4819234",
+    "d28ce9b5384a9ef8547adf97a1e4a1a6452dc8f6ddd7f1d19633ac8039315b65"
   ]
 }
