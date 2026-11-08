@@ -13,6 +13,7 @@ description: AIワークフローや定期処理を設計するとき、責務�
 ## 計画と役割
 
 - 計画をレビューする構成では、親Agentが既存コードと要求を確認し、ユーザーとの対話を持ったまま仕様をタスクへ分ける。独立Reviewerには仕様の具体性、要求の網羅、粒度、依存と競合を確認してもらう。親Agentが修正・追加質問・計画提示を担当する。
+- 親・Worker・Reviewerに分ける構成では、親Agentが重要な設計判断と実装に必要な情報をタスクに残す。明確になった実装は原則Workerに任せ、親Agentが統合し、Reviewerが独立して成果物を確認する。会話履歴を前提とせず引き継げる記述にする。独立したタスクは並行でき、Workerには必要な品質を満たす範囲で低コストのモデルを選べる。軽微な変更は直接実装も比較し、実行時間、利用枠、品質、手戻りで委譲の効果を測る。
 - 専門知識は、まずSkillや判断基準として既存Agentに渡せるか検討する。独立した文脈やレビュー、並列化、権限や環境の分離による利点を、引き継ぎ、同期、実行時間、トークン、責務管理、統合の負担と比べて実行主体を分ける。
 - モデルはタスクの難しさと必要な品質から選ぶ。判断や曖昧な設計には推論力を、手順が明確な反復作業には品質を満たす範囲で速度とコストを重視する。独立レビューは正確性、相談は問題に応じた推論力を重視する。Workflowは必要な能力を指定し、具体的なモデルはAgent設定か実行時に選ぶ。明示指定ができない環境では既定設定を使う。エスカレーションでは、選んだモデル名と選定理由を記録する。明示指定ができなければ、既定設定を継承したこととその理由を記録する。
 
@@ -23,12 +24,13 @@ description: AIワークフローや定期処理を設計するとき、責務�
 
 ## 出典
 
-- [AIフローでは能力・制御・判断知識を分離する](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-1c336721577e40fb.md)
-- [Workflowの状態は既存成果物から導出する](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-0befd2ddf54d4781.md)
-- [Agentは必要最小限にし専門性は知識で拡張する](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-3953b9c0e4266be4.md)
-- [Workflowは実行契機から独立させる](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cfb0bb408a84ca5f.md)
-- [エージェントのモデルは責務に応じて選ぶ](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-f1b6da308d1daaf7.md)
-- [AIチャットは永続状態の更新境界で切り替える](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-ed9431132a1300be.md)
-- [AI Workflowは探索量と完了時間で評価する](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-cb4b907775bc93a7.md)
-- [仕様理解とタスク分解は親Agentが担当し計画を独立レビューする](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-259092392aa4081c.md)
-- [AIの操作制約はPolicyで結果を制限する](https://github.com/shu-matsukubo/matsu-second-brain/blob/94370a51c5e856ceffb68afdc8a3b48fdfb813d9/knowledge/principles/development-process/k-c7312886320ad33f.md)
+- [AIフローでは能力・制御・判断知識を分離する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-1c336721577e40fb.md)
+- [Workflowの状態は既存成果物から導出する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-0befd2ddf54d4781.md)
+- [Agentは必要最小限にし専門性は知識で拡張する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-3953b9c0e4266be4.md)
+- [Workflowは実行契機から独立させる](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-cfb0bb408a84ca5f.md)
+- [エージェントのモデルは責務に応じて選ぶ](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-f1b6da308d1daaf7.md)
+- [AIチャットは永続状態の更新境界で切り替える](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-ed9431132a1300be.md)
+- [AI Workflowは探索量と完了時間で評価する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-cb4b907775bc93a7.md)
+- [仕様理解とタスク分解は親Agentが担当し計画を独立レビューする](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-259092392aa4081c.md)
+- [AIの操作制約はPolicyで結果を制限する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-c7312886320ad33f.md)
+- [親Agentの判断をタスクに残し実装をWorkerに委譲する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-5466f5c53ed15e3d.md)

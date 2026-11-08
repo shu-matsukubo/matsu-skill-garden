@@ -14,8 +14,16 @@ description: ナレッジの自動収集を設計・見直すとき、用途の�
 
 収集側は情報の一時保存を担い、分類・検証・ナレッジ化は後続へ委ねる。完全性だけを理由に複雑な仕組みを追加せず、新しいサービスやサーバーには継続的な管理・保守コストも含めて判断する。取得漏れを許容しない用途では、その要件を維持して設計する。
 
+## 入力の受け口と整理済み知識
+
+未整理の入力を受け取る窓口と、整理済み知識の正本を分ける。閲覧側は整理済みの正本を参照する。入力方法を変えても、知識の保存先と閲覧方法を維持できるようにする。第2の脳ではGitHubの `knowledge/` にMarkdownの正本を置く。専用Inboxを運用するかは、認証・デプロイ・保守の負担と、既存サービスで入力を受けられるかを比較して決める。
+
+## 開発会話から候補を拾う
+
+本人の意思が読み取れるかを基準にする。技術的に小さなアイデア、設計や技術選定の理由、未解決の検討、既存方針を変える発言も候補に含める。AIの提案、本人の発言・承認、確定した判断、未確定の案を区別する。知識に反映するときは既存記録と照合し、重複と矛盾を整理する。
+
 ## 出典
 
-現在のprincipleを利用場面へまとめた派生Skill。固定commitの出典：
-
-- [ナレッジ収集は取得漏れの許容範囲で安全な継続性を優先する](https://github.com/shu-matsukubo/matsu-second-brain/blob/0488df05cd17624f946312f04d7ab3bcd1091b9a/knowledge/principles/development-process/k-49427121c3d37c04.md)
+- [ナレッジ収集は取得漏れの許容範囲で安全な継続性を優先する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-49427121c3d37c04.md)
+- [開発会話から本人の意思を技術難度にかかわらず拾う](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-25dba149959c54f0.md)
+- [第2の脳は入力窓口と整理済み知識の正本を分ける](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-7652ec730db0f40b.md)

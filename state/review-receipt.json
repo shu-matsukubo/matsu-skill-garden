@@ -1,40 +1,37 @@
 {
-  "reviewedAt": "2026-11-07T22:51:18.2949139Z",
-  "result": "pass",
-  "reviewer": "isolated-codex:01a1b834-e40c-7b02-b679-f2b45b733a88",
-  "reasoning": "high",
-  "approvalPolicy": "never",
-  "digest": "f0a44e2919cd5dfd77d1d7883a66c249f522be5013fee90c5c109706306cbfcb",
-  "model": "gpt-6.1-sol",
-  "sandbox": "read-only",
   "schemaVersion": 1,
+  "digest": "01f9064471d84ee6c3eceabbdb92fad1f193e6846c79e329b4df6f50f6b806a8",
+  "result": "pass",
+  "independent": true,
+  "reviewer": "isolated-codex:01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf",
+  "reviewedAt": "2026-11-08T22:47:34.083Z",
+  "evidence": "Independent full review and final scoped re-review: 01a1bd54-4c8a-7d52-89df-c61489dd0241, 01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf. Both required scope findings resolved. Verified fixed 122-entry manifest, all 20 changes and final bundle.",
+  "reviewIds": [
+    "01a1bd54-4c8a-7d52-89df-c61489dd0241",
+    "01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf"
+  ],
+  "model": "gpt-6.1-sol",
+  "reasoning": "high",
+  "sandbox": "read-only",
+  "approvalPolicy": "never",
+  "evaluatedKnowledgeChanges": 20,
+  "sourceCommit": "b6490b31a45a0d36ccef0582a6e8f4ff338695c4",
+  "resolvedFindings": [
+    "scope-periodic-knowledge-organization",
+    "scope-skill-authoring-conventions"
+  ],
   "reviewSummary": [
-    "Compared all six edited or added Skills with their cited current principle bodies at commit 94370a51c5e856ceffb68afdc8a3b48fdfb813d9. Compared the three edited Skills with their prior text for material regressions.",
-    "Checked how the six Skills fit into the nine-Skill inventory, including the distinction between workflow design, risk-based review, registered task policies, and tooling evaluation.",
-    "Cross-checked the 21 audited changes against the supplied state and managed provenance. All 11 changed or added principles map to the stated outputs. The two facts and eight ideas retain their snapshot types and have no generated provenance. Both reports remain open and reviewedTree is null.",
-    "The OSS release and tooling evaluation Skills are supported by their cited principles. The release Skill leaves the choice of changelog host open, and the tooling Skill evaluates trigger retirement within its design scope.",
-    "workflow-trigger-scope resolved. Manual and scheduled runs share a workflow when their processing matches. Trigger-specific decisions stay at the entry point, and the upper-level workflow calls existing procedures and handles shared checks.",
-    "workflow-state-guardrails resolved. Existing artifacts supply progress, additional state is limited to what safe handoff requires, and existing approval boundaries govern when a waiting state is needed.",
-    "workflow-model-scope partially resolved. Task difficulty and required quality guide model selection, workflows specify capabilities, and the escalation record covers explicit selection and default inheritance. The record still omits the identity of an explicitly selected model.",
-    "workflow-policy-outcomes resolved. Policy defines prohibited outcomes, and dangerous operations use a common preflight path that checks the target, authority, and proposed operation. Publication controls still cover alternate paths.",
-    "simplify-design-selection-thresholds resolved. Abstraction waits for multiple concrete uses. Persistence uses the smallest approach that meets current guarantees, stays replaceable behind its boundary, and keeps the Core separate from viewer and editor clients.",
-    "document-reference-scope resolved. The link-based rule applies to operational directives in AGENTS.md and SKILL.md. Each rule has one authoritative location, and material is split when that reduces lookup and editing effort.",
-    "task-policy-split-guardrail resolved. Step 2 retains the one-policy cap and explicitly preserves coherent tasks when policy applicability is the only reason to split them.",
-    "Carried forward the unaffected first-review coverage for the nine-Skill inventory, the OSS release and tooling evaluation Skills, and the provenance and report state for all 21 audited changes.",
-    "workflow-model-scope is resolved in skills/design-agent-workflows/SKILL.md. The revised text requires recording the selected model by name and the reason for choosing it. When explicit selection is unavailable, it requires recording that the default was inherited and why. Both cases match the supplied fixed-commit principle k-f1b6da308d1daaf7.",
-    "All other prior review coverage and source references carry forward."
+    "Reviewed all eight changed Skills against the supplied current principle bodies, the six prior versions, and the full Skill inventory. Checked applicability, authorization, required versus suggested behavior, thresholds, and uncertainty.",
+    "Checked the 20 ingest dispositions against the captured state. The one fact and six ideas remain metadata, and both reports remain open.",
+    "Both Viewer principles belong in the fixed manifest. The 8px and 4px spacing rules and the human decision on Cloudflare deployment timing are Viewer-specific. The current inventory appropriately leaves those policies with the Viewer.",
+    "The PR workflow checks required CI on the latest head and preserves human review and merge where the workflow assigns those roles to people. The garden's standing merge authorization comes from the owner and remains subject to independent review and the documented CI and SHA checks.",
+    "Both required scope findings are resolved. In skills/evaluate-development-tooling/SKILL.md, the general criterion still asks whether automation reduces what people must remember. The human-owned input and policy decisions, AI organization under approved policy, and separate improvement report now apply explicitly to the Second Brain, consistent with k-f51a362201719cec.",
+    "In skills/maintain-document-meaning/SKILL.md, responsibilities, canonical sources, and when to read information remain portable guidance. The file layout, numbered flow, and instruction-link formats apply only in environments that adopt the cited document structure. This preserves the distinction between k-838e51960661c08f and k-93b112cfea83692e.",
+    "Compared both supplied before-and-after Skill texts with all six supplied current principle bodies. The revisions preserve source attribution and introduce no material issue.",
+    "The unaffected coverage from the prior independent review carries forward based on the operator's verification of the bundle, source bodies, and state changes. That coverage includes the other six changed Skills, the Skill inventory, all 20 ingest dispositions, both open reports, the Viewer manifest and policy boundaries, and the PR workflow's CI and authorization checks."
   ],
   "limitations": [
-    "The final re-review used only the supplied artifacts. Digest verification, change scope, and the passing state and Markdown checks rely on the parent’s evidence.",
-    "Runtime CI and publication remain pending."
-  ],
-  "reviewIds": [
-    "01a1b82f-a63b-76d3-95b4-e80cacb6fb72",
-    "01a1b833-5f62-79e3-9e3d-3100a7a46d39",
-    "01a1b834-e40c-7b02-b679-f2b45b733a88"
-  ],
-  "evaluatedKnowledgeChanges": 21,
-  "evidence": "Full content and source review followed by two scoped re-reviews: 01a1b82f-a63b-76d3-95b4-e80cacb6fb72, 01a1b833-5f62-79e3-9e3d-3100a7a46d39, 01a1b834-e40c-7b02-b679-f2b45b733a88. Seven required findings resolved on the final digest. Fixed 104-entry manifest and all 21 changes verified.",
-  "sourceCommit": "94370a51c5e856ceffb68afdc8a3b48fdfb813d9",
-  "independent": true
+    "The review was limited to the supplied artifacts. The exact repository digest, bundle equivalence outside the two Skills and state, and recomputed state digests rely on operator verification.",
+    "The operator reported 42 passing tests and one skipped Windows junction test. npm run check, garden validate, and git diff --check passed. Runtime CI and publication remain pending."
+  ]
 }
