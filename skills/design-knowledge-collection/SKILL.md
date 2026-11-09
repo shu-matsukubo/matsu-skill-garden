@@ -1,6 +1,6 @@
 ---
 name: design-knowledge-collection
-description: ナレッジの自動収集を設計・見直すとき、用途の取得漏れ許容範囲を確認し、安全な保存・既存データの保全・後続整理との接続・継続コストを評価する。
+description: ナレッジの自動収集を設計・見直すときや、開発会話から候補を拾うときに使う。取得漏れの許容範囲、安全な保存と既存データの保全、後続整理、継続コスト、発言の確度を確認する。
 ---
 
 # 安全に継続できるナレッジ収集を設計する
@@ -16,14 +16,14 @@ description: ナレッジの自動収集を設計・見直すとき、用途の�
 
 ## 入力の受け口と整理済み知識
 
-未整理の入力を受け取る窓口と、整理済み知識の正本を分ける。閲覧側は整理済みの正本を参照する。入力方法を変えても、知識の保存先と閲覧方法を維持できるようにする。第2の脳ではGitHubの `knowledge/` にMarkdownの正本を置く。専用Inboxを運用するかは、認証・デプロイ・保守の負担と、既存サービスで入力を受けられるかを比較して決める。
+未整理の入力を受け取る窓口と、整理済み知識の正本を分ける。閲覧側は整理済みの正本を参照する。入力方法を変えても、知識の保存先と閲覧方法を維持できるようにする。第2の脳ではGitHubの `knowledge/` にMarkdownの正本を置く。専用Inboxを運用するかは、認証・デプロイ・保守の負担と、既存サービスで入力を受けられるかを比較して決める。第2の脳の未整理の入力は、取り込み済みかを判定し、次の対象を取得しやすくするため、Notionで管理する。
 
 ## 開発会話から候補を拾う
 
-本人の意思が読み取れるかを基準にする。技術的に小さなアイデア、設計や技術選定の理由、未解決の検討、既存方針を変える発言も候補に含める。AIの提案、本人の発言・承認、確定した判断、未確定の案を区別する。知識に反映するときは既存記録と照合し、重複と矛盾を整理する。
+開発に直接関係し、本人の意思が読み取れる発言を候補にする。小さなアイデア、設計や技術選定の理由、未解決の検討、既存方針を変える発言に加え、開発についての雑談や疑問形の感想も対象にする。AIの提案と本人の発言・承認を区別する。確定した判断と検討中の考えを分け、未確定の感想や評価は検討中の考えとして残す。整理段階で開発との関係を改めて確かめ、無関係な入力は保留する。知識に反映するときは既存記録と照合して重複と矛盾を整理する。
 
 ## 出典
 
-- [ナレッジ収集は取得漏れの許容範囲で安全な継続性を優先する](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-49427121c3d37c04.md)
-- [開発会話から本人の意思を技術難度にかかわらず拾う](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-25dba149959c54f0.md)
-- [第2の脳は入力窓口と整理済み知識の正本を分ける](https://github.com/shu-matsukubo/matsu-second-brain/blob/b6490b31a45a0d36ccef0582a6e8f4ff338695c4/knowledge/principles/development-process/k-7652ec730db0f40b.md)
+- [ナレッジ収集は取得漏れの許容範囲で安全な継続性を優先する](https://github.com/shu-matsukubo/matsu-second-brain/blob/15141ff0f69bc38a1923141a1b645a4c358c11cb/knowledge/principles/development-process/k-49427121c3d37c04.md)
+- [開発会話から本人の意思を技術難度にかかわらず拾う](https://github.com/shu-matsukubo/matsu-second-brain/blob/15141ff0f69bc38a1923141a1b645a4c358c11cb/knowledge/principles/development-process/k-25dba149959c54f0.md)
+- [第2の脳は入力窓口と整理済み知識の正本を分ける](https://github.com/shu-matsukubo/matsu-second-brain/blob/15141ff0f69bc38a1923141a1b645a4c358c11cb/knowledge/principles/development-process/k-7652ec730db0f40b.md)
