@@ -1,37 +1,25 @@
 {
   "schemaVersion": 1,
-  "digest": "01f9064471d84ee6c3eceabbdb92fad1f193e6846c79e329b4df6f50f6b806a8",
+  "digest": "a3df861d7ffa24c5f03a35ddb6d87a6481a7b4627d44fab6f676039c25414f56",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf",
-  "reviewedAt": "2026-11-08T22:47:34.083Z",
-  "evidence": "Independent full review and final scoped re-review: 01a1bd54-4c8a-7d52-89df-c61489dd0241, 01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf. Both required scope findings resolved. Verified fixed 122-entry manifest, all 20 changes and final bundle.",
-  "reviewIds": [
-    "01a1bd54-4c8a-7d52-89df-c61489dd0241",
-    "01a1bd57-ec54-7a80-aea8-4de4a7d9d8cf"
-  ],
+  "reviewer": "isolated-codex:01a1c278-f9bd-7121-a9c5-77f8be183f3c",
+  "reviewedAt": "2026-11-09T22:42:10.096Z",
+  "evidence": "Independent read-only review 01a1c278-f9bd-7121-a9c5-77f8be183f3c of the exact final digest. Verified fixed 128-entry manifest, complete 8-entry diff, and scope and provenance of all three edited Skills.",
   "model": "gpt-6.1-sol",
   "reasoning": "high",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 20,
-  "sourceCommit": "b6490b31a45a0d36ccef0582a6e8f4ff338695c4",
-  "resolvedFindings": [
-    "scope-periodic-knowledge-organization",
-    "scope-skill-authoring-conventions"
-  ],
+  "evaluatedKnowledgeChanges": 8,
+  "sourceCommit": "15141ff0f69bc38a1923141a1b645a4c358c11cb",
   "reviewSummary": [
-    "Reviewed all eight changed Skills against the supplied current principle bodies, the six prior versions, and the full Skill inventory. Checked applicability, authorization, required versus suggested behavior, thresholds, and uncertainty.",
-    "Checked the 20 ingest dispositions against the captured state. The one fact and six ideas remain metadata, and both reports remain open.",
-    "Both Viewer principles belong in the fixed manifest. The 8px and 4px spacing rules and the human decision on Cloudflare deployment timing are Viewer-specific. The current inventory appropriately leaves those policies with the Viewer.",
-    "The PR workflow checks required CI on the latest head and preserves human review and merge where the workflow assigns those roles to people. The garden's standing merge authorization comes from the owner and remains subject to independent review and the documented CI and SHA checks.",
-    "Both required scope findings are resolved. In skills/evaluate-development-tooling/SKILL.md, the general criterion still asks whether automation reduces what people must remember. The human-owned input and policy decisions, AI organization under approved policy, and separate improvement report now apply explicitly to the Second Brain, consistent with k-f51a362201719cec.",
-    "In skills/maintain-document-meaning/SKILL.md, responsibilities, canonical sources, and when to read information remain portable guidance. The file layout, numbered flow, and instruction-link formats apply only in environments that adopt the cited document structure. This preserves the distinction between k-838e51960661c08f and k-93b112cfea83692e.",
-    "Compared both supplied before-and-after Skill texts with all six supplied current principle bodies. The revisions preserve source attribution and introduce no material issue.",
-    "The unaffected coverage from the prior independent review carries forward based on the operator's verification of the bundle, source bodies, and state changes. That coverage includes the other six changed Skills, the Skill inventory, all 20 ingest dispositions, both open reports, the Viewer manifest and policy boundaries, and the PR workflow's CI and authorization checks."
+    "Compared design-agent-workflows, design-knowledge-collection, and review-by-risk with their supplied previous versions and reviewed all five changed or added principle bodies at commit 15141ff0f69bc38a1923141a1b645a4c358c11cb.",
+    "Checked the scope of Second Brain input management in Notion and canonical knowledge in GitHub, the development-conversation selection and certainty rules, personal Notion handoff through approved destinations, and the fallback when a Skill is unavailable.",
+    "Checked that the Second Brain PR procedure preserves the latest-commit CI requirement and existing merge authority, including human handoff where assigned and the garden’s separate standing authorization.",
+    "Reviewed all eight ingest dispositions, checked the edited Skills’ citations and provenance against the fixed snapshot, and assessed their placement across all 11 generated Skills and the separate maintenance Skill. The three ideas remain metadata and both reports remain open."
   ],
   "limitations": [
-    "The review was limited to the supplied artifacts. The exact repository digest, bundle equivalence outside the two Skills and state, and recomputed state digests rely on operator verification.",
-    "The operator reported 42 passing tests and one skipped Windows junction test. npm run check, garden validate, and git diff --check passed. Runtime CI and publication remain pending."
+    "Review was limited to the supplied artifacts. Digest computation, manifest verification, plan application verification, and local check results were supplied by the operator. The local test run reported 42 passes and one Windows junction skip.",
+    "Runtime CI and publication were pending."
   ]
 }
