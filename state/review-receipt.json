@@ -1,25 +1,36 @@
 {
   "schemaVersion": 1,
-  "digest": "a3df861d7ffa24c5f03a35ddb6d87a6481a7b4627d44fab6f676039c25414f56",
+  "digest": "f665e812057eb522f75243205f015a5aa2f529021863e90ab4cf70e53e7d277a",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1c278-f9bd-7121-a9c5-77f8be183f3c",
-  "reviewedAt": "2026-11-09T22:42:10.096Z",
-  "evidence": "Independent read-only review 01a1c278-f9bd-7121-a9c5-77f8be183f3c of the exact final digest. Verified fixed 128-entry manifest, complete 8-entry diff, and scope and provenance of all three edited Skills.",
+  "reviewer": "isolated-codex:01a1c7a3-13a4-7960-88b5-1f30ad60e4d0",
+  "reviewedAt": "2026-11-10T22:45:47.575Z",
+  "evidence": "Independent read-only review 01a1c7a0-a4e5-78f2-bc43-0546fb81afa5 checked the resolution against the current learning principle and existing Skill, prompt-fed trial 01a1c79e-79f7-7c02-8d6c-78a873c91651, and the state. Re-review 01a1c7a3-13a4-7960-88b5-1f30ad60e4d0 confirmed the semantic drift prevention fix on the exact final digest.",
   "model": "gpt-6.1-sol",
   "reasoning": "high",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 8,
+  "trialId": "01a1c79e-79f7-7c02-8d6c-78a873c91651",
+  "reviewIds": [
+    "01a1c7a0-a4e5-78f2-bc43-0546fb81afa5",
+    "01a1c7a3-13a4-7960-88b5-1f30ad60e4d0"
+  ],
+  "reportId": "43c0ba0d559a8bee89718039a1530f2ce035611524b85314c714c30bd38affc9",
   "sourceCommit": "15141ff0f69bc38a1923141a1b645a4c358c11cb",
   "reviewSummary": [
-    "Compared design-agent-workflows, design-knowledge-collection, and review-by-risk with their supplied previous versions and reviewed all five changed or added principle bodies at commit 15141ff0f69bc38a1923141a1b645a4c358c11cb.",
-    "Checked the scope of Second Brain input management in Notion and canonical knowledge in GitHub, the development-conversation selection and certainty rules, personal Notion handoff through approved destinations, and the fallback when a Skill is unavailable.",
-    "Checked that the Second Brain PR procedure preserves the latest-commit CI requirement and existing merge authority, including human handoff where assigned and the garden’s separate standing authorization.",
-    "Reviewed all eight ingest dispositions, checked the edited Skills’ citations and provenance against the fixed snapshot, and assessed their placement across all 11 generated Skills and the separate maintenance Skill. The three ideas remain metadata and both reports remain open."
+    "The fixed current principle supports retaining learn-through-practice. The Skill preserves the sequence from a conceptual map and lookup sources to practical exercises and problem-driven detail, along with the distinct roles of understanding, memorization, and formal study.",
+    "The Skill has a distinct teaching purpose. Adjacent Skills cover tooling adoption, knowledge collection, and workflow design.",
+    "The supplied model trial selected the Skill for Git learning and produced a conceptual map, a practice exercise, and troubleshooting guidance. It selected no Skill for the request to summarize uncommitted changes.",
+    "The resolution preserves the report fingerprint and observed tree, records the current tree as resolvedTree, leaves the type-boundary report open, and leaves reviewedTree null. The operator's full comparison accounts for the resolution and one applied plan digest.",
+    "The prevention anchor exists and covers candidate selection. Existing CI covers structural and provenance checks.",
+    "The required finding is resolved. The prevention entry links to the supplied source-meaning anchor and calls for reviewing the Skill against the current principle at a fixed commit whenever the Skill or its source changes. The review checks the sequence from a conceptual overview to practice and the distinct roles of understanding, memorization, and formal study. This check would catch a change that moved detailed memorization ahead of practice while preserving the same use case.",
+    "The operator's comparison of both 30-file bundles and all 42 source bodies supports carrying forward the unaffected review coverage. The only reported changes were the prevention entry and the applied-plan digest. The prior assessment of the prevention entry is superseded by this review.",
+    "The supplied current principle supports retaining learn-through-practice as a distinct teaching Skill. Its instructions preserve the conceptual map, lookup sources, practical exercises, and problem-driven study of details. The prior comparison with adjacent Skills and the two model selection cases still apply.",
+    "The prior state review still applies to the report fingerprint, observedTree, resolvedTree, the open type-boundary report, and null reviewedTree. The revised prevention entry uses the existing semantic review alongside CI's structural and provenance checks. No new material concern surfaced."
   ],
   "limitations": [
-    "Review was limited to the supplied artifacts. Digest computation, manifest verification, plan application verification, and local check results were supplied by the operator. The local test run reported 42 passes and one Windows junction skip.",
-    "Runtime CI and publication were pending."
+    "Reviewed the supplied excerpts and prior review record. The final digest, full bundle and source comparison, and local check results are operator-reported. Those results include 42 passing tests, one skipped Windows junction test, and successful npm run check, garden validate, and git diff --check.",
+    "The model trial covers two prompt-fed selection cases and evaluates a learning response in the Git case only.",
+    "Runtime CI and publication remain pending."
   ]
 }

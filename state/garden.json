@@ -1476,14 +1476,15 @@
       "scope": "skills/",
       "prevention": {
         "kind": "review",
-        "reference": "docs/review-perspectives.md#growth-candidates",
-        "reason": "利用場面に必要な独立性と思想の意味は機械判定できないため。"
+        "reference": "docs/review-perspectives.md#source-meaning",
+        "reason": "このSkillや根拠が変わったときは、固定コミットの現行principleと照合し、全体像から実践へ進む順序と、理解・暗記・体系学習の役割が保たれているかをレビューする。既存のCIで構造と根拠の対応を検証し、内容の意味はレビューで確かめる。"
       },
       "fingerprint": "43c0ba0d559a8bee89718039a1530f2ce035611524b85314c714c30bd38affc9",
-      "status": "open",
-      "outcome": null,
+      "status": "resolved",
+      "outcome": "PR #3で追加された skills/learn-through-practice/SKILL.md を学習支援専用のSkillとして維持する。現行principle k-ea486b2c30bdf5ecの全体像、調べる場所、実践で壁を解決しながら詳細を学ぶ順序、理解と暗記の区別、資格・体系学習の役割を確認した。技術を学びたいという依頼に対して、概念の地図から実践へ進む固有の手順を提供する。既存の一覧と本文を与えたモデル試行では、Gitの学習依頼でこのSkillが選ばれ、add・commit・pushの関係、練習用リポジトリでの課題、詰まった箇所の調べ方が示された。未コミット変更の要約依頼では選択なしだった。試行範囲は、説明と本文を渡したときの選択・応答の2例。",
       "observedTree": "53052ff40024788f0111b5921d52798b5c422f6d",
-      "history": []
+      "history": [],
+      "resolvedTree": "3463519793abb0b3db6b74118133205d03ce5282"
     },
     {
       "title": "外部境界と型の思想の反映方法を評価する",
@@ -1507,6 +1508,7 @@
     "9ba056f3912002a14486af51b975d05cc5b6befe2281ccf9eecabe22e4819234",
     "d28ce9b5384a9ef8547adf97a1e4a1a6452dc8f6ddd7f1d19633ac8039315b65",
     "a48449039f35e823e10cb1beda5b5e346aa0f383c6570f5013f3cd5d98c63ed6",
-    "c3f19fb2edfc79ad2f6275f6501d8bf874e3b333e88b81af5794a11ff232a783"
+    "c3f19fb2edfc79ad2f6275f6501d8bf874e3b333e88b81af5794a11ff232a783",
+    "afd01f11ba6964743529209e5e3b5d6f38c7bd7b5fb428c05163272c480785d3"
   ]
 }
