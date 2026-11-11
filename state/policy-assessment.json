@@ -5,15 +5,15 @@
   "evaluations": [
     {
       "path": ".agents/skills/maintain-skill-garden",
-      "digest": "9fa09f2f16872f5564e705b6d0e2e0b95d357df25021ea0c224873fc7a5d532f",
+      "digest": "3b956c930613d402c83b59e7cf05345bc3d79489983c77fd5dd63b4eaae11ede",
       "outcome": "updated",
-      "reason": "共通の設計・日本語方針を参照し、入口を概要・制約・フローへ縮小した。外部公開と登録の責務はワークスペースに限定した。"
+      "reason": "現在のユーザー要求に合わせ、自動同期をこのワークスペースと設定済みローカル登録先のジャンクションに限定した。共通Skillの外部操作制限は維持し、詳細は既存の保守文書へ委ねた。"
     },
     {
       "path": "@maintenance",
-      "digest": "309c7698b10672d5ce9955d82b46f4ffba493e9bb29282c2c11e508e2f5ffad5",
+      "digest": "62b4192d305ac71cb1edbf02d85e051ef1e65d6365b5e12eddaf9955899d71d5",
       "outcome": "updated",
-      "reason": "方針・対象・保守機構の内容をhashで照合し、未評価をnext/check/validateで検出する。policy planのjournal・provenance・report保全をテストし、公開前の独立レビューとCIを維持した。"
+      "reason": "既存link-skills.ps1で作成・維持・解除の差分を扱い、管理外・通常ディレクトリ・参照先本文を保護する。next/apply/resumeとmain追従後に同期し、CodexのforceReload一覧で名前・正本パス・user scope・有効状態と廃止リンクの不在を検証する。未完了journal・CI・別checkoutの境界とWindows実ジャンクションテストを確認した。"
     },
     {
       "path": "skills/choose-web-hosting",

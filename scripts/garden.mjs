@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import path from 'node:path';
 import { policyStatus, requireAssessment } from './policies.mjs';
+import { syncLocalSkills } from './sync-local-skills.mjs';
 import { applyPlan, atomicJson, collectSnapshot, loadGarden, nextAction, readJson, recordReceipt, recordReport, repositoryDigest, resumePlan, reviewBundle, safePath, validateGarden, validateSnapshot, withLock } from './lib/garden.mjs';
 
 const [command, ...args] = process.argv.slice(2);
@@ -32,19 +33,21 @@ try {
       }
       case 'next': {
         if (journal) return nextAction(state, null, journal);
+        const localSkills = syncLocalSkills(root);
         const policy = policyStatus(root);
-        if (!policy.valid) return { kind: 'policy', ...policy };
-        return nextAction(state, validateSnapshot(input('snapshot'), config));
+        if (!policy.valid) return { kind: 'policy', ...policy, localSkills };
+        return { ...nextAction(state, validateSnapshot(input('snapshot'), config)), localSkills };
       }
-      case 'apply': return applyPlan(root, input('plan'));
-      case 'resume': return resumePlan(root);
+      case 'apply': return { ...applyPlan(root, input('plan')), localSkills: syncLocalSkills(root) };
+      case 'resume': return { ...resumePlan(root), localSkills: syncLocalSkills(root) };
+      case 'sync-skills': return syncLocalSkills(root);
       case 'report-add': return recordReport(root, input('file'));
       case 'validate': requireAssessment(root); return validateGarden(root);
       case 'digest': return repositoryDigest(root);
       case 'review-bundle': return reviewBundle(root, cacheOutput().relative);
       case 'review-receipt': return recordReceipt(root, input('file'));
       case 'verify-receipt': return recordReceipt(root, readJson(safePath(root, 'state/review-receipt.json')), true);
-      default: throw new Error('Usage: garden.mjs snapshot|next|apply|resume|report-add|validate|digest|review-bundle|review-receipt|verify-receipt [--root DIR] [--snapshot FILE|--plan FILE|--file FILE|--output FILE|--previous FILE]');
+      default: throw new Error('Usage: garden.mjs snapshot|next|apply|resume|sync-skills|report-add|validate|digest|review-bundle|review-receipt|verify-receipt [--root DIR] [--snapshot FILE|--plan FILE|--file FILE|--output FILE|--previous FILE]');
     }
   });
   console.log(JSON.stringify(result, null, 2));
