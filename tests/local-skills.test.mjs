@@ -10,7 +10,9 @@ import { verifyDiscovery, verifyLocalSkills } from '../scripts/verify-local-skil
 const script = path.resolve('scripts/link-skills.ps1');
 const windows = { skip: process.platform !== 'win32' };
 function fixture(t) {
-  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'garden-sync-test-'));
+  // Windows runners can expose TEMP through an 8.3 alias; PowerShell reports expanded paths.
+  const temporaryRoot = fs.realpathSync(os.tmpdir());
+  const root = fs.mkdtempSync(path.join(temporaryRoot, 'garden-sync-test-'));
   const source = path.join(root, 'source'), destination = path.join(root, 'destination');
   fs.mkdirSync(source); fs.mkdirSync(destination);
   const safe = p => {
@@ -22,7 +24,7 @@ function fixture(t) {
   const skill = name => put(`source/${name}/SKILL.md`, `---\nname: ${name}\ndescription: Example task.\n---\n\n## 概要\n\nExample.\n`);
   const remove = p => fs.rmSync(safe(p), { recursive: true, force: true });
   t.after(() => {
-    assert.ok(path.resolve(root).startsWith(path.resolve(os.tmpdir()) + path.sep));
+    assert.ok(path.resolve(root).startsWith(temporaryRoot + path.sep));
     assert.equal(fs.lstatSync(root).isSymbolicLink(), false);
     fs.rmSync(root, { recursive: true, force: true });
   });
