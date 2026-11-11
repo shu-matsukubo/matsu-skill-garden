@@ -232,6 +232,20 @@ test('report resolution requires outcome and concrete prevention; duplicate reso
   assert.equal(loadGarden(root).state.reports.length, 1);
 });
 
+test('evidenced local recurrence reopens a report on the same source tree and preserves history', t => {
+  const root = fixture(t), s = snapshot(); applyPlan(root, plan(s));
+  const {fingerprint} = recordReport(root, report);
+  applyPlan(root, {...plan(s, 'report', []), reportId:fingerprint, resolution:{outcome:'Original correction',prevention}});
+  assert.equal(recordReport(root, report).duplicate, true);
+  assert.equal(recordReport(root, {...report,recurrence:{reference:'scripts/policies.mjs',reason:'A local maintenance change reintroduced the same failure without upstream changes.'}}).reopened, true);
+  const item=loadGarden(root).state.reports[0];
+  assert.equal(item.status, 'open');
+  assert.equal(item.history[0].outcome, 'Original correction');
+  assert.equal(item.history[0].resolvedTree, s.tree);
+  assert.equal(nextAction(loadGarden(root).state, s).kind, 'report');
+  assert.equal(validateGarden(root).valid, true);
+});
+
 test('snapshot validates fixed URLs, unique ids, and same-tree metadata consistency', t => {
   const root = fixture(t), s = snapshot(); applyPlan(root, plan(s));
   const bad = structuredClone(s); bad.entries[0].url = `https://github.com/${config.repository}/blob/main/x`;

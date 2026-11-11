@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import path from 'node:path';
+import { policyStatus, requireAssessment } from './policies.mjs';
 import { applyPlan, atomicJson, collectSnapshot, loadGarden, nextAction, readJson, recordReceipt, recordReport, repositoryDigest, resumePlan, reviewBundle, safePath, validateGarden, validateSnapshot, withLock } from './lib/garden.mjs';
 
 const [command, ...args] = process.argv.slice(2);
@@ -29,11 +30,16 @@ try {
         atomicJson(root, relative, snapshot);
         return { output: filename, commit: snapshot.commit, tree: snapshot.tree, entries: snapshot.entries.length };
       }
-      case 'next': return journal ? nextAction(state, null, journal) : nextAction(state, validateSnapshot(input('snapshot'), config));
+      case 'next': {
+        if (journal) return nextAction(state, null, journal);
+        const policy = policyStatus(root);
+        if (!policy.valid) return { kind: 'policy', ...policy };
+        return nextAction(state, validateSnapshot(input('snapshot'), config));
+      }
       case 'apply': return applyPlan(root, input('plan'));
       case 'resume': return resumePlan(root);
       case 'report-add': return recordReport(root, input('file'));
-      case 'validate': return validateGarden(root);
+      case 'validate': requireAssessment(root); return validateGarden(root);
       case 'digest': return repositoryDigest(root);
       case 'review-bundle': return reviewBundle(root, cacheOutput().relative);
       case 'review-receipt': return recordReceipt(root, input('file'));

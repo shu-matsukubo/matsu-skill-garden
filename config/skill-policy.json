@@ -1,0 +1,4 @@
+{
+  "schemaVersion": 1,
+  "policySkills": ["skills/skill-design-policy", "skills/japanese-output-policy"]
+}

@@ -1,14 +1,22 @@
 ---
 name: maintain-skill-garden
-description: matsu-skill-gardenで上流knowledgeの思想を取り込み、生成Skillsと改善reportを保守し、独立レビューとCIを通したPR公開を進める。手動保守と承認済みの日次運用に使う。
+description: matsu-skill-gardenの思想取り込み、方針の全件再評価、改善report、自己改善を保守し、独立レビューとCIを通して許可されたPR公開を進める。手動・承認済み日次運用に使う。
 ---
 
-# Skill gardenを育てる
+## 概要
 
-作業場所はこのリポジトリ。生成対象 `skills/` と、この制御Skillを区別する。本人の現在のprincipleを利用場面ごとの判断基準にし、思想を網羅するためだけにSkillを増やさない。
+このワークスペースの共通Skillsと保守機構を育てる。
 
-[保守手順](../../../docs/maintenance.md) を読み、CLIが返す次動作を処理する。取り込みでは前回成功時から固定snapshotまでの全差分を一つのバッチとして扱う。一件ずつの制限はreport対応だけに適用する。意味判断には [レビュー観点](../../../docs/review-perspectives.md) を使う。変更を公開するときは [公開手順](../../../docs/publishing.md) を読む。
+## 制約
 
-判断と生成には、その日に利用可能な高性能モデルとhigh程度の推論を選ぶ。公開前には生成と別の実行主体による相当の独立レビューを行う。具体的モデル名をWorkflowに固定しない。
+- 現在の要求と承認範囲を優先する。
+- 上流knowledge、既存Notion Skills、管理外のインストール済みSkillsを変更しない。
+- 共通Skillの登録は、ユーザーが依頼した場合に限る。
 
-この保守は承認済みの自律運用。毎回の計画承認を加える成果物生成Workflowを呼び出さない。既存の権限範囲で進め、認証失敗、競合、解消できないCI失敗、必要な責任境界の変更は根拠と再開位置を残して停止する。
+## フロー
+
+1. Skillを作成・改修するときは[skill-design-policy](../../../skills/skill-design-policy/SKILL.md)を使う。
+2. 日本語の出力では[japanese-output-policy](../../../skills/japanese-output-policy/SKILL.md)を使う。
+3. 開始・再開と次の仕事は[保守手順の方針](../../../docs/maintenance.md)に従う。
+4. 意味判断は[レビュー観点の方針](../../../docs/review-perspectives.md)に従う。
+5. 外部公開は[公開手順の方針](../../../docs/publishing.md)に従う。
