@@ -11,7 +11,7 @@
     },
     {
       "path": "@maintenance",
-      "digest": "c801f3c4c525e84acd98002e16e514dd6a8546202f85c63e3d42f914493178c3",
+      "digest": "62b4192d305ac71cb1edbf02d85e051ef1e65d6365b5e12eddaf9955899d71d5",
       "outcome": "updated",
       "reason": "既存link-skills.ps1で作成・維持・解除の差分を扱い、管理外・通常ディレクトリ・参照先本文を保護する。next/apply/resumeとmain追従後に同期し、CodexのforceReload一覧で名前・正本パス・user scope・有効状態と廃止リンクの不在を検証する。未完了journal・CI・別checkoutの境界とWindows実ジャンクションテストを確認した。"
     },

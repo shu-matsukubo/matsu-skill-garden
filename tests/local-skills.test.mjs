@@ -11,7 +11,7 @@ const script = path.resolve('scripts/link-skills.ps1');
 const windows = { skip: process.platform !== 'win32' };
 function fixture(t) {
   // Windows runners can expose TEMP through an 8.3 alias; PowerShell reports expanded paths.
-  const temporaryRoot = fs.realpathSync(os.tmpdir());
+  const temporaryRoot = fs.realpathSync.native(os.tmpdir());
   const root = fs.mkdtempSync(path.join(temporaryRoot, 'garden-sync-test-'));
   const source = path.join(root, 'source'), destination = path.join(root, 'destination');
   fs.mkdirSync(source); fs.mkdirSync(destination);

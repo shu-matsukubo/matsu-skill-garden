@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "digest": "4e48b88016e05f67b9264acdeeda6645720f825eab737a61028c0b62df5dc5e9",
+  "digest": "365cec752ac04e3dcc8448f3ba9034cb7bda8f68728548a7d130d987d5b4e81b",
   "result": "pass",
   "independent": true,
-  "reviewer": "Codex read-only process 01a1cb24-0441-7102-af10-4b94cc028842",
+  "reviewer": "Codex read-only process 01a1cb28-74a2-7213-92ca-cf3ac2aec741",
   "evidence": "Full-input review PASS for all 69 files and 42 fixed-commit principle bodies. Local evidence: .garden-cache/sync-review.md and .jsonl. All 60 tests passed with zero skipped. Structure check, garden validate, and diff check passed. Real sync-skills and next preserved all 13 correct junctions, made no unnecessary changes, and verified the canonical enabled user-scope Skills with real Codex forceReload discovery. Final independent follow-up PASS for Windows CI temp-root canonicalization and refreshed maintenance assessment; all other repository and principle bytes unchanged. Local final evidence: .garden-cache/sync-review-final.md and .jsonl. All 8 affected tests passed again; runtime implementation unchanged.",
-  "reviewedAt": "2026-11-11T15:06:11.127Z",
+  "reviewedAt": "2026-11-11T15:11:01.090Z",
   "reasoning": "high",
   "model": "configured default (inherited)"
 }
