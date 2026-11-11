@@ -6,7 +6,7 @@
 - [.agents/skills/maintain-skill-garden](.agents/skills/maintain-skill-garden/SKILL.md)：手動・日次共通の保守入口。
 - [state/garden.json](state/garden.json)：固定snapshot、各ファイルの根拠、open/resolved report。本文の複製は持たない。
 - [運用手順](docs/maintenance.md)、[レビュー観点](docs/review-perspectives.md)、[公開手順](docs/publishing.md)。
-- [共通方針の保守](docs/skill-policies.md)：全件再評価、自己改善、明示依頼によるシンボリックリンク登録。
+- [共通方針の保守](docs/skill-policies.md)：全件再評価、自己改善、共通Skillsのジャンクション差分同期とCodex認識確認。
 
 Node.js 22以上と認証済みGitHub CLIが必要。GitHubの参照・PR操作は利用可能なGitHubプラグインを優先し、不足する操作を `gh` で補う。取得失敗や認証失敗を「変更なし」に変換しない。
 

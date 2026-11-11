@@ -36,6 +36,8 @@ model/reasoning/runIdなども保存できる。`review-receipt --file .garden-c
 
 ## PRとCI
 
+公開後にローカルmainへ追従したら、`node scripts/garden.mjs sync-skills`でジャンクションとCodex認識を再同期する。手順は[共通方針の保守の方針](skill-policies.md)に従う。
+
 1. 作業開始時に作った `codex/` branchと既存PR、リモートの最新mainを読み直す。未完了PRがあれば新しい取り込みを混ぜずその公開を再開する。無関係なローカル変更を上書きせず、mainへの直接pushとforce pushをしない。
 2. 差分なしなら空commit/PRを作らない。差分がある場合はレビュー後の実物、state、receiptを同じbranchに含める。プラグインが必要な操作を提供すれば優先し、不足する操作は `gh` で補う。
 3. pushしてPRを作成または更新する。base更新や競合解消によって内容が変わった場合は関連検査と独立レビュー、receiptを更新する。

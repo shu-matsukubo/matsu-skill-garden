@@ -40,19 +40,50 @@
 
 変更不要なら対象本文を書き換えない。評価後に内容が変われば再評価する。課題は既存reportへ統合し、課題がなければ探索を休止する。
 
-## 登録
+## 同期の範囲
 
-ユーザーが共通Skillの登録を依頼したときだけ、[link-skills.ps1](../scripts/link-skills.ps1)を使う。
+2026-11-11のユーザー要求により、保守中の追加・削除・改名に伴うジャンクション同期を自動実行する。[ローカル設定](../config/local-skills.json)は、正本ワークスペースと登録先を固定する。共通Skillへ同期や外部公開の実行指示を追加しない。
 
-```powershell
-pwsh -NoProfile -File scripts/link-skills.ps1
+- 正本は`C:\work\10_second-brain\matsu-skill-garden\skills`、登録先は`C:\Users\docha\.codex\skills`とする。
+- このWindowsワークスペースだけで同期し、CIや別checkoutでは実行しない。
+- .agents/skillsの保守Skillは登録しない。
+- 共通環境には本文を複製せず、共通Skill間の相対リンクを維持する。
+
+## 同期の処理
+
+[sync-local-skills.mjs](../scripts/sync-local-skills.mjs)を使う。既存の[link-skills.ps1](../scripts/link-skills.ps1)を使い、次の差分だけ反映する。
+
+| 登録先の状態 | 処理 |
+| --- | --- |
+| 現行Skillへの正しいジャンクション | 維持する |
+| 現行Skillの登録がない | 作成する |
+| 廃止Skillの同名・正本直下へのジャンクション | リンクだけ解除する |
+| 改名 | 新名を登録し、旧名の管理リンクを解除する |
+| 現行名と衝突する通常ディレクトリ・管理外リンク | 変更前に失敗する |
+| その他の管理外Skill・ディレクトリ・リンク | 変更しない |
+
+解除対象は、リンク種別と登録先直下の絶対パスを読み直し、参照先が正本直下の同名パスと一致するものに限る。参照先がなくなったジャンクションも判定する。再帰削除は使わず、リンク先の本文は削除しない。正本や登録先がない場合は失敗し、空集合として解除しない。
+
+## 同期の契機
+
+- `garden next`は未完了journalがない場合、方針評価やskipの前に同期する。
+- `garden apply`と`garden resume`は、journalの適用完了後に同期する。
+- 手書き方針Skillの追加・削除・改名後と、公開後のmain追従後も同期する。
+- 同期だけを再試行するときは、次を実行する。
+
+```sh
+node scripts/garden.mjs sync-skills
 ```
 
-- skillsの各Skillを`C:\Users\docha\.codex\skills`へディレクトリのシンボリックリンクで登録する。
-- .agents/skillsの保守Skillは共通環境へ登録しない。
-- 同名の既存Skillを上書きしない。同じ正本へのリンクは再利用する。
-- Windowsが管理者権限を要求する場合は停止する。ユーザーが代替を選んだ場合だけ、`-LinkType Junction`でディレクトリジャンクションを作成する。
-- 追加・削除・改名後のリンク変更も明示依頼の範囲で扱い、自律保守では登録先を変更しない。
-- `skills/list`のforceReloadで全Skillの認識を確認し、別の読み取り専用Codex実行で方針Skillの使用を確認する。
+生成ファイルへの変更は同期失敗時も保全する。失敗を成功扱いせず、原因を直して同期を再試行する。未完了journalがある間はリンクを変更せず、先にresumeする。
 
-共通Skill間の相対リンクは同じskills階層を前提とする。正本はrepo内の実体であり、共通環境には本文を複製しない。
+## 認識の検証
+
+同期ごとに[verify-local-skills.mjs](../scripts/verify-local-skills.mjs)を使う。リポジトリ外の一時作業場所を指定し、Codex app-serverの`skills/list`を`forceReload: true`で取得する。
+
+- 現行Skillが名前・正本パス・user scope・有効状態で一致することを確認する。
+- 廃止した正本Skillが一覧に残っていないことを確認する。
+- 同名の別Skillで認識確認を代替しない。
+- Codexの起動失敗・読み込み失敗・タイムアウトは未確認として失敗させる。
+
+この検証はローカル一覧の取得だけを行い、モデルの実行や外部サービスへの書き込みを行わない。
