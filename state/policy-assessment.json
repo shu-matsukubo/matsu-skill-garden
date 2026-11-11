@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "policyDigest": "0583b5a83ab6d5ed347298771a5059794fa813dcc67054d4bb3a369500242278",
+  "scopeDigest": "7887f4a2642ac6e9d7ee1d28464b38054db38b1524d402d7c24dcb152af151ae",
+  "evaluations": [
+    {
+      "path": ".agents/skills/maintain-skill-garden",
+      "digest": "9fa09f2f16872f5564e705b6d0e2e0b95d357df25021ea0c224873fc7a5d532f",
+      "outcome": "updated",
+      "reason": "共通の設計・日本語方針を参照し、入口を概要・制約・フローへ縮小した。外部公開と登録の責務はワークスペースに限定した。"
+    },
+    {
+      "path": "@maintenance",
+      "digest": "309c7698b10672d5ce9955d82b46f4ffba493e9bb29282c2c11e508e2f5ffad5",
+      "outcome": "updated",
+      "reason": "方針・対象・保守機構の内容をhashで照合し、未評価をnext/check/validateで検出する。policy planのjournal・provenance・report保全をテストし、公開前の独立レビューとCIを維持した。"
+    },
+    {
+      "path": "skills/choose-web-hosting",
+      "digest": "2761d324b6d03b85282adc1f21c65970bfbe5a57e2e42138b574424c944fcd64",
+      "outcome": "updated",
+      "reason": "費用・無料枠・運用負担の判断を詳細へ分け、入口と出典を整理した。比較の意味を保ち、外部公開の実行手順を持たない。"
+    },
+    {
+      "path": "skills/communicate-oss-releases",
+      "digest": "70d035725ea1f0496e036a62d9b67bc8c202b63522abf9f380d41fbd547c7a2c",
+      "outcome": "updated",
+      "reason": "リリースの影響説明とv0.1.0の起点を保持し、詳細と出典を参照へ分けた。公開の自動実行指示を持たない。"
+    },
+    {
+      "path": "skills/design-agent-workflows",
+      "digest": "7595b7468a0ce4adb10ed6ef0d48424cc5308c920a2901ddc502377085a6e938",
+      "outcome": "updated",
+      "reason": "構成・再開・起動・役割・モデル・境界・評価を同じ粒度で整理した。Notion保存や外部公開の実行はワークスペースへ分離した。"
+    },
+    {
+      "path": "skills/design-knowledge-collection",
+      "digest": "70b0648ae42ad21c20db55c5951f63e5b3e15c539ac39d2436b0db9119e00ea9",
+      "outcome": "updated",
+      "reason": "取得要件、比較、責務、個人構成、発言評価を分けた。GitHub/Notionは構成判断として保持し、外部保存の実行手順を分離した。"
+    },
+    {
+      "path": "skills/evaluate-development-tooling",
+      "digest": "a9a58071e6b53d4d68b047c54e5588d17dd740ef52824c1159fec64c26b3ea5b",
+      "outcome": "updated",
+      "reason": "運用負担、適合、自動化の価値、起動継続を同じ役割の文で構成した。整理とreport保存は構成の設計とし、外部書込みを指示しない。"
+    },
+    {
+      "path": "skills/interpret-web-traffic",
+      "digest": "1cc9474123ca18ffac55c083fc4236c3687bf3ad308e5643839792f08d2c2100",
+      "outcome": "updated",
+      "reason": "集計単位、Bot等の包含、未特定の調査範囲を保ち、判断手順と出典を分けた。日本語方針を単一正本から参照する。"
+    },
+    {
+      "path": "skills/japanese-output-policy",
+      "digest": "f54c6a0e9aff453992119e408e24b2bcb48075935123e3308b0fd732246d2f75",
+      "outcome": "updated",
+      "reason": "文書・文・詳細の構成基準と表現一覧を分けた。参照動詞は設計方針を正本として再利用し、未定義表現の推論と自身の再評価を含めた。"
+    },
+    {
+      "path": "skills/learn-through-practice",
+      "digest": "71829e258751f32317587093b4f6a4b4ded1ba9b78530d6acb2e087c15f00d6b",
+      "outcome": "updated",
+      "reason": "全体像・調べる場所・実践・暗記と資格の区別を保持した。出典と判断手順を分け、共通の日本語方針を参照する。"
+    },
+    {
+      "path": "skills/maintain-document-meaning",
+      "digest": "9dace904527df8de62100deabcfdb37290c2db85ae2e0b9bf9f3320c33e2758b",
+      "outcome": "updated",
+      "reason": "意味と条件を保つ判断を保持した。Skill構成と表現の重複規則を撤去し、方針Skillの正本を使う形にした。"
+    },
+    {
+      "path": "skills/review-by-risk",
+      "digest": "4e03ffe74426d00cb6da677e56d568679d385b47cca301f56b8041f347c95e04",
+      "outcome": "updated",
+      "reason": "検証強度、判定分担、独立レビュー、ゲート改善を構造化した。PRの自動作成・公開・マージ手順を共通Skillから分離した。"
+    },
+    {
+      "path": "skills/share-task-policies",
+      "digest": "7dd1053049f78c856b4da70f76bd19819a48bf2715713e0c4afc34ffc52edc70",
+      "outcome": "updated",
+      "reason": "作業対象ごとの正本・リビジョン共有と登録方針の適用範囲を保持した。外部への永続保存の実行手順をワークスペースへ分離した。"
+    },
+    {
+      "path": "skills/simplify-design",
+      "digest": "b33ff7e3a055b3e58d69be9628a054d6ad885671ec04e55c23190e7bf0148db8",
+      "outcome": "updated",
+      "reason": "前提、簡素化、共通化、状態管理を分けた。必要保証と変更理由の意味を保ち、正本とClientの境界を構成判断として保持した。"
+    },
+    {
+      "path": "skills/skill-design-policy",
+      "digest": "3407a291f8ebb962cb3126945e956df41ade18e8a13197ad8f5bf6e7ab302547",
+      "outcome": "updated",
+      "reason": "入口の3区分、必要時の参照、共通の参照動詞、機械保証優先、全件再評価を正本へ集約した。自分自身と保守機構を対象に含め、外部操作を指示しない。"
+    }
+  ]
+}

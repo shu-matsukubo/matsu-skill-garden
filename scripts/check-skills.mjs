@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { policyConfig, policyStatus } from './policies.mjs';
 
 const excluded = new Set(['.git', '.garden-cache', 'node_modules']);
 const runtime = new Set(['state/run.lock', 'state/journal.json']);
@@ -74,7 +75,7 @@ export function checkSkills(root = process.cwd()) {
   const files = filesUnder(root), errors = [], contents = new Map(), edges = new Map();
   const add = (file, error) => errors.push(`${file}: ${error.message ?? error}`);
   for (const file of files) {
-    if (/\.(?:md|mjs|json|ya?ml)$/.test(file) || ['.gitattributes', '.gitignore'].includes(file)) {
+    if (/\.(?:md|mjs|json|ya?ml|ps1)$/.test(file) || ['.gitattributes', '.gitignore'].includes(file)) {
       const content = fs.readFileSync(path.join(root, file), 'utf8');
       if (content.includes('\r')) add(file, 'text must use LF (review digest must survive checkout)');
       contents.set(file, content);
@@ -106,8 +107,14 @@ export function checkSkills(root = process.cwd()) {
     }
   }
   const entrypoints = files.filter(f => /^(?:skills|\.agents\/skills)\/[^/]+\/SKILL\.md$/.test(f));
+  let policy = null;
+  try { policy = policyConfig(root); } catch (error) { add('config/skill-policy.json', error); }
   for (const file of entrypoints) {
     try { metadata(contents.get(file) ?? '', file); } catch (error) { add(file, error); }
+    if (policy) {
+      const headings = [...stripFences(contents.get(file) ?? '').matchAll(/^## (.+)$/gm)].map(m => m[1]);
+      if (headings.join('|') !== '概要|制約|フロー') add(file, 'entrypoint must contain only 概要, 制約, フロー sections');
+    }
     const directory = file.slice(0, -'SKILL.md'.length), reachable = new Set([file]), queue = [file];
     while (queue.length) for (const next of edges.get(queue.shift()) ?? []) if (next.startsWith(directory) && !reachable.has(next)) { reachable.add(next); queue.push(next); }
     for (const resource of files.filter(f => f.startsWith(directory))) if (!reachable.has(resource) && !resource.startsWith(`${directory}agents/`)) add(resource, 'skill resource is unreachable from SKILL.md');
@@ -124,7 +131,7 @@ export function checkSkills(root = process.cwd()) {
   if (fs.existsSync(stateFile)) {
     try {
       const state = JSON.parse(fs.readFileSync(stateFile, 'utf8'));
-      for (const file of files.filter(f => f.startsWith('skills/'))) if (!state.managed?.[file]) add(file, 'generated file is absent from provenance state');
+      for (const file of files.filter(f => f.startsWith('skills/') && !policy?.policySkills.some(p => f.startsWith(`${p}/`)))) if (!state.managed?.[file]) add(file, 'generated file is absent from provenance state');
       for (const report of state.reports ?? []) {
         const preventions = [report.prevention, ...(report.history ?? []).map(item => item.prevention)];
         for (const prevention of preventions) {
@@ -134,6 +141,10 @@ export function checkSkills(root = process.cwd()) {
         }
       }
     } catch (error) { add('state/garden.json', error); }
+  }
+  if (policy) {
+    try { const status = policyStatus(root); if (!status.valid) add('state/policy-assessment.json', `pending policy assessment: ${status.pending.map(t => t.path).join(', ')}`); }
+    catch (error) { add('state/policy-assessment.json', error); }
   }
   return { valid: errors.length === 0, skills: entrypoints.length, markdownFiles: [...contents.keys()].filter(f => f.endsWith('.md')).length, errors };
 }

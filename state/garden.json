@@ -1162,7 +1162,7 @@
   },
   "managed": {
     "skills/simplify-design/SKILL.md": {
-      "digest": "a2b4d59928b92dd22e05592751e7a5287eaadb99a8102959edd6b569e74881ca",
+      "digest": "e5b09b575c8cd2b45f1effa689c3b9f465c4204fd684fa4dac8709849484cdc6",
       "sources": [
         {
           "id": "k-094d1e9c150747ec",
@@ -1203,7 +1203,7 @@
       ]
     },
     "skills/review-by-risk/SKILL.md": {
-      "digest": "1768dcfdab2b98881bcda678feb89a0fe50c267ff10cc99dfc6f7ff12744b919",
+      "digest": "4afc8c2b9feea9cc25bffe00d63d283bec941cc437c5a71d755e8fc5933c04c0",
       "sources": [
         {
           "id": "k-18cd4b4f19159d05",
@@ -1262,7 +1262,7 @@
       ]
     },
     "skills/maintain-document-meaning/SKILL.md": {
-      "digest": "6f3e2a211683cef753ff3cd9f8600449c93f4e64a222442aa88f9c4287256d3e",
+      "digest": "098988f54a7540170e9c9e3995141ec03fa8475c2f85d3a15f6c04dc54f44f90",
       "sources": [
         {
           "id": "k-59ebcac46c07180e",
@@ -1285,7 +1285,7 @@
       ]
     },
     "skills/design-agent-workflows/SKILL.md": {
-      "digest": "879b9479f01fe668f7a020d722ebbe3a209abc179a9fd23cea3fb677d310ce26",
+      "digest": "4ec974d8a96befe3d50903f97593753dcb61549d23dbacd74669f8d3101d65e0",
       "sources": [
         {
           "id": "k-1c336721577e40fb",
@@ -1362,7 +1362,7 @@
       ]
     },
     "skills/design-knowledge-collection/SKILL.md": {
-      "digest": "354e1e10902a296436033ae477964161af53557450ea9a56504b422147508f26",
+      "digest": "a714443e62cd52f961ef49aecad041250cdfecc4e00d271c3eedd6bdfd276d7e",
       "sources": [
         {
           "id": "k-49427121c3d37c04",
@@ -1385,7 +1385,7 @@
       ]
     },
     "skills/learn-through-practice/SKILL.md": {
-      "digest": "623e5098d3addca7cab5358b40d33ae74ac74755dad0cc9eb1ac4db5e5deff52",
+      "digest": "f132c100ef555563b8e6a9c165e970f82d6df4c7f11d3ae3d0025d21cb6e54b9",
       "sources": [
         {
           "id": "k-ea486b2c30bdf5ec",
@@ -1396,7 +1396,7 @@
       ]
     },
     "skills/share-task-policies/SKILL.md": {
-      "digest": "cf9acc8905bdb92f12d7a181c4e48d83d5335573a5eb9b4b9cf03733855cee01",
+      "digest": "dcc8706f949de3d691ced3d329c7bab32981e6a0376073f8bb5bad3961a21b90",
       "sources": [
         {
           "id": "k-5cab5edadf27210f",
@@ -1413,7 +1413,7 @@
       ]
     },
     "skills/evaluate-development-tooling/SKILL.md": {
-      "digest": "aa953c2a7e1fdd608174cbb8bc4921f4f84bb1313ccd7d98db6d9eae3159c4e4",
+      "digest": "2216e21526b82b41800b62b2081821c49059b77ef4d47f1ca5304d0a1bcd0392",
       "sources": [
         {
           "id": "k-392e524a7ce400e8",
@@ -1436,7 +1436,7 @@
       ]
     },
     "skills/communicate-oss-releases/SKILL.md": {
-      "digest": "8b70c03c75091a884b07d262c17c31a3a314d77959712aa0539627d0361e40a2",
+      "digest": "d0cb55abe3b0f8957e586b90b7677dd339152c252a2e9e15efe9e62ac1ada8f8",
       "sources": [
         {
           "id": "k-962298dad74b6ccd",
@@ -1447,7 +1447,7 @@
       ]
     },
     "skills/choose-web-hosting/SKILL.md": {
-      "digest": "eaa67c489e6547574c1b8c71849521469563f18adbd388c2c393f41a57aae756",
+      "digest": "4eebc8a6195113cfdd213dfaf1597bf66d0d87444cc5d53d9d210f5c0f48b161",
       "sources": [
         {
           "id": "k-7567e2e163c4243a",
@@ -1458,13 +1458,627 @@
       ]
     },
     "skills/interpret-web-traffic/SKILL.md": {
-      "digest": "34f2bc054664d049ef1d2ae05e63ddc9fcfc9411783813fe01cc585a5a5f9806",
+      "digest": "a51557ff64fcce753d1910d3cd52fc0402e365067d87cadebd668d3e7c9e2eac",
       "sources": [
         {
           "id": "k-b535f1e53f39d202",
           "path": "knowledge/principles/app-development/k-b535f1e53f39d202.md",
           "blob": "42c0e73d02187171572b2f3ef1bf1da3d4e13c6e",
           "digest": "2b63779d586f7c7692e835ccd6318b5a0eb612fa0230d06b7ec4c098674a1d8f"
+        }
+      ]
+    },
+    "skills/choose-web-hosting/references/guidance.md": {
+      "digest": "0d543a046cf46010ebd9e1977fac54bcd4168609642b9530b7b20ac8084b435f",
+      "sources": [
+        {
+          "id": "k-7567e2e163c4243a",
+          "path": "knowledge/principles/app-development/k-7567e2e163c4243a.md",
+          "blob": "c5ba89e1dcbe54a20b8fcaef8388061223a23024",
+          "digest": "18c98926ebf386dab8f3925bf7d8eb2c77ec01bf5c3b1deef8c9b409f5d981c3"
+        }
+      ]
+    },
+    "skills/choose-web-hosting/references/sources.md": {
+      "digest": "7ff3dd7ac0b18ec24cf6a9953aa408ecfa6ac9e8ecb71e917d20a045c5a4d636",
+      "sources": [
+        {
+          "id": "k-7567e2e163c4243a",
+          "path": "knowledge/principles/app-development/k-7567e2e163c4243a.md",
+          "blob": "c5ba89e1dcbe54a20b8fcaef8388061223a23024",
+          "digest": "18c98926ebf386dab8f3925bf7d8eb2c77ec01bf5c3b1deef8c9b409f5d981c3"
+        }
+      ]
+    },
+    "skills/communicate-oss-releases/references/guidance.md": {
+      "digest": "9d77dacababfbdf61cd8c277447c10eea010d5c04a61532bd0071a265028ed72",
+      "sources": [
+        {
+          "id": "k-962298dad74b6ccd",
+          "path": "knowledge/principles/development-process/k-962298dad74b6ccd.md",
+          "blob": "5cea966dfb0d597381c4a5d277581811cfb8d3cd",
+          "digest": "ffcbefd5125b1e90489ca988cec975fbe8ad09955396273ca45676c4b4b82a5a"
+        }
+      ]
+    },
+    "skills/communicate-oss-releases/references/sources.md": {
+      "digest": "e0be72fc84a9906eedd73b04627bec9e75e4ccd9d7046f8da31adee07b5da103",
+      "sources": [
+        {
+          "id": "k-962298dad74b6ccd",
+          "path": "knowledge/principles/development-process/k-962298dad74b6ccd.md",
+          "blob": "5cea966dfb0d597381c4a5d277581811cfb8d3cd",
+          "digest": "ffcbefd5125b1e90489ca988cec975fbe8ad09955396273ca45676c4b4b82a5a"
+        }
+      ]
+    },
+    "skills/design-agent-workflows/references/guidance.md": {
+      "digest": "3f998f1945afe50478a5a36809414bd534a8d2232c9e05801d6d8a7cba9d6292",
+      "sources": [
+        {
+          "id": "k-1c336721577e40fb",
+          "path": "knowledge/principles/development-process/k-1c336721577e40fb.md",
+          "blob": "b06281f4fe842c0d3d4c9e4ab02b6daf1f05efa6",
+          "digest": "13ff1407b2b6655bd9e060958e541fef473d3da5dc1b93fb502daf34d4b8784d"
+        },
+        {
+          "id": "k-0befd2ddf54d4781",
+          "path": "knowledge/principles/development-process/k-0befd2ddf54d4781.md",
+          "blob": "fb855f6587567bb1cd529ae5c73ab349cd821be8",
+          "digest": "7dc12cd801465fea68f25125fc81690957af5256dc8cf48ebbe3cef2293c9630"
+        },
+        {
+          "id": "k-3953b9c0e4266be4",
+          "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
+          "blob": "3a274b98e8cddc7ce3058685f2785ee5c081a03a",
+          "digest": "9e8e1a8524ff3f20bf2440e755cde61ea8870536ae1843a82479b04aa271a8cc"
+        },
+        {
+          "id": "k-cfb0bb408a84ca5f",
+          "path": "knowledge/principles/development-process/k-cfb0bb408a84ca5f.md",
+          "blob": "ab0f881bbbfd41878e5e762d724af3d9eee1351f",
+          "digest": "97d17ae36efb79b4f2dd2c9465ecc7c69cf327b8f88c3e7bf32c8725abb90160"
+        },
+        {
+          "id": "k-f1b6da308d1daaf7",
+          "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
+          "blob": "6cb991cdfab6cd0151820dae51ea35f02df6fffa",
+          "digest": "287b83b7ef21ac23e106d69b18c273b8d5e089a5b1f7802d1afd65bbb5c0b6b2"
+        },
+        {
+          "id": "k-ed9431132a1300be",
+          "path": "knowledge/principles/development-process/k-ed9431132a1300be.md",
+          "blob": "89fa5f2fae54f4339ef9d59c2513cf67a9c6c307",
+          "digest": "1166025c5aaebca225c7ee82ec8c6b6780d7d48a9ef14fbbb59393f2ea5b1e13"
+        },
+        {
+          "id": "k-cb4b907775bc93a7",
+          "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
+          "blob": "0fce0672bad214f518a07d423d1402371d207a61",
+          "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b"
+        },
+        {
+          "id": "k-259092392aa4081c",
+          "path": "knowledge/principles/development-process/k-259092392aa4081c.md",
+          "blob": "700be1f07d321532231f26fc0ae2dbf9094cd40d",
+          "digest": "81a21618b691c9dc5d8c2c9b3fa161e380e8703042fd3c3bd2d337b9f0147e7f"
+        },
+        {
+          "id": "k-c7312886320ad33f",
+          "path": "knowledge/principles/development-process/k-c7312886320ad33f.md",
+          "blob": "38183d8578ca166ef839a671d0b0d90e7e70731f",
+          "digest": "033d03e51c564122f861848e467a35d3c609f416b06a4de21579fba931f5691b"
+        },
+        {
+          "id": "k-5466f5c53ed15e3d",
+          "path": "knowledge/principles/development-process/k-5466f5c53ed15e3d.md",
+          "blob": "0820088a0c55e6887ef3b25c5094afeaed62a03a",
+          "digest": "dafd0610f616808232ced25af4868c29ee810fe8e276699e3c5e573b4c5975c0"
+        },
+        {
+          "id": "k-a44acbf0d76b5cf8",
+          "path": "knowledge/principles/development-process/k-a44acbf0d76b5cf8.md",
+          "blob": "a6b16a34a41fac0f87aaa162fa4b26e69962471f",
+          "digest": "62f618429a4df8ca3fa473ad83fc224c57d61291f90973950a62bd5248012173"
+        },
+        {
+          "id": "k-035d85d9659d8d5b",
+          "path": "knowledge/principles/development-process/k-035d85d9659d8d5b.md",
+          "blob": "12d434a8efc861f468b02e908a2048a08034dd2c",
+          "digest": "ff4a22a56b6c9713ce1d14fd443ffec4cafef3e782a74890c141a560da6db554"
+        }
+      ]
+    },
+    "skills/design-agent-workflows/references/sources.md": {
+      "digest": "d1f964654dd49aa5f58f9cc4e6050903d146d7ee1aea5bc279b164657bac4fc3",
+      "sources": [
+        {
+          "id": "k-1c336721577e40fb",
+          "path": "knowledge/principles/development-process/k-1c336721577e40fb.md",
+          "blob": "b06281f4fe842c0d3d4c9e4ab02b6daf1f05efa6",
+          "digest": "13ff1407b2b6655bd9e060958e541fef473d3da5dc1b93fb502daf34d4b8784d"
+        },
+        {
+          "id": "k-0befd2ddf54d4781",
+          "path": "knowledge/principles/development-process/k-0befd2ddf54d4781.md",
+          "blob": "fb855f6587567bb1cd529ae5c73ab349cd821be8",
+          "digest": "7dc12cd801465fea68f25125fc81690957af5256dc8cf48ebbe3cef2293c9630"
+        },
+        {
+          "id": "k-3953b9c0e4266be4",
+          "path": "knowledge/principles/development-process/k-3953b9c0e4266be4.md",
+          "blob": "3a274b98e8cddc7ce3058685f2785ee5c081a03a",
+          "digest": "9e8e1a8524ff3f20bf2440e755cde61ea8870536ae1843a82479b04aa271a8cc"
+        },
+        {
+          "id": "k-cfb0bb408a84ca5f",
+          "path": "knowledge/principles/development-process/k-cfb0bb408a84ca5f.md",
+          "blob": "ab0f881bbbfd41878e5e762d724af3d9eee1351f",
+          "digest": "97d17ae36efb79b4f2dd2c9465ecc7c69cf327b8f88c3e7bf32c8725abb90160"
+        },
+        {
+          "id": "k-f1b6da308d1daaf7",
+          "path": "knowledge/principles/development-process/k-f1b6da308d1daaf7.md",
+          "blob": "6cb991cdfab6cd0151820dae51ea35f02df6fffa",
+          "digest": "287b83b7ef21ac23e106d69b18c273b8d5e089a5b1f7802d1afd65bbb5c0b6b2"
+        },
+        {
+          "id": "k-ed9431132a1300be",
+          "path": "knowledge/principles/development-process/k-ed9431132a1300be.md",
+          "blob": "89fa5f2fae54f4339ef9d59c2513cf67a9c6c307",
+          "digest": "1166025c5aaebca225c7ee82ec8c6b6780d7d48a9ef14fbbb59393f2ea5b1e13"
+        },
+        {
+          "id": "k-cb4b907775bc93a7",
+          "path": "knowledge/principles/development-process/k-cb4b907775bc93a7.md",
+          "blob": "0fce0672bad214f518a07d423d1402371d207a61",
+          "digest": "44f5d316a50f2a60a6a310cae61256a857b13d34775a3920f5bdb290ad0c551b"
+        },
+        {
+          "id": "k-259092392aa4081c",
+          "path": "knowledge/principles/development-process/k-259092392aa4081c.md",
+          "blob": "700be1f07d321532231f26fc0ae2dbf9094cd40d",
+          "digest": "81a21618b691c9dc5d8c2c9b3fa161e380e8703042fd3c3bd2d337b9f0147e7f"
+        },
+        {
+          "id": "k-c7312886320ad33f",
+          "path": "knowledge/principles/development-process/k-c7312886320ad33f.md",
+          "blob": "38183d8578ca166ef839a671d0b0d90e7e70731f",
+          "digest": "033d03e51c564122f861848e467a35d3c609f416b06a4de21579fba931f5691b"
+        },
+        {
+          "id": "k-5466f5c53ed15e3d",
+          "path": "knowledge/principles/development-process/k-5466f5c53ed15e3d.md",
+          "blob": "0820088a0c55e6887ef3b25c5094afeaed62a03a",
+          "digest": "dafd0610f616808232ced25af4868c29ee810fe8e276699e3c5e573b4c5975c0"
+        },
+        {
+          "id": "k-a44acbf0d76b5cf8",
+          "path": "knowledge/principles/development-process/k-a44acbf0d76b5cf8.md",
+          "blob": "a6b16a34a41fac0f87aaa162fa4b26e69962471f",
+          "digest": "62f618429a4df8ca3fa473ad83fc224c57d61291f90973950a62bd5248012173"
+        },
+        {
+          "id": "k-035d85d9659d8d5b",
+          "path": "knowledge/principles/development-process/k-035d85d9659d8d5b.md",
+          "blob": "12d434a8efc861f468b02e908a2048a08034dd2c",
+          "digest": "ff4a22a56b6c9713ce1d14fd443ffec4cafef3e782a74890c141a560da6db554"
+        }
+      ]
+    },
+    "skills/design-knowledge-collection/references/guidance.md": {
+      "digest": "3bd02ae2071b0cf3e46639f4bf7c8ea574a93c2f155e747c3bc57a78ccc1e741",
+      "sources": [
+        {
+          "id": "k-49427121c3d37c04",
+          "path": "knowledge/principles/development-process/k-49427121c3d37c04.md",
+          "blob": "5c689a24b2918d21d7322c8d77579a7b37cfb539",
+          "digest": "692d76982309702cd7ac53f628f7155d6dcfab6579d489f301bcc978e6448c0f"
+        },
+        {
+          "id": "k-25dba149959c54f0",
+          "path": "knowledge/principles/development-process/k-25dba149959c54f0.md",
+          "blob": "169d7d7de3488022eb0802c0b06195746ed54550",
+          "digest": "f476784760ffc117671c47fdfb341d76d4fd378f56d9b22b2d29dd8aa43ea5a4"
+        },
+        {
+          "id": "k-7652ec730db0f40b",
+          "path": "knowledge/principles/development-process/k-7652ec730db0f40b.md",
+          "blob": "5ee0e6e81e7706a35ad362508e0c7df8cd2fabc1",
+          "digest": "ebf41f99a298ceaf04105163dafff1b239e9e8480015d4a2acfac989c4764abd"
+        }
+      ]
+    },
+    "skills/design-knowledge-collection/references/sources.md": {
+      "digest": "2704430c5b653a57d98078eeb9e70081fc450730da0cad28518fe0ed193d6e2c",
+      "sources": [
+        {
+          "id": "k-49427121c3d37c04",
+          "path": "knowledge/principles/development-process/k-49427121c3d37c04.md",
+          "blob": "5c689a24b2918d21d7322c8d77579a7b37cfb539",
+          "digest": "692d76982309702cd7ac53f628f7155d6dcfab6579d489f301bcc978e6448c0f"
+        },
+        {
+          "id": "k-25dba149959c54f0",
+          "path": "knowledge/principles/development-process/k-25dba149959c54f0.md",
+          "blob": "169d7d7de3488022eb0802c0b06195746ed54550",
+          "digest": "f476784760ffc117671c47fdfb341d76d4fd378f56d9b22b2d29dd8aa43ea5a4"
+        },
+        {
+          "id": "k-7652ec730db0f40b",
+          "path": "knowledge/principles/development-process/k-7652ec730db0f40b.md",
+          "blob": "5ee0e6e81e7706a35ad362508e0c7df8cd2fabc1",
+          "digest": "ebf41f99a298ceaf04105163dafff1b239e9e8480015d4a2acfac989c4764abd"
+        }
+      ]
+    },
+    "skills/evaluate-development-tooling/references/guidance.md": {
+      "digest": "ea201cdc44d1200c74522d6457e7220b6e2126d6321081ae9ef492691c1d8ec8",
+      "sources": [
+        {
+          "id": "k-392e524a7ce400e8",
+          "path": "knowledge/principles/development-process/k-392e524a7ce400e8.md",
+          "blob": "53608a68b0e850fef2ec225c42bb05f8583fc61b",
+          "digest": "87fb81a06e88aeaa412eded4063e12f3b0cda483c3e1e85276f2ca51e52c68e9"
+        },
+        {
+          "id": "k-53b874d26fbc1ddd",
+          "path": "knowledge/principles/development-process/k-53b874d26fbc1ddd.md",
+          "blob": "0a2c668c7876901b4c932281a2623493f7e77857",
+          "digest": "d26906200b5fde5aa0a70d0ff8423107b6190bd08a1d5b2f6e9b039f376c7a43"
+        },
+        {
+          "id": "k-f51a362201719cec",
+          "path": "knowledge/principles/development-process/k-f51a362201719cec.md",
+          "blob": "1879296fa15461ca79999d55e3b511b4dcc4057b",
+          "digest": "7ea1c9b8fe1dd2a0b8eb6d0aa81609211c384a7a94a906fda567fe80bdbdf5d1"
+        }
+      ]
+    },
+    "skills/evaluate-development-tooling/references/sources.md": {
+      "digest": "10c985d2b38d618f46bcc396d3abbe3584bfdd98cb4555490df8dabd35ddd5cf",
+      "sources": [
+        {
+          "id": "k-392e524a7ce400e8",
+          "path": "knowledge/principles/development-process/k-392e524a7ce400e8.md",
+          "blob": "53608a68b0e850fef2ec225c42bb05f8583fc61b",
+          "digest": "87fb81a06e88aeaa412eded4063e12f3b0cda483c3e1e85276f2ca51e52c68e9"
+        },
+        {
+          "id": "k-53b874d26fbc1ddd",
+          "path": "knowledge/principles/development-process/k-53b874d26fbc1ddd.md",
+          "blob": "0a2c668c7876901b4c932281a2623493f7e77857",
+          "digest": "d26906200b5fde5aa0a70d0ff8423107b6190bd08a1d5b2f6e9b039f376c7a43"
+        },
+        {
+          "id": "k-f51a362201719cec",
+          "path": "knowledge/principles/development-process/k-f51a362201719cec.md",
+          "blob": "1879296fa15461ca79999d55e3b511b4dcc4057b",
+          "digest": "7ea1c9b8fe1dd2a0b8eb6d0aa81609211c384a7a94a906fda567fe80bdbdf5d1"
+        }
+      ]
+    },
+    "skills/interpret-web-traffic/references/guidance.md": {
+      "digest": "0e3a10eb68f7c0423d4082bda2cdbf792b6aacb682c3e49241dc7ee8e9b71607",
+      "sources": [
+        {
+          "id": "k-b535f1e53f39d202",
+          "path": "knowledge/principles/app-development/k-b535f1e53f39d202.md",
+          "blob": "42c0e73d02187171572b2f3ef1bf1da3d4e13c6e",
+          "digest": "2b63779d586f7c7692e835ccd6318b5a0eb612fa0230d06b7ec4c098674a1d8f"
+        }
+      ]
+    },
+    "skills/interpret-web-traffic/references/sources.md": {
+      "digest": "94564932359f4822f6f5e301130cf00ed8a950e237513fae20ed5e6f8dbe0e08",
+      "sources": [
+        {
+          "id": "k-b535f1e53f39d202",
+          "path": "knowledge/principles/app-development/k-b535f1e53f39d202.md",
+          "blob": "42c0e73d02187171572b2f3ef1bf1da3d4e13c6e",
+          "digest": "2b63779d586f7c7692e835ccd6318b5a0eb612fa0230d06b7ec4c098674a1d8f"
+        }
+      ]
+    },
+    "skills/learn-through-practice/references/guidance.md": {
+      "digest": "93c6eb9735e7bba1963388e1943768c87c40ea3a2d3fbf6ed11f9e2819f58d90",
+      "sources": [
+        {
+          "id": "k-ea486b2c30bdf5ec",
+          "path": "knowledge/principles/learning/k-ea486b2c30bdf5ec.md",
+          "blob": "fd1866bde537978742f185f009e2d0758e45c8b2",
+          "digest": "d4c4d257c853d4ab5f8cee1d2ce20653fc721af5c7b8017f89d92745c6d5fc53"
+        }
+      ]
+    },
+    "skills/learn-through-practice/references/sources.md": {
+      "digest": "c139e0aed02faea60b84c4190f4726ae378572d82c625aae8b0405a9144fbcfc",
+      "sources": [
+        {
+          "id": "k-ea486b2c30bdf5ec",
+          "path": "knowledge/principles/learning/k-ea486b2c30bdf5ec.md",
+          "blob": "fd1866bde537978742f185f009e2d0758e45c8b2",
+          "digest": "d4c4d257c853d4ab5f8cee1d2ce20653fc721af5c7b8017f89d92745c6d5fc53"
+        }
+      ]
+    },
+    "skills/maintain-document-meaning/references/guidance.md": {
+      "digest": "893fcdcce957462b39e2ecfc8abcf814d0b9db810b5e4189835544f932b390e8",
+      "sources": [
+        {
+          "id": "k-59ebcac46c07180e",
+          "path": "knowledge/principles/development-process/k-59ebcac46c07180e.md",
+          "blob": "39232a07cf8bdc0455fb2bde4eed67f67657d0c0",
+          "digest": "b578812833e83f48f5858a58bc3ff4110b3b19a73b9a93de98f7a84923216bc4"
+        },
+        {
+          "id": "k-838e51960661c08f",
+          "path": "knowledge/principles/development-process/k-838e51960661c08f.md",
+          "blob": "0bffd473c993b8ce7d97797cd6db41578d2cac58",
+          "digest": "1558943f8f9ec912c1dd77299e4d98f6764f831b5542922197640a7a28fe6f5c"
+        },
+        {
+          "id": "k-93b112cfea83692e",
+          "path": "knowledge/principles/development-process/k-93b112cfea83692e.md",
+          "blob": "48b5beff5f6f34fd5bd4f5c0d4b33f0c6a7dbb63",
+          "digest": "29e3c33a441a01637bb6d4fc2398d2db5de4cd45b1df0b16ac9c9a00a0191fb3"
+        }
+      ]
+    },
+    "skills/maintain-document-meaning/references/sources.md": {
+      "digest": "3ce13e52818cdeec508aa68fabe9b077bff95285b4c2d680ceb3d92442c277b1",
+      "sources": [
+        {
+          "id": "k-59ebcac46c07180e",
+          "path": "knowledge/principles/development-process/k-59ebcac46c07180e.md",
+          "blob": "39232a07cf8bdc0455fb2bde4eed67f67657d0c0",
+          "digest": "b578812833e83f48f5858a58bc3ff4110b3b19a73b9a93de98f7a84923216bc4"
+        },
+        {
+          "id": "k-838e51960661c08f",
+          "path": "knowledge/principles/development-process/k-838e51960661c08f.md",
+          "blob": "0bffd473c993b8ce7d97797cd6db41578d2cac58",
+          "digest": "1558943f8f9ec912c1dd77299e4d98f6764f831b5542922197640a7a28fe6f5c"
+        },
+        {
+          "id": "k-93b112cfea83692e",
+          "path": "knowledge/principles/development-process/k-93b112cfea83692e.md",
+          "blob": "48b5beff5f6f34fd5bd4f5c0d4b33f0c6a7dbb63",
+          "digest": "29e3c33a441a01637bb6d4fc2398d2db5de4cd45b1df0b16ac9c9a00a0191fb3"
+        }
+      ]
+    },
+    "skills/review-by-risk/references/guidance.md": {
+      "digest": "692ef7702d715a91c03ac7398028ee66e59af0a335c1b890d2dfa1e599997f05",
+      "sources": [
+        {
+          "id": "k-18cd4b4f19159d05",
+          "path": "knowledge/principles/development-process/k-18cd4b4f19159d05.md",
+          "blob": "0b2bf71224ca3e3ab2b6eee4d2ae5d7440d528d4",
+          "digest": "a10d75edef14758f3d8292b9a80ec413f0569b4d5a74a565d43b3122d48ee121"
+        },
+        {
+          "id": "k-1fd2110eaa47e4f6",
+          "path": "knowledge/principles/development-process/k-1fd2110eaa47e4f6.md",
+          "blob": "57543a5a90457ad7435b83f59134450070879fda",
+          "digest": "84817077068f8bb3ed5a80d7501d3f45b05494d1136f34522c73caf24a04f77c"
+        },
+        {
+          "id": "k-12584bf597c40b01",
+          "path": "knowledge/principles/development-process/k-12584bf597c40b01.md",
+          "blob": "d218155b73c1de41de909072c17895b098ce6720",
+          "digest": "cde1c5e7b77d5e69ae3357edcc51fec9bd3c21cdd947fca464f286af4f6aec61"
+        },
+        {
+          "id": "k-5caa30903bcc5de2",
+          "path": "knowledge/principles/development-process/k-5caa30903bcc5de2.md",
+          "blob": "c9c4e81ad7592c3ea730d8b8d73e5a104f8d90e9",
+          "digest": "85b74dddb4b3fc44b75b37a50545dcf2a26a91d55647cbc0c50c95a662d26c04"
+        },
+        {
+          "id": "k-2aa29c1ef3b94c4d",
+          "path": "knowledge/principles/development-process/k-2aa29c1ef3b94c4d.md",
+          "blob": "4766cd9e7c06405b27bda5b17bd45f946fa1a8fa",
+          "digest": "5d83e665cd4ed4db4e07454118a40d7309d75c8f8fe78c0a69f85db71f9792d5"
+        },
+        {
+          "id": "k-23530f4699c05263",
+          "path": "knowledge/principles/development-process/k-23530f4699c05263.md",
+          "blob": "d971109324be9edf189c231037869cb33c2d8288",
+          "digest": "4370d7a76f99f4a51061f0b66e89d500623fe0672093c87a8e0880495cd81901"
+        },
+        {
+          "id": "k-35c3f7d87330d06e",
+          "path": "knowledge/principles/development-process/k-35c3f7d87330d06e.md",
+          "blob": "212443c78681d64e0e14442d0772bbbcd6ad4ed7",
+          "digest": "0b504bc67e1b6d6fcfaa5d66fbb8483f0ce3e59cfff40a8cd954ae04b1ff1d9c"
+        },
+        {
+          "id": "k-99d67a67388c3389",
+          "path": "knowledge/principles/development-process/k-99d67a67388c3389.md",
+          "blob": "aaab08ea25b11bef5d386c80ee8026291dca1b5f",
+          "digest": "be20141f3d8d3e69df4b10907a718f52cee125cecf2e50bba1e8786b7ff36cd1"
+        },
+        {
+          "id": "k-49cf831818d8eefd",
+          "path": "knowledge/principles/development-process/k-49cf831818d8eefd.md",
+          "blob": "27e3c8c4c8ac9e237e17557d0a47fe22b3832454",
+          "digest": "059b5aafd8fd081137053a914e8f5bde0ba3d16ab869e38c540005716ec1de3e"
+        }
+      ]
+    },
+    "skills/review-by-risk/references/sources.md": {
+      "digest": "152a8bcfa0e69297ae2cf5bf4a04cafe08e40d2bb7e19e53e4adcc868c439ae6",
+      "sources": [
+        {
+          "id": "k-18cd4b4f19159d05",
+          "path": "knowledge/principles/development-process/k-18cd4b4f19159d05.md",
+          "blob": "0b2bf71224ca3e3ab2b6eee4d2ae5d7440d528d4",
+          "digest": "a10d75edef14758f3d8292b9a80ec413f0569b4d5a74a565d43b3122d48ee121"
+        },
+        {
+          "id": "k-1fd2110eaa47e4f6",
+          "path": "knowledge/principles/development-process/k-1fd2110eaa47e4f6.md",
+          "blob": "57543a5a90457ad7435b83f59134450070879fda",
+          "digest": "84817077068f8bb3ed5a80d7501d3f45b05494d1136f34522c73caf24a04f77c"
+        },
+        {
+          "id": "k-12584bf597c40b01",
+          "path": "knowledge/principles/development-process/k-12584bf597c40b01.md",
+          "blob": "d218155b73c1de41de909072c17895b098ce6720",
+          "digest": "cde1c5e7b77d5e69ae3357edcc51fec9bd3c21cdd947fca464f286af4f6aec61"
+        },
+        {
+          "id": "k-5caa30903bcc5de2",
+          "path": "knowledge/principles/development-process/k-5caa30903bcc5de2.md",
+          "blob": "c9c4e81ad7592c3ea730d8b8d73e5a104f8d90e9",
+          "digest": "85b74dddb4b3fc44b75b37a50545dcf2a26a91d55647cbc0c50c95a662d26c04"
+        },
+        {
+          "id": "k-2aa29c1ef3b94c4d",
+          "path": "knowledge/principles/development-process/k-2aa29c1ef3b94c4d.md",
+          "blob": "4766cd9e7c06405b27bda5b17bd45f946fa1a8fa",
+          "digest": "5d83e665cd4ed4db4e07454118a40d7309d75c8f8fe78c0a69f85db71f9792d5"
+        },
+        {
+          "id": "k-23530f4699c05263",
+          "path": "knowledge/principles/development-process/k-23530f4699c05263.md",
+          "blob": "d971109324be9edf189c231037869cb33c2d8288",
+          "digest": "4370d7a76f99f4a51061f0b66e89d500623fe0672093c87a8e0880495cd81901"
+        },
+        {
+          "id": "k-35c3f7d87330d06e",
+          "path": "knowledge/principles/development-process/k-35c3f7d87330d06e.md",
+          "blob": "212443c78681d64e0e14442d0772bbbcd6ad4ed7",
+          "digest": "0b504bc67e1b6d6fcfaa5d66fbb8483f0ce3e59cfff40a8cd954ae04b1ff1d9c"
+        },
+        {
+          "id": "k-99d67a67388c3389",
+          "path": "knowledge/principles/development-process/k-99d67a67388c3389.md",
+          "blob": "aaab08ea25b11bef5d386c80ee8026291dca1b5f",
+          "digest": "be20141f3d8d3e69df4b10907a718f52cee125cecf2e50bba1e8786b7ff36cd1"
+        },
+        {
+          "id": "k-49cf831818d8eefd",
+          "path": "knowledge/principles/development-process/k-49cf831818d8eefd.md",
+          "blob": "27e3c8c4c8ac9e237e17557d0a47fe22b3832454",
+          "digest": "059b5aafd8fd081137053a914e8f5bde0ba3d16ab869e38c540005716ec1de3e"
+        }
+      ]
+    },
+    "skills/share-task-policies/references/guidance.md": {
+      "digest": "d09dc41f6aefe2200299a392ccf5b8cd86e2d77e3cea471487fc9ba16ecfeb04",
+      "sources": [
+        {
+          "id": "k-5cab5edadf27210f",
+          "path": "knowledge/principles/development-process/k-5cab5edadf27210f.md",
+          "blob": "75869e84c3b3cd6a8c2510c786f93759b20d1dfe",
+          "digest": "945f34226a64af422ed58252eb626dc72b2b99dd5c969261ad5ca4cba56b64ff"
+        },
+        {
+          "id": "k-553191f6db254b55",
+          "path": "knowledge/principles/development-process/k-553191f6db254b55.md",
+          "blob": "9bebe01704898f284bc169d5bcff366d179c9eab",
+          "digest": "eacb6358248b1dc140a0ee72ab982118aa91c3ecbcd280ed6299923343b8d997"
+        }
+      ]
+    },
+    "skills/share-task-policies/references/sources.md": {
+      "digest": "0fdda172e6438a5a870492d8090a8a088dd1a774749895944cb374e4ece7642a",
+      "sources": [
+        {
+          "id": "k-5cab5edadf27210f",
+          "path": "knowledge/principles/development-process/k-5cab5edadf27210f.md",
+          "blob": "75869e84c3b3cd6a8c2510c786f93759b20d1dfe",
+          "digest": "945f34226a64af422ed58252eb626dc72b2b99dd5c969261ad5ca4cba56b64ff"
+        },
+        {
+          "id": "k-553191f6db254b55",
+          "path": "knowledge/principles/development-process/k-553191f6db254b55.md",
+          "blob": "9bebe01704898f284bc169d5bcff366d179c9eab",
+          "digest": "eacb6358248b1dc140a0ee72ab982118aa91c3ecbcd280ed6299923343b8d997"
+        }
+      ]
+    },
+    "skills/simplify-design/references/guidance.md": {
+      "digest": "9f5c117f6e6c475135186b064d3f064e230aada4868526a755646f991a319364",
+      "sources": [
+        {
+          "id": "k-094d1e9c150747ec",
+          "path": "knowledge/principles/development-process/k-094d1e9c150747ec.md",
+          "blob": "ca5afedb052fd0f4b976931946c1802087193ae7",
+          "digest": "05ebd29fffdf1da42943652af8461939da07efa4c2a48115319ceb3a639f8030"
+        },
+        {
+          "id": "k-c8c18cc4a6746b87",
+          "path": "knowledge/principles/development-process/k-c8c18cc4a6746b87.md",
+          "blob": "71662f39279e8939c09644c95ab478169d169325",
+          "digest": "1ee0de90ce23b9ad5dbff2cd88dc38458441738c9f74b343dd6927ed7aa7d3cf"
+        },
+        {
+          "id": "k-dd48dc1f30a5dbac",
+          "path": "knowledge/principles/development-process/k-dd48dc1f30a5dbac.md",
+          "blob": "c773f98d12e8c8cd39361f40eab475cbd56012f4",
+          "digest": "eb283df8d70c3e14592c9ee40081d219533240a96fdb7baee1b38b73659a4c4f"
+        },
+        {
+          "id": "k-18612ffa4bd0558c",
+          "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
+          "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
+          "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953"
+        },
+        {
+          "id": "k-3ddb79c59977a9f0",
+          "path": "knowledge/principles/development-process/k-3ddb79c59977a9f0.md",
+          "blob": "0d68d9f4657588e19b52b5d9b114a4bfc1aec335",
+          "digest": "49f907389f29b99fcac20e8d1575ea77b63c2b75e17edd9b118ddce46d0204c6"
+        },
+        {
+          "id": "k-8d290466ad5dbafa",
+          "path": "knowledge/principles/development-process/k-8d290466ad5dbafa.md",
+          "blob": "80c7cbc4bcbfbc982961595b4ade82537532efe5",
+          "digest": "95394962cedebe48d7ab66811ab3171e40141492ab2c090fef4c46b8fc172f3f"
+        }
+      ]
+    },
+    "skills/simplify-design/references/sources.md": {
+      "digest": "4ae8b15746187185caff168729597c34e4ed0cf5e94470da1f2d81629e29fb32",
+      "sources": [
+        {
+          "id": "k-094d1e9c150747ec",
+          "path": "knowledge/principles/development-process/k-094d1e9c150747ec.md",
+          "blob": "ca5afedb052fd0f4b976931946c1802087193ae7",
+          "digest": "05ebd29fffdf1da42943652af8461939da07efa4c2a48115319ceb3a639f8030"
+        },
+        {
+          "id": "k-c8c18cc4a6746b87",
+          "path": "knowledge/principles/development-process/k-c8c18cc4a6746b87.md",
+          "blob": "71662f39279e8939c09644c95ab478169d169325",
+          "digest": "1ee0de90ce23b9ad5dbff2cd88dc38458441738c9f74b343dd6927ed7aa7d3cf"
+        },
+        {
+          "id": "k-dd48dc1f30a5dbac",
+          "path": "knowledge/principles/development-process/k-dd48dc1f30a5dbac.md",
+          "blob": "c773f98d12e8c8cd39361f40eab475cbd56012f4",
+          "digest": "eb283df8d70c3e14592c9ee40081d219533240a96fdb7baee1b38b73659a4c4f"
+        },
+        {
+          "id": "k-18612ffa4bd0558c",
+          "path": "knowledge/principles/development-process/k-18612ffa4bd0558c.md",
+          "blob": "0fad2900d0e98145cf2331eb409214284b02ecd0",
+          "digest": "313334dc4a930e6939093e89f8a82531f7287a882191dabac9734a0aca5f5953"
+        },
+        {
+          "id": "k-3ddb79c59977a9f0",
+          "path": "knowledge/principles/development-process/k-3ddb79c59977a9f0.md",
+          "blob": "0d68d9f4657588e19b52b5d9b114a4bfc1aec335",
+          "digest": "49f907389f29b99fcac20e8d1575ea77b63c2b75e17edd9b118ddce46d0204c6"
+        },
+        {
+          "id": "k-8d290466ad5dbafa",
+          "path": "knowledge/principles/development-process/k-8d290466ad5dbafa.md",
+          "blob": "80c7cbc4bcbfbc982961595b4ade82537532efe5",
+          "digest": "95394962cedebe48d7ab66811ab3171e40141492ab2c090fef4c46b8fc172f3f"
         }
       ]
     }
@@ -1509,6 +2123,9 @@
     "d28ce9b5384a9ef8547adf97a1e4a1a6452dc8f6ddd7f1d19633ac8039315b65",
     "a48449039f35e823e10cb1beda5b5e346aa0f383c6570f5013f3cd5d98c63ed6",
     "c3f19fb2edfc79ad2f6275f6501d8bf874e3b333e88b81af5794a11ff232a783",
-    "afd01f11ba6964743529209e5e3b5d6f38c7bd7b5fb428c05163272c480785d3"
+    "afd01f11ba6964743529209e5e3b5d6f38c7bd7b5fb428c05163272c480785d3",
+    "7f32c8535426fb763c0257a244438cc78d47b48093d7f8b9b41ce8e7ba60d9be",
+    "b7686ba29a49627b6b0ec54892411345ced9eb43ac9172b89ec6f64feae4096f",
+    "a23944e46f6af34630385af521bafd3f1953dfde0e01f35247d6b66d6f36862e"
   ]
 }

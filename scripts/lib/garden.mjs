@@ -3,6 +3,7 @@ import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
+import { policyConfig, policyStatus } from '../policies.mjs';
 
 export const sha256 = value => crypto.createHash('sha256').update(value).digest('hex');
 const canonical = value => JSON.stringify(value, (_, v) => v && typeof v === 'object' && !Array.isArray(v) ? Object.fromEntries(Object.entries(v).sort(([a], [b]) => a.localeCompare(b))) : v);
@@ -165,8 +166,9 @@ function addReport(state, input) {
   const fingerprint = reportFingerprint(input);
   const existing = state.reports.find(r => r.fingerprint === fingerprint);
   if (existing) {
-    if (existing.status === 'open' || existing.resolvedTree === state.snapshot?.tree) return { fingerprint, duplicate: true };
-    check(nonempty(input.recurrence?.reference) && nonempty(input.recurrence?.reason), 'Recurring finding on a new tree requires recurrence reference and reason');
+    const evidenced = nonempty(input.recurrence?.reference) && nonempty(input.recurrence?.reason);
+    if (existing.status === 'open' || (existing.resolvedTree === state.snapshot?.tree && !evidenced)) return { fingerprint, duplicate: true };
+    check(evidenced, 'Recurring finding requires recurrence reference and reason');
     existing.history.push({ outcome: existing.outcome, prevention: existing.prevention, resolvedTree: existing.resolvedTree });
     existing.status = 'open'; existing.outcome = null; existing.observedTree = state.snapshot?.tree ?? null;
     existing.recurrence = input.recurrence; existing.prevention = input.prevention;
@@ -189,17 +191,26 @@ export function recordReport(root, input) {
 export function preparePlan(root, plan, recovery = null) {
   const { config, state, journal } = recovery ?? loadGarden(root);
   check(!journal, 'Resume unfinished journal first');
-  check(plan?.schemaVersion === 1 && nonempty(plan.rationale) && ['ingest', 'report', 'review'].includes(plan.kind) && Array.isArray(plan.operations) && Array.isArray(plan.provenance), 'Invalid plan');
+  check(plan?.schemaVersion === 1 && nonempty(plan.rationale) && ['ingest', 'report', 'review', 'policy'].includes(plan.kind) && Array.isArray(plan.operations) && Array.isArray(plan.provenance), 'Invalid plan');
   validateSnapshot(plan.snapshot, config);
   const planDigest = objectDigest(plan);
   if (state.applied.includes(planDigest)) return { alreadyApplied: true, planDigest };
   const next = nextAction(state, plan.snapshot);
-  check(plan.kind === next.kind && (plan.kind !== 'report' || plan.reportId === next.reportId), `Plan violates priority: expected ${next.kind}`);
+  if (plan.kind === 'policy') {
+    if (!recovery) check(policyStatus(root).pending.length > 0, 'Policy plan requires a pending policy assessment');
+    check(state.snapshot && objectDigest(state.snapshot) === objectDigest(plan.snapshot), 'Policy plan must preserve the source snapshot');
+    check(!(plan.reports?.length) && !plan.resolution && !plan.reviewComplete, 'Policy plan cannot resolve reports or finish source review');
+  } else {
+    if (!recovery) check(policyStatus(root).valid, 'Plan violates priority: policy assessment required');
+    check(plan.kind === next.kind && (plan.kind !== 'report' || plan.reportId === next.reportId), `Plan violates priority: expected ${next.kind}`);
+  }
   if (!recovery) checkManaged(root, state);
   const target = structuredClone(state), operations = [], seen = new Set();
+  const authored = policyConfig(root)?.policySkills ?? [];
   for (const operation of plan.operations) {
     const p = operation.path;
     check(typeof p === 'string' && p.startsWith('skills/') && p.split('/').length >= 3 && !seen.has(p.toLowerCase()), 'Operations must name unique skills files');
+    check(!authored.some(prefix => p.startsWith(`${prefix}/`)), 'Policy skills use Git history, not principle provenance');
     const absolute = safePath(root, p);
     check(operation.expectedDigest === null || hash(operation.expectedDigest, 64), 'Invalid expectedDigest');
     check(operation.content === null || typeof operation.content === 'string', 'Content must be a string or null for deletion');
@@ -233,6 +244,7 @@ export function preparePlan(root, plan, recovery = null) {
     target.reviewedTree = plan.reviewComplete === true && !target.reports.some(report => report.status === 'open') ? plan.snapshot.tree : null;
   }
   if (plan.kind === 'ingest') target.reviewedTree = null;
+  if (plan.kind === 'policy') target.reviewedTree = null;
   target.applied.push(planDigest);
   return { schemaVersion: 1, planDigest, plan, baseState: state, baseStateDigest: objectDigest(state), targetState: target, operations };
 }
