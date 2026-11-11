@@ -1,36 +1,11 @@
 {
   "schemaVersion": 1,
-  "digest": "f665e812057eb522f75243205f015a5aa2f529021863e90ab4cf70e53e7d277a",
+  "digest": "43205a3fdee664492277cc46d63d16a0a9466275ee32fc301909dab9caa4f025",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1c7a3-13a4-7960-88b5-1f30ad60e4d0",
-  "reviewedAt": "2026-11-10T22:45:47.575Z",
-  "evidence": "Independent read-only review 01a1c7a0-a4e5-78f2-bc43-0546fb81afa5 checked the resolution against the current learning principle and existing Skill, prompt-fed trial 01a1c79e-79f7-7c02-8d6c-78a873c91651, and the state. Re-review 01a1c7a3-13a4-7960-88b5-1f30ad60e4d0 confirmed the semantic drift prevention fix on the exact final digest.",
-  "model": "gpt-6.1-sol",
+  "reviewer": "Codex read-only process 01a1cb05-514a-7f00-8e24-b3eb12096a9b",
+  "evidence": "Final full-input review PASS for all 65 files and 42 fixed-commit principle bodies; four prior blocking findings corrected and re-reviewed. Local evidence: .garden-cache/final-independent-review.md and .jsonl. All 52 tests passed; check-skills and garden validate passed. Codex skills/list recognized all 13 common Skills outside the repository; read-only use of both policy Skills and their references completed.",
+  "reviewedAt": "2026-11-11T14:35:44.715Z",
   "reasoning": "high",
-  "sandbox": "read-only",
-  "approvalPolicy": "never",
-  "trialId": "01a1c79e-79f7-7c02-8d6c-78a873c91651",
-  "reviewIds": [
-    "01a1c7a0-a4e5-78f2-bc43-0546fb81afa5",
-    "01a1c7a3-13a4-7960-88b5-1f30ad60e4d0"
-  ],
-  "reportId": "43c0ba0d559a8bee89718039a1530f2ce035611524b85314c714c30bd38affc9",
-  "sourceCommit": "15141ff0f69bc38a1923141a1b645a4c358c11cb",
-  "reviewSummary": [
-    "The fixed current principle supports retaining learn-through-practice. The Skill preserves the sequence from a conceptual map and lookup sources to practical exercises and problem-driven detail, along with the distinct roles of understanding, memorization, and formal study.",
-    "The Skill has a distinct teaching purpose. Adjacent Skills cover tooling adoption, knowledge collection, and workflow design.",
-    "The supplied model trial selected the Skill for Git learning and produced a conceptual map, a practice exercise, and troubleshooting guidance. It selected no Skill for the request to summarize uncommitted changes.",
-    "The resolution preserves the report fingerprint and observed tree, records the current tree as resolvedTree, leaves the type-boundary report open, and leaves reviewedTree null. The operator's full comparison accounts for the resolution and one applied plan digest.",
-    "The prevention anchor exists and covers candidate selection. Existing CI covers structural and provenance checks.",
-    "The required finding is resolved. The prevention entry links to the supplied source-meaning anchor and calls for reviewing the Skill against the current principle at a fixed commit whenever the Skill or its source changes. The review checks the sequence from a conceptual overview to practice and the distinct roles of understanding, memorization, and formal study. This check would catch a change that moved detailed memorization ahead of practice while preserving the same use case.",
-    "The operator's comparison of both 30-file bundles and all 42 source bodies supports carrying forward the unaffected review coverage. The only reported changes were the prevention entry and the applied-plan digest. The prior assessment of the prevention entry is superseded by this review.",
-    "The supplied current principle supports retaining learn-through-practice as a distinct teaching Skill. Its instructions preserve the conceptual map, lookup sources, practical exercises, and problem-driven study of details. The prior comparison with adjacent Skills and the two model selection cases still apply.",
-    "The prior state review still applies to the report fingerprint, observedTree, resolvedTree, the open type-boundary report, and null reviewedTree. The revised prevention entry uses the existing semantic review alongside CI's structural and provenance checks. No new material concern surfaced."
-  ],
-  "limitations": [
-    "Reviewed the supplied excerpts and prior review record. The final digest, full bundle and source comparison, and local check results are operator-reported. Those results include 42 passing tests, one skipped Windows junction test, and successful npm run check, garden validate, and git diff --check.",
-    "The model trial covers two prompt-fed selection cases and evaluates a learning response in the Git case only.",
-    "Runtime CI and publication remain pending."
-  ]
+  "model": "configured default (inherited)"
 }
