@@ -29,9 +29,9 @@
     },
     {
       "path": "skills/design-agent-workflows",
-      "digest": "7595b7468a0ce4adb10ed6ef0d48424cc5308c920a2901ddc502377085a6e938",
+      "digest": "5783b82cfa06df88d406d401331aa1e21238e33057c2c3f5bf18b2b94deeb69c",
       "outcome": "updated",
-      "reason": "構成・再開・起動・役割・モデル・境界・評価を同じ粒度で整理した。Notion保存や外部公開の実行はワークスペースへ分離した。"
+      "reason": "現行principleの起動プロンプトに関する本文を再確認した。手順・判断条件の参照先と、Skillを参照できない環境の扱いが既存guidanceにあるため、出典を固定snapshotへ更新した。入口と詳細の構造、外部操作の実行境界を確認した。"
     },
     {
       "path": "skills/design-knowledge-collection",
@@ -65,15 +65,15 @@
     },
     {
       "path": "skills/maintain-document-meaning",
-      "digest": "9dace904527df8de62100deabcfdb37290c2db85ae2e0b9bf9f3320c33e2758b",
+      "digest": "96b4f5d29f0483ec249fe6b0ea694413865fa26484c84386667699bf3746c1f3",
       "outcome": "updated",
-      "reason": "意味と条件を保つ判断を保持した。Skill構成と表現の重複規則を撤去し、方針Skillの正本を使う形にした。"
+      "reason": "SkillとREADMEが現在の成果物を説明する基準と、見出し・箇条書きの役割をguidanceに統合した。概要・制約・フローの入口を維持し、出典はsourcesにまとめた。具体的なSkill構成と日本語表現は共通方針を参照する。"
     },
     {
       "path": "skills/review-by-risk",
-      "digest": "4e03ffe74426d00cb6da677e56d568679d385b47cca301f56b8041f347c95e04",
+      "digest": "30300cf17ff2c171d7a26eb58859cd556021afefbc4233146a0b51d6e1085ceb",
       "outcome": "updated",
-      "reason": "検証強度、判定分担、独立レビュー、ゲート改善を構造化した。PRの自動作成・公開・マージ手順を共通Skillから分離した。"
+      "reason": "バージョンアップ後に対象の全試験を実施しフロー試験を中心にする判断を追加した。異常系パターンの確認範囲は別に示す。形式・参照の検査は既存スクリプトを利用する方針を追記し、意味評価は独立レビューで扱う。外部公開は対象ワークスペースの手順へ委ねた。"
     },
     {
       "path": "skills/share-task-policies",
