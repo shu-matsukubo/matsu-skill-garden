@@ -41,9 +41,9 @@
     },
     {
       "path": "skills/evaluate-development-tooling",
-      "digest": "a9a58071e6b53d4d68b047c54e5588d17dd740ef52824c1159fec64c26b3ea5b",
+      "digest": "7cd3b99adb271c3b2d966f77101ad522cfb4bba702c9bd866008836ddce78a14",
       "outcome": "updated",
-      "reason": "運用負担、適合、自動化の価値、起動継続を同じ役割の文で構成した。整理とreport保存は構成の設計とし、外部書込みを指示しない。"
+      "reason": "会社側のSkillsから個人環境への持ち込み禁止を、導入判断の制約と詳細に反映した。起動条件にSkillの導入を加え、提供元と利用環境を確認する判断を追加した。入口の3区分、必要時の詳細参照、出典と外部操作の境界を確認した。"
     },
     {
       "path": "skills/interpret-web-traffic",
@@ -71,9 +71,9 @@
     },
     {
       "path": "skills/review-by-risk",
-      "digest": "30300cf17ff2c171d7a26eb58859cd556021afefbc4233146a0b51d6e1085ceb",
+      "digest": "a43125a68b4c3a5531d5dfb02990575c74e3a61c8b07e8684616fb5f3f31b721",
       "outcome": "updated",
-      "reason": "バージョンアップ後に対象の全試験を実施しフロー試験を中心にする判断を追加した。異常系パターンの確認範囲は別に示す。形式・参照の検査は既存スクリプトを利用する方針を追記し、意味評価は独立レビューで扱う。外部公開は対象ワークスペースの手順へ委ねた。"
+      "reason": "レポートの問題をレビューで見落とされた観点として評価し、機械検出なら既存の検査・CIへ、意味判断ならレビュー観点へ反映する基準を追加した。既存のゲート改善と同じ箇所にまとめ、入口と出典の参照構造を維持した。"
     },
     {
       "path": "skills/share-task-policies",

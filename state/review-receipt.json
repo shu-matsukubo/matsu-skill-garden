@@ -1,28 +1,25 @@
 {
   "schemaVersion": 1,
-  "digest": "11623c80a6be3171c0e85be9e443f698372340dbb6f178cbc5ff41a83ea86fab",
+  "digest": "0ecada8e1ee678282800bdc6b71711792924d61bdf175f01fc3ccd60955806d6",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1dc51-1818-7970-be54-d52109ae9722",
-  "reviewedAt": "2026-11-14T23:08:57.363Z",
-  "evidence": "Independent read-only review 01a1dc51-1818-7970-be54-d52109ae9722 of all final publishable files and verified current principles. Fixed 133-entry manifest, full 8-entry ingestion batch, all affected file provenance and three Skill policy assessments verified.",
+  "reviewer": "isolated-codex:01a1e174-ff39-7153-aee7-fef2c67a9584",
+  "reviewedAt": "2026-11-15T23:07:07.591Z",
+  "evidence": "Independent read-only review 01a1e174-ff39-7153-aee7-fef2c67a9584 of all final publishable files and verified current principles. Fixed 137-entry manifest, full 7-entry ingestion batch, all affected file provenance and two Skill policy assessments verified.",
   "model": "gpt-6.1-sol",
   "reasoning": "high",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 8,
-  "sourceCommit": "e4d480ada525e5d8e7c46f7bd2ac8cd2ba63273e",
+  "evaluatedKnowledgeChanges": 7,
+  "sourceCommit": "995d108936acb803c46f570dbda9b1d43666887d",
   "reviewSummary": [
-    "Reviewed the supplied 69-file final bundle, emphasizing all six changed Skill files, garden state and policy assessment.",
-    "Compared the three affected Skills with supplied previous versions and current principle bodies; no material guidance was lost.",
-    "Confirmed all five changed principles are handled by existing Skills, the prompt update remains provenance-only, and the three ideas were not promoted into rules.",
-    "Confirmed version-upgrade guidance preserves all-tests execution, flow-testing emphasis and limits on pattern coverage.",
-    "Reviewed document presentation and finished-product guidance, shared-policy precedence, execution boundaries and workspace-owned publication procedures.",
-    "Reviewed snapshot/provenance consistency, three refreshed policy assessments and 12 carried-forward assessments, unchanged reports, and reviewedTree remaining null.",
-    "Assessed the reported validation scope as appropriate for these semantic and provenance changes."
+    "全69ファイルと提供された現行principle本文を確認し、変更5ファイルを旧版と照合した。意味のある既存指針の欠落はない。",
+    "会社から個人への持ち込み禁止の方向・確実性、既存Skillへの統合、逆方向のideaとの区別を確認した。",
+    "レポートからの検証改善を確認した。既存のゲート追加価値、検証責任、承認・公開の境界は維持されている。",
+    "設計・日本語出力方針、固定snapshot、7件の差分の扱い、provenance、report未処理、2対象の評価更新と13対象の継続記録を確認した。"
   ],
   "limitations": [
-    "Review used supplied artifacts and operator evidence only. No tools, execution, edits, delegation or publication occurred; hashes, manifest completeness, test results and local discovery were not independently rerun.",
-    "CI and publication remain pending; this pass applies to the supplied final bundle."
+    "提供資料による静的レビュー。digest、138件のmanifest完全性、テスト・同期結果は運用担当の検証記録に依拠し、再実行していない。",
+    "CIと公開は未完了であり、その成功を認定する結果ではない。"
   ]
 }

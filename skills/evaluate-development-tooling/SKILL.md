@@ -1,6 +1,6 @@
 ---
 name: evaluate-development-tooling
-description: AI開発ツールや定期自動化の導入・継続を判断するとき、実際の運用と認知負担を比較する。
+description: AI開発ツール・Skillや定期自動化の導入・継続を判断するとき、利用環境の境界、実際の運用と認知負担を確認する。
 ---
 
 ## 概要
@@ -11,6 +11,7 @@ description: AI開発ツールや定期自動化の導入・継続を判断す�
 
 - 現在の依頼とワークスペース固有の要件を優先し、上位指示と権限の制約を守る。
 - 外部サービスへの書き込み・送信・公開の実行手順は、対象ワークスペースで扱う。
+- 会社側のSkillsを個人環境へ持ち込まない。
 - 日本語の出力では[japanese-output-policy](../japanese-output-policy/SKILL.md)を使う。
 
 ## フロー
