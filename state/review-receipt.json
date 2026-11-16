@@ -1,25 +1,27 @@
 {
   "schemaVersion": 1,
-  "digest": "0ecada8e1ee678282800bdc6b71711792924d61bdf175f01fc3ccd60955806d6",
+  "digest": "3051fc8d52cfc2d4bea0758760a688d9fcb32ad47fff5c11313d784e0386270f",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1e174-ff39-7153-aee7-fef2c67a9584",
-  "reviewedAt": "2026-11-15T23:07:07.591Z",
-  "evidence": "Independent read-only review 01a1e174-ff39-7153-aee7-fef2c67a9584 of all final publishable files and verified current principles. Fixed 137-entry manifest, full 7-entry ingestion batch, all affected file provenance and two Skill policy assessments verified.",
+  "reviewer": "isolated-codex:01a1e69d-8feb-7ae2-8f8a-974b80b72cc5",
+  "reviewedAt": "2026-11-16T23:09:29.561Z",
+  "evidence": "Independent read-only review 01a1e69d-8feb-7ae2-8f8a-974b80b72cc5 covered the final 72-file bundle, actual current sources, all 17 fixed-snapshot changes, the new notification Skill and three revised Skills, plus the full 16-target policy reevaluation.",
   "model": "gpt-6.1-sol",
   "reasoning": "high",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 7,
-  "sourceCommit": "995d108936acb803c46f570dbda9b1d43666887d",
+  "evaluatedKnowledgeChanges": 17,
+  "sourceCommit": "8a60e9827d2d2936d4c7883a70bde6053a611c1b",
   "reviewSummary": [
-    "全69ファイルと提供された現行principle本文を確認し、変更5ファイルを旧版と照合した。意味のある既存指針の欠落はない。",
-    "会社から個人への持ち込み禁止の方向・確実性、既存Skillへの統合、逆方向のideaとの区別を確認した。",
-    "レポートからの検証改善を確認した。既存のゲート追加価値、検証責任、承認・公開の境界は維持されている。",
-    "設計・日本語出力方針、固定snapshot、7件の差分の扱い、provenance、report未処理、2対象の評価更新と13対象の継続記録を確認した。"
+    "17差分を一括評価し、4 principleを反映。6 fact・7 ideaを確定規則へ昇格していない。",
+    "既存3 Skillsを現行出典と旧ファイルで比較。GUI/CLIの判断条件、確認済み不備だけの除外、手動補完を求めない条件、具体実装と観測に基づく抽象化を確認。従来の有用な指針も保持している。",
+    "通知SkillはDiscord・LINEと今回の導入準備を比較し、過去のLINE評価を現在の技術的断定や一律の選好に変えていない。開発ツール評価・ホスティング選定とは用途が異なり、短い独立Skillとして妥当。",
+    "設計・日本語出力方針、入口から詳細・固定出典への参照構造、ファイルごとの根拠対応、外部操作を対象ワークスペースへ分ける境界を確認。",
+    "全16対象の再評価と具体的理由を確認。両方針Skill、保守機構、12件の変更不要・4件の追加更新を網羅している。",
+    "snapshot・provenance・適用状態と監査記録を照合。reportを取り込み中に処理せず保持し、承認済み公開・ローカル同期の境界を維持している。"
   ],
   "limitations": [
-    "提供資料による静的レビュー。digest、138件のmanifest完全性、テスト・同期結果は運用担当の検証記録に依拠し、再実行していない。",
-    "CIと公開は未完了であり、その成功を認定する結果ではない。"
+    "供給された本文と監査記録によるレビュー。ツールを使用せず、digest再計算、テスト再実行、実環境の同期確認は行っていない。",
+    "ローカル検証と同期成功は親プロセスの記録に基づく。CI・公開は未完了であり、このpassはその成功を示さない。"
   ]
 }
