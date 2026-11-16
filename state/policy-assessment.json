@@ -1,97 +1,103 @@
 {
   "schemaVersion": 1,
   "policyDigest": "0583b5a83ab6d5ed347298771a5059794fa813dcc67054d4bb3a369500242278",
-  "scopeDigest": "7887f4a2642ac6e9d7ee1d28464b38054db38b1524d402d7c24dcb152af151ae",
+  "scopeDigest": "05564bd03ed708a65b16b08d138ac4018f84ada2ba064ff176bb107f52657215",
   "evaluations": [
     {
       "path": ".agents/skills/maintain-skill-garden",
       "digest": "3b956c930613d402c83b59e7cf05345bc3d79489983c77fd5dd63b4eaae11ede",
-      "outcome": "updated",
-      "reason": "現在のユーザー要求に合わせ、自動同期をこのワークスペースと設定済みローカル登録先のジャンクションに限定した。共通Skillの外部操作制限は維持し、詳細は既存の保守文書へ委ねた。"
+      "outcome": "unchanged",
+      "reason": "既存の設計・日本語方針と保守・公開文書への入口を確認した。追加Skillも同じ全件評価と設定済みジャンクション同期の範囲で扱えるため、制御Skillの変更は不要。"
     },
     {
       "path": "@maintenance",
       "digest": "62b4192d305ac71cb1edbf02d85e051ef1e65d6365b5e12eddaf9955899d71d5",
+      "outcome": "unchanged",
+      "reason": "対象一覧の追加をpoliciesのscopeDigestで検知し、形式・参照・状態・receiptを既存CLIとCIで検査できる。syncは設定済み登録先へ同名ジャンクションを差分適用し、forceReloadで認識を検証する。新しい通知Skillは同じ仕組みで扱え、公開・外部保存の責務は保守文書にある。"
+    },
+    {
+      "path": "skills/choose-app-notifications",
+      "digest": "f7c40b04c4f2861bce4372365b30a90e67dc1f5c4b5704782c02facf2c42b16c",
       "outcome": "updated",
-      "reason": "既存link-skills.ps1で作成・維持・解除の差分を扱い、管理外・通常ディレクトリ・参照先本文を保護する。next/apply/resumeとmain追従後に同期し、CodexのforceReload一覧で名前・正本パス・user scope・有効状態と廃止リンクの不在を検証する。未完了journal・CI・別checkoutの境界とWindows実ジャンクションテストを確認した。"
+      "reason": "アプリの通知先選定を起動条件とし、Discord/LINEの導入準備を比較する小さな判断を独立させた。入口を概要・制約・フローにし、詳細と出典を必要時に参照する。送信や接続の実行手順を持たず、以前のLINE準備の評価を現在の一律な難易度へ変えない。"
     },
     {
       "path": "skills/choose-web-hosting",
       "digest": "2761d324b6d03b85282adc1f21c65970bfbe5a57e2e42138b574424c944fcd64",
-      "outcome": "updated",
-      "reason": "費用・無料枠・運用負担の判断を詳細へ分け、入口と出典を整理した。比較の意味を保ち、外部公開の実行手順を持たない。"
+      "outcome": "unchanged",
+      "reason": "無料枠超過時の挙動、費用と保守負担の比較を確認した。通知先選定とは起動条件が明確に異なり、入口と詳細・出典の参照、外部公開の境界を維持できる。"
     },
     {
       "path": "skills/communicate-oss-releases",
       "digest": "70d035725ea1f0496e036a62d9b67bc8c202b63522abf9f380d41fbd547c7a2c",
-      "outcome": "updated",
-      "reason": "リリースの影響説明とv0.1.0の起点を保持し、詳細と出典を参照へ分けた。公開の自動実行指示を持たない。"
+      "outcome": "unchanged",
+      "reason": "v0.1.0の起点と利用者への影響説明を、詳細と出典から参照する構造を確認した。通知Skillの追加による本文の影響はなく、公開の操作はワークスペースの手順にある。"
     },
     {
       "path": "skills/design-agent-workflows",
       "digest": "5783b82cfa06df88d406d401331aa1e21238e33057c2c3f5bf18b2b94deeb69c",
-      "outcome": "updated",
-      "reason": "現行principleの起動プロンプトに関する本文を再確認した。手順・判断条件の参照先と、Skillを参照できない環境の扱いが既存guidanceにあるため、出典を固定snapshotへ更新した。入口と詳細の構造、外部操作の実行境界を確認した。"
+      "outcome": "unchanged",
+      "reason": "実行構成、再開、役割、モデル選択と境界を段階的に参照する構造を確認した。共通Skillの参照と外部保存の構成判断を保ち、今回の通知候補やGUI/CLIの判断は各Skillで扱える。"
     },
     {
       "path": "skills/design-knowledge-collection",
-      "digest": "70b0648ae42ad21c20db55c5951f63e5b3e15c539ac39d2436b0db9119e00ea9",
+      "digest": "252a031a5dde29af193df173d3ee35bad021066c00ad31d7934c6922cf42266e",
       "outcome": "updated",
-      "reason": "取得要件、比較、責務、個人構成、発言評価を分けた。GitHub/Notionは構成判断として保持し、外部保存の実行手順を分離した。"
+      "reason": "不備が確認された入力を対応不要などにして整理対象から外し、本人に出典の手動補完を求めない構成を追加した。未確認の入力へ適用を広げず、保存操作は対象ワークスペースの手順で扱う。"
     },
     {
       "path": "skills/evaluate-development-tooling",
-      "digest": "7cd3b99adb271c3b2d966f77101ad522cfb4bba702c9bd866008836ddce78a14",
+      "digest": "ad946416402895119f8e38f40d6cb6b460638d94809716fb66d47e57d80e6070",
       "outcome": "updated",
-      "reason": "会社側のSkillsから個人環境への持ち込み禁止を、導入判断の制約と詳細に反映した。起動条件にSkillの導入を加え、提供元と利用環境を確認する判断を追加した。入口の3区分、必要時の詳細参照、出典と外部操作の境界を確認した。"
+      "reason": "GUI/CLIを利用目的、操作のしやすさ、アプリ数と配置・起動の負担で比べる判断を既存の導入評価へ統合した。会社から個人への持ち込み境界と外部保存の責務を保ち、詳細と出典を参照する。"
     },
     {
       "path": "skills/interpret-web-traffic",
       "digest": "1cc9474123ca18ffac55c083fc4236c3687bf3ad308e5643839792f08d2c2100",
-      "outcome": "updated",
-      "reason": "集計単位、Bot等の包含、未特定の調査範囲を保ち、判断手順と出典を分けた。日本語方針を単一正本から参照する。"
+      "outcome": "unchanged",
+      "reason": "指標の集計単位と計測範囲を確かめてから数値を解釈する順序を確認した。起動条件と詳細・出典の参照が明確で、新規Skillからの責務重複はない。"
     },
     {
       "path": "skills/japanese-output-policy",
       "digest": "f54c6a0e9aff453992119e408e24b2bcb48075935123e3308b0fd732246d2f75",
-      "outcome": "updated",
-      "reason": "文書・文・詳細の構成基準と表現一覧を分けた。参照動詞は設計方針を正本として再利用し、未定義表現の推論と自身の再評価を含めた。"
+      "outcome": "unchanged",
+      "reason": "見出し、文の役割、詳細の単位と表現一覧、設計方針への単一参照を確認した。新規通知Skillにも同じ方針を適用でき、方針本文の追加は不要。"
     },
     {
       "path": "skills/learn-through-practice",
       "digest": "71829e258751f32317587093b4f6a4b4ded1ba9b78530d6acb2e087c15f00d6b",
-      "outcome": "updated",
-      "reason": "全体像・調べる場所・実践・暗記と資格の区別を保持した。出典と判断手順を分け、共通の日本語方針を参照する。"
+      "outcome": "unchanged",
+      "reason": "全体像と調べる場所から実践へ進み、理解・暗記・体系学習を区別する内容を確認した。入口と詳細・出典の構造、外部操作の境界を維持できる。"
     },
     {
       "path": "skills/maintain-document-meaning",
       "digest": "96b4f5d29f0483ec249fe6b0ea694413865fa26484c84386667699bf3746c1f3",
-      "outcome": "updated",
-      "reason": "SkillとREADMEが現在の成果物を説明する基準と、見出し・箇条書きの役割をguidanceに統合した。概要・制約・フローの入口を維持し、出典はsourcesにまとめた。具体的なSkill構成と日本語表現は共通方針を参照する。"
+      "outcome": "unchanged",
+      "reason": "意味と条件を保つ文書保守、現在の成果物の説明、共通の設計・日本語方針への参照を確認した。新規Skillにも適用でき、重複した規約を増やす必要はない。"
     },
     {
       "path": "skills/review-by-risk",
       "digest": "a43125a68b4c3a5531d5dfb02990575c74e3a61c8b07e8684616fb5f3f31b721",
-      "outcome": "updated",
-      "reason": "レポートの問題をレビューで見落とされた観点として評価し、機械検出なら既存の検査・CIへ、意味判断ならレビュー観点へ反映する基準を追加した。既存のゲート改善と同じ箇所にまとめ、入口と出典の参照構造を維持した。"
+      "outcome": "unchanged",
+      "reason": "リスク別の検証、独立レビューの境界、レポートからの検証改善とバージョンアップ後の試験を確認した。新規通知Skillの意味は既存レビュー観点、構造は既存検査で確認できる。"
     },
     {
       "path": "skills/share-task-policies",
       "digest": "7dd1053049f78c856b4da70f76bd19819a48bf2715713e0c4afc34ffc52edc70",
-      "outcome": "updated",
-      "reason": "作業対象ごとの正本・リビジョン共有と登録方針の適用範囲を保持した。外部への永続保存の実行手順をワークスペースへ分離した。"
+      "outcome": "unchanged",
+      "reason": "作業対象ごとの方針とリビジョンの共有、一件の登録方針の範囲、保存競合時の条件を確認した。共通Skillの参照数との区別と、外部保存の実行境界を維持できる。"
     },
     {
       "path": "skills/simplify-design",
-      "digest": "b33ff7e3a055b3e58d69be9628a054d6ad885671ec04e55c23190e7bf0148db8",
+      "digest": "551ee6951e4a73b6c815e666560acb4187b6494a985c0dcd0b67241f6da44edb",
       "outcome": "updated",
-      "reason": "前提、簡素化、共通化、状態管理を分けた。必要保証と変更理由の意味を保ち、正本とClientの境界を構成判断として保持した。"
+      "reason": "小さな具体実装を先に成立させ、次の実装時に観測された構造を比べる判断を明記した。必要な保証、移行の前提、共通化の制約と利益、状態管理の境界を保つ。"
     },
     {
       "path": "skills/skill-design-policy",
       "digest": "3407a291f8ebb962cb3126945e956df41ade18e8a13197ad8f5bf6e7ab302547",
-      "outcome": "updated",
-      "reason": "入口の3区分、必要時の参照、共通の参照動詞、機械保証優先、全件再評価を正本へ集約した。自分自身と保守機構を対象に含め、外部操作を指示しない。"
+      "outcome": "unchanged",
+      "reason": "概要・制約・フローの入口、詳細と出典の参照、参照動詞、機械保証と自己再評価を確認した。追加Skillによる全件評価と外部操作の制約を既存方針で扱える。"
     }
   ]
 }
