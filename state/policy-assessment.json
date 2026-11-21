@@ -35,9 +35,9 @@
     },
     {
       "path": "skills/design-agent-workflows",
-      "digest": "5783b82cfa06df88d406d401331aa1e21238e33057c2c3f5bf18b2b94deeb69c",
-      "outcome": "unchanged",
-      "reason": "実行構成、再開、役割、モデル選択と境界を段階的に参照する構造を確認した。共通Skillの参照と外部保存の構成判断を保ち、今回の通知候補やGUI/CLIの判断は各Skillで扱える。"
+      "digest": "b2ef3403be4a11e74a86b6c99e5d8cc356999aeab73aa960da9cdaad08da5ac3",
+      "outcome": "updated",
+      "reason": "設計依頼で現在構成・制約・運用方針・求める成果物を共有し、依頼タスクと実装結果を対応付けて追跡する構成を追加した。追加する保存状態を引き継ぎに絞る既存の判断と役割分担を保ち、外部保存はワークスペースで扱う。設計依頼・記録の起動条件と、用途別に詳細へ進む参照を明記した。"
     },
     {
       "path": "skills/design-knowledge-collection",
@@ -89,9 +89,9 @@
     },
     {
       "path": "skills/simplify-design",
-      "digest": "551ee6951e4a73b6c815e666560acb4187b6494a985c0dcd0b67241f6da44edb",
+      "digest": "23856fc7c027ffba0e4fede4ac812d57478eb502cf56d138ab5b98b28092f524",
       "outcome": "updated",
-      "reason": "小さな具体実装を先に成立させ、次の実装時に観測された構造を比べる判断を明記した。必要な保証、移行の前提、共通化の制約と利益、状態管理の境界を保つ。"
+      "reason": "組織・運用・担当・移行を技術要件と並べる前提を明記し、恒久対応が予定された場合の総コストと、性能改善の頻度×影響による比較を追加した。具体例からの抽象化、最小限の状態管理、詳細と固定出典の参照を保ち、起動条件と用途別の参照を更新した。恒久対応の予定を節全体の適用条件とし、実行可能な案を総損失で比較する。"
     },
     {
       "path": "skills/skill-design-policy",

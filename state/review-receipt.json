@@ -1,27 +1,40 @@
 {
   "schemaVersion": 1,
-  "digest": "3051fc8d52cfc2d4bea0758760a688d9fcb32ad47fff5c11313d784e0386270f",
+  "digest": "508db3f63390d1d7b031e8d508e487941c06fb7c742a5861a842f867b8b56369",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a1e69d-8feb-7ae2-8f8a-974b80b72cc5",
-  "reviewedAt": "2026-11-16T23:09:29.561Z",
-  "evidence": "Independent read-only review 01a1e69d-8feb-7ae2-8f8a-974b80b72cc5 covered the final 72-file bundle, actual current sources, all 17 fixed-snapshot changes, the new notification Skill and three revised Skills, plus the full 16-target policy reevaluation.",
-  "model": "gpt-6.1-sol",
+  "reviewer": "isolated-codex:01a2005c-d001-7310-9e69-17e8af510507",
+  "reviewedAt": "2026-11-21T23:07:31.582Z",
+  "evidence": "Independent full review 01a20059-34f5-7ed3-be7d-35bcf812a755 covered all 72 publishable files and verified current principles. Re-review 01a2005c-d001-7310-9e69-17e8af510507 checked all three required fixes and the final digest. The complete 14-entry batch, exact 144-entry manifest, two affected Skills and updated assessments were verified.",
+  "reviewIds": [
+    "01a20059-34f5-7ed3-be7d-35bcf812a755",
+    "01a2005c-d001-7310-9e69-17e8af510507"
+  ],
+  "resolvedFindings": [
+    "temporary-investment-criterion",
+    "simplify-design-reference-routing",
+    "design-request-discovery"
+  ],
+  "model": "gpt-6.2-sol",
   "reasoning": "high",
+  "modelSelectionReason": "Selected an available high-performance general coding model with high reasoning for source semantics, scope and policy review.",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 17,
-  "sourceCommit": "8a60e9827d2d2936d4c7883a70bde6053a611c1b",
+  "evaluatedKnowledgeChanges": 14,
+  "sourceCommit": "24856e987cf8b4d0017c18006ec0e157671ed0f3",
   "reviewSummary": [
-    "17差分を一括評価し、4 principleを反映。6 fact・7 ideaを確定規則へ昇格していない。",
-    "既存3 Skillsを現行出典と旧ファイルで比較。GUI/CLIの判断条件、確認済み不備だけの除外、手動補完を求めない条件、具体実装と観測に基づく抽象化を確認。従来の有用な指針も保持している。",
-    "通知SkillはDiscord・LINEと今回の導入準備を比較し、過去のLINE評価を現在の技術的断定や一律の選好に変えていない。開発ツール評価・ホスティング選定とは用途が異なり、短い独立Skillとして妥当。",
-    "設計・日本語出力方針、入口から詳細・固定出典への参照構造、ファイルごとの根拠対応、外部操作を対象ワークスペースへ分ける境界を確認。",
-    "全16対象の再評価と具体的理由を確認。両方針Skill、保守機構、12件の変更不要・4件の追加更新を網羅している。",
-    "snapshot・provenance・適用状態と監査記録を照合。reportを取り込み中に処理せず保持し、承認済み公開・ローカル同期の境界を維持している。"
+    "Reviewed the 72 supplied repository files and 52 current principle bodies. Compared both affected Skills with the six supplied prior files, including the five content changes and the provenance refresh for the unchanged design-agent-workflows entry point.",
+    "Checked the 14 batch dispositions against the fixed snapshot and per-file provenance. The five changed principles are represented in the two existing Skills, the nine changed facts remain metadata, and the final state leaves the open report pending.",
+    "Applied both workspace policies and checked the two refreshed assessments against the 16-target inventory, including the 14 carried-forward assessments. Integrating the three design decisions into simplify-design is appropriate. The broader trigger needs conditional references so each use case reaches the relevant guidance.",
+    "Resolved temporary-investment-criterion. The entire section applies when a permanent solution is planned. A long wait, frequent failures, or high user impact each warrants evaluating further investment. The guidance compares feasible options through cutover and selects the one with the lowest total loss, including implementation, operations, failures, and removal or migration.",
+    "Resolved simplify-design-reference-routing. Conditional links lead to the matching sections for design comparison, abstraction, state management, temporary work, and performance prioritization. Fixed sources remain available for checking the rationale.",
+    "Resolved design-request-discovery. The description makes standalone AI design requests and task and implementation records discoverable. Each has a direct link to its guidance. Workflow and scheduled-process design remain covered, and external saving procedures remain with the workspace.",
+    "Reviewed all three revised files and both updated assessment entries against the supplied workspace policies. No new required issue remains.",
+    "The unaffected coverage from the first review carries forward on the basis of the operator’s complete bundle comparison. This includes the source and provenance review, the 14 batch dispositions, the pending report, and the 14 unchanged policy assessments. The operator verified that the state changes were confined to the three matching generated digests and the last applied-plan digest."
   ],
   "limitations": [
-    "供給された本文と監査記録によるレビュー。ツールを使用せず、digest再計算、テスト再実行、実環境の同期確認は行っていない。",
-    "ローカル検証と同期成功は親プロセスの記録に基づく。CI・公開は未完了であり、このpassはその成功を示さない。"
+    "This was a read-only review of the supplied artifacts. The final digest, full bundle comparison, and state-to-plan verification were supplied by the operator.",
+    "The operator reported 60 passing local tests with no skips and passing policy, Markdown/reference, state validation, and git diff --check checks. This review did not rerun those checks.",
+    "CI and publication remain pending."
   ]
 }
