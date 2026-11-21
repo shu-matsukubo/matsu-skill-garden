@@ -1,6 +1,6 @@
 ---
 name: design-agent-workflows
-description: AIワークフローや定期処理を設計するとき、責務、計画レビュー、実行境界を整理し、必要なエージェントとモデルを選ぶ。
+description: AIワークフロー・定期処理の設計、AIへの設計依頼、依頼タスクと実装結果の記録を構成するとき、前提、役割、実行境界を整理する。
 ---
 
 ## 概要
@@ -15,5 +15,7 @@ description: AIワークフローや定期処理を設計するとき、責務�
 
 ## フロー
 
-1. 判断と手順は[design-agent-workflowsの方針](references/guidance.md)に従う。
-2. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
+1. Workflowや定期処理の設計では[構成・役割・実行境界の方針](references/guidance.md)に従う。
+2. AIへの設計依頼を準備するときは[依頼の前提の方針](references/guidance.md#設計依頼の前提)に従う。
+3. 依頼と実装結果の記録を構成するときは[作業記録の方針](references/guidance.md#作業記録の構成)に従う。
+4. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
