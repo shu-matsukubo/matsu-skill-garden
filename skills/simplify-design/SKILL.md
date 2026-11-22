@@ -20,4 +20,7 @@ description: 設計や開発の仕組み、暫定対応、性能改善の優先�
 3. 状態管理を選ぶときは[状態管理の方針](references/guidance.md#状態管理の選択)に従う。
 4. 恒久対応が予定された暫定対応では[投資判断の方針](references/guidance.md#暫定対応の投資)に従う。
 5. 性能改善の候補を比べるときは[優先順位の方針](references/guidance.md#性能改善の優先順位)に従う。
-6. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
+6. 正本データとViewer・Editorの依存関係を定めるときやClientを替えるときは[CoreとClientの方針](references/guidance.md#coreとclientの境界)に従う。
+7. 標準と固有拡張を選ぶときは[相互運用性の方針](references/guidance.md#相互運用性の境界)に従う。
+8. 案を不採用にするときや、その判断の前提が変わったときは[再評価の方針](references/guidance.md#不採用案の再評価)に従う。
+9. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
