@@ -1,41 +1,47 @@
 {
   "schemaVersion": 1,
-  "digest": "3d5d8685b20209f3a817882d8bd0202860aa255f2c513441b29fbd18a46c9fb2",
+  "digest": "79e537090d36108bdf3b573c9f72dc7654bf6c1a7f5549c0586cde9644719dd6",
   "result": "pass",
   "independent": true,
-  "reviewer": "isolated-codex:01a20586-e05f-78e3-a9ff-88a578906b25",
-  "reviewedAt": "2026-11-22T23:11:38.763Z",
-  "evidence": "Independent full review 01a2057f-68b8-7de1-a919-10066e97b875 covered 72 files and 60 verified source bodies. Scoped re-review 01a20584-5e2b-7dd3-b40e-3e93fe5f447c confirmed five fixes and identified the remaining routing condition. Final review 01a20586-e05f-78e3-a9ff-88a578906b25 checked its correction and the final digest. All 11 fixed-snapshot changes, exact 144-entry manifest, three affected Skills, provenance and assessments were verified.",
+  "reviewer": "isolated-codex:01a20aad-7fae-7e02-83df-8021c7104eb1",
+  "reviewedAt": "2026-11-23T23:11:58.528Z",
+  "evidence": "Independent full review 01a20aa8-16d3-7a81-aa7b-28ec2e8a20eb covered 72 publishable files and 69 verified current principle bodies. Scoped re-review 01a20aad-7fae-7e02-83df-8021c7104eb1 checked the periodic skip-condition correction and final state/assessment changes with byte-identical unaffected files and source bodies. Deterministic rechecks confirmed 144 entries (22 facts, 35 ideas, 87 principles) and the unchanged 64-character SHA-256, adjudicating two initial review counting/hash claims. All 12 fixed-snapshot changes, four affected Skills, provenance and assessments were verified.",
   "reviewIds": [
-    "01a2057f-68b8-7de1-a919-10066e97b875",
-    "01a20584-5e2b-7dd3-b40e-3e93fe5f447c",
-    "01a20586-e05f-78e3-a9ff-88a578906b25"
+    "01a20aa8-16d3-7a81-aa7b-28ec2e8a20eb",
+    "01a20aad-7fae-7e02-83df-8021c7104eb1"
   ],
   "resolvedFindings": [
-    "workflow-reference-routing",
-    "approval-handoff-states",
-    "parallelism-decision",
-    "grep-reference-routing",
-    "core-client-reference-routing",
-    "architecture-reconsideration-trigger"
+    "periodic-skip-condition"
+  ],
+  "adjudicatedFindings": [
+    {
+      "id": "manifest-count-mismatch",
+      "outcome": "Exact original/final snapshot and untruncated tree have 144 entries including 35 ideas; no missing entry."
+    },
+    {
+      "id": "invalid-managed-file-digest",
+      "outcome": "Original/final bundle, managed record and recomputed SHA-256 match; 64 hexadecimal characters."
+    }
   ],
   "model": "gpt-6.2-sol",
   "reasoning": "high",
-  "modelSelectionReason": "Selected an available high-performance model with high reasoning for source semantics, conditional scope and approval-boundary consistency.",
+  "modelSelectionReason": "Selected an available high-performance model with high reasoning for current source semantics, conditional routing and execution-boundary consistency.",
   "sandbox": "read-only",
   "approvalPolicy": "never",
-  "evaluatedKnowledgeChanges": 11,
-  "sourceCommit": "240e547f35dd769d514e515cc89439f7c7f8af7e",
+  "evaluatedKnowledgeChanges": 12,
+  "sourceCommit": "b6b6f08417a0bf84dbbef08eacc8e1c8ee02065a",
   "reviewSummary": [
-    "Reviewed the 72-file bundle for the 2026-11-23 JST ingestion, including all nine changed Skill files against their supplied prior versions and the 60 current cited principle bodies. Traced all 11 changed principles to the three existing Skills and their per-file provenance and fixed-commit links.",
-    "Checked source meaning, scope, conditional references and Japanese wording under both workspace policies. Covered observation and improvement, backlog and Issue reevaluation, approval and handoffs, parallelism, chat transitions, Core and Client boundaries, storage invariants, interoperability, architecture reconsideration and grep selection.",
-    "Reviewed integration across the Skill inventory, all 16 assessment records, and the captured garden state. Used the parent audit for the 144 exact manifest pairs, the applied plan, the 13 carried-forward assessments, preserved reports and unchanged mechanisms.",
-    "Confirmed that flow item 1 routes changes to workflow structure, processing order, stop conditions, and shared validation directly to 実行の構成. A change limited to stage order or a stop condition now reaches that guidance even when the launch method stays fixed. Launch methods and execution prompts have a separate route to 起動の構成.",
-    "Checked the revised conditions against the supplied guidance, source principles, and workspace policies for staged references and Japanese wording. The direct routes for standalone Issue-to-Task design and chat switching remain intact. No material regression was found.",
-    "Carried forward the first review’s coverage of source fidelity, provenance, and bundle integration, and the second review’s closure of the five findings on approval and handoff states, parallelism, grep routing, Core/Client routing, and architecture reconsideration. The parent’s complete bundle and source comparison supports carrying forward that coverage."
+    "Compared all 12 changed files across design-agent-workflows, evaluate-development-tooling, review-by-risk, and simplify-design with their supplied prior versions and current principle bodies.",
+    "Reviewed the 72-file inventory for integration with existing Skills, conditional references, source attribution, and workspace-specific execution boundaries. Checked the four refreshed assessments and the 12 carried-forward records.",
+    "Reviewed the fixed snapshot and its 12 change dispositions, preserved report state, reviewedTree value, and independent review and CI requirements.",
+    "Re-reviewed the three changed files and carried forward the prior 72-file, 69-source review based on the supplied byte comparison. All 69 source bodies and the other 69 publishable files were byte-identical.",
+    "periodic-skip-condition is resolved. The revised guidance places both increased frequency and skipping under the lightweight, idempotent condition. It skips only when there is neither unprocessed input nor work to resume. The resume clause serves the pinned principle's aim of limiting downtime after failure. The source provenance matches the pinned snapshot, and the refreshed assessment reflects the corrected condition and preserves workspace authority over the daily schedule.",
+    "manifest-count-mismatch is withdrawn. The deterministic comparison shows both snapshots match the untruncated pinned manifest's 144 path/blob pairs, comprising 22 facts, 35 ideas, and 87 principles. The prior count of 34 ideas was incorrect.",
+    "invalid-managed-file-digest is withdrawn. In both bundles, the workflow SKILL.md inventory and managed records agree with the supplied 64-character SHA-256 recomputation from the exact UTF-8 bytes.",
+    "The corrected guidance digest matches the inventory and managed record. The applied-plan record, report state, and refreshed policy assessment show no new material issue."
   ],
   "limitations": [
-    "Independent review used only the supplied text. The final digest, comparison of the 72-file bundles and all 60 current source bodies, and updates to the generated, applied-plan, and policy assessment digests are parent-reported.",
-    "The parent reports 60 passing local tests with no skips and passing policy, Markdown/reference, state, and diff checks. CI and publication are pending."
+    "This read-only re-review used the supplied artifacts. Byte comparisons, hash recomputations, the 60 passing tests, check/state/diff validation, local junction verification, and forceReload discovery are parent-reported.",
+    "CI and publication remain pending."
   ]
 }
