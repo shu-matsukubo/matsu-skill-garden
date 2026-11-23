@@ -1,6 +1,6 @@
 ---
 name: simplify-design
-description: 設計や開発の仕組み、暫定対応、性能改善の優先順位を検討するとき、必要な保証と運用制約を整理し、判断負荷や総コストから構成を選ぶ。
+description: 設計や開発の仕組み、暫定対応、性能改善、派生値の不具合を検討するとき、必要な保証、責務、計算経路と運用制約を整理し、構成や改善への投資を判断する。
 ---
 
 ## 概要
@@ -23,4 +23,6 @@ description: 設計や開発の仕組み、暫定対応、性能改善の優先�
 6. 正本データとViewer・Editorの依存関係を定めるときやClientを替えるときは[CoreとClientの方針](references/guidance.md#coreとclientの境界)に従う。
 7. 標準と固有拡張を選ぶときは[相互運用性の方針](references/guidance.md#相互運用性の境界)に従う。
 8. 案を不採用にするときや、その判断の前提が変わったときは[再評価の方針](references/guidance.md#不採用案の再評価)に従う。
-9. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
+9. 派生値の不具合を調べるときは[計算経路の方針](references/guidance.md#派生値の計算経路)に従う。
+10. 設計原則やArchitecture Decisionを定めるときは[設計原則の継続検証の方針](references/guidance.md#設計原則の継続検証)に従う。
+11. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。

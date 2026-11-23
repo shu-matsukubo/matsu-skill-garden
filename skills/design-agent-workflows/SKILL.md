@@ -16,7 +16,7 @@ description: AIワークフローや定期処理、IssueからTaskへの設計�
 ## フロー
 
 1. Workflowの構成・処理順・停止条件・共通検証を定めるときや変更するときは[実行構成の方針](references/guidance.md#実行の構成)に従う。起動方法や実行プロンプトを準備するときは[起動構成の方針](references/guidance.md#起動の構成)に従う。
-2. 計画レビューを設計するときは[計画の役割の方針](references/guidance.md#計画の役割)に従う。
+2. 仕様を詰めて実装へ引き継ぐときは[対話と実装の方針](references/guidance.md#対話と実装の分担)に従う。計画レビューを設計するときは[計画の役割の方針](references/guidance.md#計画の役割)に従う。
 3. AIへの設計依頼を準備するときは[依頼の前提の方針](references/guidance.md#設計依頼の前提)に従う。
 4. 依頼と実装結果の記録を構成するときは[作業記録の方針](references/guidance.md#作業記録の構成)に従う。
 5. 実装の委譲を設計するときは[実装の役割の方針](references/guidance.md#実装の役割)と[実行主体の選択の方針](references/guidance.md#実行主体の選択)に従う。
@@ -28,5 +28,6 @@ description: AIワークフローや定期処理、IssueからTaskへの設計�
 11. 改善候補を処理するときやIssueからTaskへ進むときは[現在状態の照合の方針](references/guidance.md#改善候補とissueの照合)に従う。
 12. 承認を設計するときは[承認境界の方針](references/guidance.md#承認の構成)に従う。
 13. 操作の制約を設計するときは[実行境界の方針](references/guidance.md#実行境界の設計)に従う。
-14. 効果を比べるときは[評価の方針](references/guidance.md#効果の評価)に従う。
-15. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
+14. 定期処理の頻度を選ぶときは[実行頻度の方針](references/guidance.md#定期処理の頻度)に従う。汎用Workflowを設計するときは[汎用化の方針](references/guidance.md#汎用workflowの境界)に従う。
+15. 効果を比べるときは[評価の方針](references/guidance.md#効果の評価)に従う。
+16. 根拠の確認が必要なときは[出典](references/sources.md)を確認する。
